@@ -1,0 +1,27 @@
+{
+  "scope": "OFFLINE_DIAGNOSIS_ONLY",
+  "root_before_bodies_preserved": [
+    "HANDOFF.md",
+    "VAULT_UPDATE.md",
+    "new_plan.md",
+    ".maixpy/README.md",
+    ".maixpy/imu-design-20261010/LATEST.md",
+    "rm27/perception/vision/docs/CODEX_RESUME.md"
+  ],
+  "previous_own": 80,
+  "previous_external": 36,
+  "exact_source_hashes_rechecked": 14,
+  "tests_pass": 56,
+  "skips": 0,
+  "python_syntax": "VERIFIED",
+  "git_diff_check_exit": 0,
+  "staged_diff_empty": true,
+  "unrelated_changes_preserved": [
+    " M rm27/perception/vision/docs/PLAN_HISTORY.md",
+    "?? tests/camera_capture.py",
+    "?? tmp/"
+  ],
+  "stage_ab_unchanged": true,
+  "production_runtime_unchanged": true,
+  "vault_access": false
+}

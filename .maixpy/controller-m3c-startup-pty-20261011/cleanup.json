@@ -1,0 +1,11 @@
+{
+  "deployment": "/root/rm27-controller-startup-pty-20261011.Jg12Lv",
+  "remaining_test_process_pids": [],
+  "sha256": {
+    "tests.txt": "7025db48adc361230557683b496571928fa139eda9c3dccacf2f08b767be4f53",
+    "environment.json": "cb80eb6cecfe5328e335c16ce01713f06430ff8fdf7288fb46c256978d33b0c8",
+    "controller-source-03.tar.gz": "cbeb9283d44e46701656bd8c0652cc617d249ebb9bfcdb92d55071f8d531bb57",
+    "pyulog-1.2.4.tar.gz": "10f7915ac46416e9392267334e156f24566ee2df56fcd812c405c427803d3573"
+  },
+  "physical_uart_access": "NOT_EXECUTED_BY_THIS_PRECHECK"
+}

@@ -1,0 +1,727 @@
+{
+  "scope": "ONE_FIXED_READER_REAL_CONTROL_NO_SOURCE_PASS",
+  "head": "3ea1e16086965176db68b88e1c42990f92c5913e",
+  "fixed_reader_hypothesis": "FAILED",
+  "source_minimum_hz": 200,
+  "actual_hz": 197.1046335176063,
+  "original_rate_gate_pass": false,
+  "source_complete": "UNKNOWN",
+  "tail_complete": "UNKNOWN",
+  "clock_status": "UNKNOWN",
+  "openvins_admissible": false,
+  "stage_c": "CLOSED",
+  "files": [
+    {
+      "path": ".codex/tasks/2026-10-11-imu-reader-control/decision-record.md",
+      "bytes": 981,
+      "sha256": "188f8116fd648ddb0adf00a52951673feeddbe932c873d3da03a1498dda481a6"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-reader-control/evidence-map.md",
+      "bytes": 800,
+      "sha256": "a80dda0a7691a76200ce1f057e199a03dbf539a9e03e730995c8850b596a7438"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-reader-control/README.md",
+      "bytes": 423,
+      "sha256": "90deaeb1d0ed67a003a6fcdb845b826dc5e4ee23be5fb36655d3463c57f04d5d"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-reader-control/task-brief.md",
+      "bytes": 347,
+      "sha256": "b8c2ed247fff449688b16d97c573641beff793058fc18108a2cdc821304143bb"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-reader-control/validation-report.md",
+      "bytes": 884,
+      "sha256": "bf6adff7db51fab92a43112ae18c8a8bd4cb1a15381e175ad5bf6fb598f6d26e"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/analysis-console.txt",
+      "bytes": 12602,
+      "sha256": "1f074332d424da1bf192e5aeda3070dcbde535e336fcfa1b377e31e72b6ee979"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/analysis.json",
+      "bytes": 1163278,
+      "sha256": "684352252dd428aedd5cf6d8f33923b2a0daad8aee49a345f5bc72fc9b4449c7"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/analyze.py",
+      "bytes": 5572,
+      "sha256": "a2654a4d3f82e94e3c686bcc0842ac6a6aaa7cbe2ce5d7f4473345489b13f875"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/artifact-inventory-console.txt",
+      "bytes": 2682,
+      "sha256": "b6ef0a8148cdede8a03059a264f87ede4d473dce279d58d01cf17380b62b9688"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/artifact_inventory.py",
+      "bytes": 762,
+      "sha256": "bb4f3f1fe9f9fe2b5ea39126eb4e9da20f910aa13a2a024198aee79c5bd216e2"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/attestation.json",
+      "bytes": 606,
+      "sha256": "25405f8584569945ecd974caa4463eb3a010e62628b1f3fe2f5ea6a42497227d"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/baseline-runner-tests.txt",
+      "bytes": 4878,
+      "sha256": "d015eb97816df26c416bdd5cfd0407a70519f63cda0d0c10b844e11698a07388"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board-after-console.txt",
+      "bytes": 8234,
+      "sha256": "15a272933662a92e804d0a9ba59fdf9b902291078e31203d173872edfc53f6f2"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board-compare-tests-02.txt",
+      "bytes": 2806,
+      "sha256": "d9456322ea7197235fd461e87018cf35c4ad9c7c40f9180e53e0e0a75c7213b2"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board-compare-tests.txt",
+      "bytes": 2806,
+      "sha256": "519563323c02f6a3a45be0c7cc3463d850d57365b61dedd82daaaf388b725cbd"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board-guard-tests-02.txt",
+      "bytes": 3358,
+      "sha256": "957873c57f62f3af9edc6d9bcb698a6a79d92859ab09c07a1522d67e1756912f"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board-guard-tests.txt",
+      "bytes": 5912,
+      "sha256": "4cc67fbfef637c27615403416c7222af84f719107ec9b609388562b020ad1a2a"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board-preflight-console.txt",
+      "bytes": 8498,
+      "sha256": "491ca99f398e2fdb1485e6cb3f8f0f8531ad2cfa0261c3b9206aa6026caf7ba5"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board-preflight.json",
+      "bytes": 4369,
+      "sha256": "d93f7d6c5808a9268bb791f2f84effab2c5c74ee64e9e4a8828518e2f67f2525"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board-pty-tests-02.txt",
+      "bytes": 2150,
+      "sha256": "c29bf5c238edeb12dea70d7778f6f9ccbafee0111874025a6f3ca2b53c3699c7"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board-pty-tests.txt",
+      "bytes": 2150,
+      "sha256": "708bbb6fd0c07c7bb7761b26c9be764550d337cc1ecad2971b39a9483f559eea"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board-runner-tests-02.txt",
+      "bytes": 4838,
+      "sha256": "e7a1925b09dd21ee6f3aa1440cb8111a40a399b6ddb986debe6f5fca7315d375"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board-runner-tests.txt",
+      "bytes": 4838,
+      "sha256": "3aa25a5a64129414ec5468ac765d19200a3b2813d06dbc9ef2515733de21c77f"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board-tools-console-02.txt",
+      "bytes": 12354,
+      "sha256": "d7d2575259393ebe43e6f9b91d73bd49f33ad39cc293b3871067433365e574d3"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board-tools-console.txt",
+      "bytes": 12354,
+      "sha256": "74d0b271b191ee28a36edfdd4148366676d4cebafa5dad294b4719ef552875ce"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board_after.py",
+      "bytes": 1250,
+      "sha256": "c909785cd75158dc5ce3a8d16630ce615e974840307aa429c5c6ff15e268b31a"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board_preflight.py",
+      "bytes": 1574,
+      "sha256": "7281b798d221c071661d0016b225e16d0fb2193a297f56d591b3c8ce0dc4d792"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board_tools_test.py",
+      "bytes": 1971,
+      "sha256": "153fdf198dacae6a9650be7d01ca2b96cd04274e684b80cc2d8eca6a5db0d82d"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/capture-audit.json",
+      "bytes": 3669,
+      "sha256": "b939ddc3e5b585edf3f09de7f2e79d2893bc395ebfb8b97e89c0f17d31bf112e"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/compare-green.txt",
+      "bytes": 2826,
+      "sha256": "ac68a3fda624c47c7df95c35e44dd559ca6822796b10f8ee0076ce0d713ffcfd"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/compare-red.txt",
+      "bytes": 11038,
+      "sha256": "b115d2fb32d00bc95b75d22b2ab599bdf3b6a5af4e773f5cec1e77f47015cd75"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/compare.py",
+      "bytes": 1546,
+      "sha256": "5a4842ab0934f292a7bc01c8593ea319983d2fc508ca6befcf0da865b4eec7e4"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/comparison.json",
+      "bytes": 18448,
+      "sha256": "9a111bf634d81fcd8b6b75f7c5bda639c38cbab1e5df786f759fac1b3048d3c2"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/controller-source-02.tar.gz",
+      "bytes": 58382,
+      "sha256": "d7addc56688b1da0ded366ce74391871dbd7f5656fedfa3d1b62e9aad64456b5"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/controller-source-03.tar.gz",
+      "bytes": 58391,
+      "sha256": "a1712594c83f0f4019036a529441c36347d3a467231a5699c03e08926ca8e985"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/coordinator-console.txt",
+      "bytes": 206086,
+      "sha256": "802d84e181cd9cd409e8e3b9460f61783cc6d718be55ef9bb9368ef8ff8578b2"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/coordinator.jsonl",
+      "bytes": 116078,
+      "sha256": "72954a47b46857d133ae9433b5b885e7fb90e4690489d3b05f0887b40a904d77"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/coordinator.py",
+      "bytes": 12622,
+      "sha256": "a36c5b97fdd5432be399f47ea7c581f409f13db37013b8ffc9729aafbbb42381"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/deployment-01.json",
+      "bytes": 111,
+      "sha256": "0076922f1600a43ba75158d9078b8799466dd85a2c95f345afbaf4b19c5fd63f"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/deployment.json",
+      "bytes": 212,
+      "sha256": "b45724b2dd1dfa6d633e992bcd96d15d4cace6e060b1fa2d1711af67a64c46f5"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/diagnosis-regression.txt",
+      "bytes": 5830,
+      "sha256": "3609a17e74a48b1abc436ca40b606b554d9150c079104dffb7cd8f9cca901f57"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/download/artifact-sha256.json",
+      "bytes": 1509,
+      "sha256": "c6c11baebdda6b2f9123dfc26957b1f31a8438b00897e0cfca207231a0b28bc1"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/download/board-after.json",
+      "bytes": 4235,
+      "sha256": "82ef7f85da066894a40769c16d1104e9f4339b299c62dd32b0237931384e2c14"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/download/metrics.jsonl",
+      "bytes": 72863,
+      "sha256": "0fc77b0c18614580281c33b07d9fd74d07b74348dedc78f77aa7f936d1b84cd8"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/download/physical-trial-01/framing-valid.ulg",
+      "bytes": 944060,
+      "sha256": "ef75d77e74c5183f87c56ed0ab0d137a03fd17c4fa2a75b8ed5fe78eda94e394"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/download/physical-trial-01/preflight-attestation.json",
+      "bytes": 634,
+      "sha256": "ce562e8115dcd8b37003b0fba3d4f6c455d40e0ac6c792ceef7b263714c1972a"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/download/physical-trial-01/received-prefix.bin",
+      "bytes": 944060,
+      "sha256": "ef75d77e74c5183f87c56ed0ab0d137a03fd17c4fa2a75b8ed5fe78eda94e394"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/download/physical-trial-01/summary.json",
+      "bytes": 1293,
+      "sha256": "12430e8956a27da8dc327456abf198341204e6637947d01dc17dfcb4a29f2fa9"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/download/physical-trial-01/wire.jsonl",
+      "bytes": 10733430,
+      "sha256": "68a782052cfba3549ec8f82527843589a13ef34017130cc5a6bd359bf3fb0d8e"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/download/preflight.json",
+      "bytes": 634,
+      "sha256": "ce562e8115dcd8b37003b0fba3d4f6c455d40e0ac6c792ceef7b263714c1972a"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/download/receiver-console.txt",
+      "bytes": 1228,
+      "sha256": "638b0960b761a14c9239812d98e3eb2b750bc0ab500e8e5d51a4627054f9f7f4"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/download/receiver.pid",
+      "bytes": 6,
+      "sha256": "9a98111d095e5b95935be78ab56f6e85198e8ce2402ca18b8acd3eefa895592c"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/download/uart-counters.jsonl",
+      "bytes": 522,
+      "sha256": "d7360eda44b4b52553ddf3f76a7de48f02a5fbf8b5570b134f548a4ed09ebbd4"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/environment.json",
+      "bytes": 4449,
+      "sha256": "c2ab885448773b5273823c6a06b88731b02d947ab44d9187a3c8b29d582da334"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/expected-01.json",
+      "bytes": 3862,
+      "sha256": "a1dba4bd0cf725c72d445b5dbf23470410b3cf75b1ed7dd5dbd5580512ab2489"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/expected-02.json",
+      "bytes": 3893,
+      "sha256": "99b05c7d9f0a69b3c9c87a7030816828a2fbf1c0615cd40c3f728a00cce31c90"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/expected.json",
+      "bytes": 3893,
+      "sha256": "99b05c7d9f0a69b3c9c87a7030816828a2fbf1c0615cd40c3f728a00cce31c90"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/git-before.txt",
+      "bytes": 3532,
+      "sha256": "b5aaaf3cfa6f8aa5456afff00f8b25a931ecf430757293d0931b7bc82dc11f9b"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/HANDOFF.md",
+      "bytes": 3595,
+      "sha256": "50ee55af5b22e5def44939951149b67319ecf69d4864eb3f4ee102eaf8018dcb"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/launch.py",
+      "bytes": 578,
+      "sha256": "e728389d306d525e5990c65d97579f438808ababa1c921bfe1bb8c8f2ef282f8"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/monitor.py",
+      "bytes": 2892,
+      "sha256": "56c0a4f17fca640a705bbe1cc6d01f755abc4892e535a03baef846627d089350"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/package_sources.py",
+      "bytes": 777,
+      "sha256": "f60a55ad0e94f5edec747db8eb5b3b6f0eb70534077403240942277a363ee202"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/PLAN.md",
+      "bytes": 1701,
+      "sha256": "5f98b78f3a13d342fefde71a6f1e6aa199365575ef4be96e64c8b24f2fa39e3f"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/preservation-check.json",
+      "bytes": 14045,
+      "sha256": "8276c3b706c1355f5a39ac83358d179580b308d092db2b2633e11badcecfb907"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/previous_coordinator.py",
+      "bytes": 13869,
+      "sha256": "28dac9fdb10035588507dfe4db8c36cbb53d8a804687f8b21a153d1e45abcdbf"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/profile-green.txt",
+      "bytes": 1988,
+      "sha256": "13e96eaf3346c52f42e34ea9db51e7ccc8895f2a121956b4866d805bb8ca29ef"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/profile-red.txt",
+      "bytes": 5922,
+      "sha256": "977b22320ae825fa7d3f3fa572aa2f5c362feeb1abf742ffcbaae0c468aeef19"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/px4-preflight-02.txt",
+      "bytes": 19376,
+      "sha256": "0d943d68bdd61fdce884714eb95d957b3b77089c9a90e1bd5eaed2fdc8075a3b"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/px4-preflight.txt",
+      "bytes": 1388,
+      "sha256": "02887ef1047d943b43496eadde0a77924982781e0d0ab75dd165e4b9c862cf11"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/reassembly-regression.txt",
+      "bytes": 7414,
+      "sha256": "fc6b2aa71fd7601208f179bac56308daf67dc7a691ba9130304d8ea3761acec3"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/receive.py",
+      "bytes": 2135,
+      "sha256": "615eb5af9d4de4435efd21f7d69560f7786003825f6f0f2d24957b6e181268ee"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/remote-launch-console.txt",
+      "bytes": 72,
+      "sha256": "d55b109e65bcce97827eaa7a87ed69bdcc3656af192d0318fea21962909a3f0a"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/repo-before/.maixpy__imu-design-20261010__LATEST.md",
+      "bytes": 9040,
+      "sha256": "dcb0ded386d2c4b669c2792c2fbbd03bb164dd277bcff9555c9e6ecac25306ce"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/repo-before/.maixpy__README.md",
+      "bytes": 7980,
+      "sha256": "6f5adfa4704f800c8e4d324f84a3087b05b768ebf10894ea015b888f4f58e598"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/repo-before/docs__superpowers__plans__2026-10-11-vio-s0-logger-reader-control.md",
+      "bytes": 28667,
+      "sha256": "d8573eb7983172743c7c173c208961b54d174c0f770ea8be92347bd5776a293d"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/repo-before/HANDOFF.md",
+      "bytes": 67883,
+      "sha256": "3838ecb408b421315889dd4643cae61b469d8612044163aba22a908226fa7c2d"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/repo-before/new_plan.md",
+      "bytes": 43482,
+      "sha256": "e7ca48bce83e5d23b7e65c7f272afc8e9ca6b1fc0b6974ed393ba19b50c90cf5"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/repo-before/rm27__perception__vision__docs__CODEX_RESUME.md",
+      "bytes": 11815,
+      "sha256": "5544fb9cdf3a201fbb3ff6b3244cf44034bc1bf4eb5f2a8702bee237ce93cdf9"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/repo-before/uart_session.py",
+      "bytes": 12036,
+      "sha256": "3fdbf617481f03f6b05b4c2fa19ae481c02e6f920f8d530b631319c36c18b4b7"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/repo-before/VAULT_UPDATE.md",
+      "bytes": 27310,
+      "sha256": "6ec9cdc777b98cea85cb673d265a1f154184d05176e37d1c664e326b42c9bfff"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/RESULT.md",
+      "bytes": 10911,
+      "sha256": "8d3c02de8e6cda6fcca212e506b4e93d98bbc967d2ad964166d4f941ddc61393"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/runner-regression.txt",
+      "bytes": 4858,
+      "sha256": "e7ef65b2d1b176aa6d5f8ff07b3d466271e99879407e8b7859609225daa50542"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/scope-green-02.txt",
+      "bytes": 3982,
+      "sha256": "6c2e153728c4028c7cc848dfcaf89b53fcf68e2223c3866cc4346b9c5137e766"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/scope-green-03.txt",
+      "bytes": 3462,
+      "sha256": "fef91281ff91444886f59d8e7ad0f73885aa782b53e73e81179fa9363cc977fe"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/scope-green.txt",
+      "bytes": 3378,
+      "sha256": "508cd02f7157eb0a47aed47a895355151a3e30b53157b43ca7e1cea9b08667a3"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/scope-red.txt",
+      "bytes": 7854,
+      "sha256": "5b7110042be7a05f28ff7c3aeb29189ad7658d66c7706fbfa975b6b0223b46db"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/seal-console.txt",
+      "bytes": 2314,
+      "sha256": "3bf539c1c8045e1f9bbde9cd644bba285b07ff1f99ec54c82c31d5c731e6d0be"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/seal.py",
+      "bytes": 6405,
+      "sha256": "43fe3720e9593943ea90261df6c4df7463070f0f6acd87cdb0e0fbee8f7415f5"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/semantic-regression.txt",
+      "bytes": 2870,
+      "sha256": "40ca0df0574e8c3d2a6ffb50b505bdbcdbeaf47131a2ff6e32a2075f4672394c"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/source-list.txt",
+      "bytes": 1619,
+      "sha256": "eaa7f95815c06d8ca59776f235cf9021c5ab47632c7f81da8803833c1ac76826"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/source-timing-console.txt",
+      "bytes": 6010,
+      "sha256": "7446e81acdfcd52d4e8e262456e9c152b031caab65d7a157ec2fc832516e5784"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/source-timing.json",
+      "bytes": 2988,
+      "sha256": "2137ca38207bed14d3db802002bd2f951bb0f2ed1a21b899e7a37f39b5fb15ea"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/source_timing.py",
+      "bytes": 2377,
+      "sha256": "e8634301cf5bef347ef687e2b96da64b8fb8a30a91e523f98cf067fa33c3f2af"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/ssh-readonly-check.txt",
+      "bytes": 20,
+      "sha256": "85828f3db26112beb6707d13286ae82fdb8c645895ce6623adf01eb3d764ea29"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/stop.py",
+      "bytes": 546,
+      "sha256": "3e00761be2674db81f2748b6b88f0b17220ceff966c90383e6aeb44467dc0be5"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/test_compare.py",
+      "bytes": 3546,
+      "sha256": "84f048da8278be64b68ff8c1b42552796fc211cf85efdfad69c47f1d317d2fb7"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/test_reader_profile.py",
+      "bytes": 4815,
+      "sha256": "514b1a6c66c3d40a49968a258a88c53bdc4c610972f95b1a154ca9dfb64f0851"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/test_supervisor.py",
+      "bytes": 2244,
+      "sha256": "927d8b95cb572e601cf1184ccef0d6193fdf1d43def8d9085a447a72f7ab9e47"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/test_tools.py",
+      "bytes": 4354,
+      "sha256": "f39e2ae9b5049c9088cae3b43f1d6b65abd21a69f30459376eb580cee768e6ed"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/tests-compare-final.txt",
+      "bytes": 2910,
+      "sha256": "dba9798b47ac81088b7071bd8be410b01ce93b8ed4f2aea59345044eeb55a1df"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/tests-final.txt",
+      "bytes": 4550,
+      "sha256": "78838f25d44b784a9e16d56d939caa3ce4d9eaaa938bc57eb8e952b3b0bf66b9"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/tests-profile-final.txt",
+      "bytes": 3462,
+      "sha256": "fef91281ff91444886f59d8e7ad0f73885aa782b53e73e81179fa9363cc977fe"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/tool-tests-02.txt",
+      "bytes": 1858,
+      "sha256": "02c4ee56584a9ddc061d721270e5b4ea0c16132d0fe50bef003da2c337aa925f"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/tools-expected.json",
+      "bytes": 972,
+      "sha256": "60e3210bbf4121ca80f589797e961162950d36b270c2650c23a12f9e82a95cbe"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/tools-parity-01.json",
+      "bytes": 1076,
+      "sha256": "b73e163555ed6fd8bcfcbf696dfac9d37dde36f5fc10a3610b9fa1937f655bbc"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/tools-parity.json",
+      "bytes": 1218,
+      "sha256": "90327187c16e958667c817e85e0234e1ef45fa19dbea2560bdcf81ac6bb2d9c2"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/topics-readback.txt",
+      "bytes": 166,
+      "sha256": "fa434abe98b74a85531a97279c029b6ae8b6061e5d7161cc413e82ebcc105620"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/topics-readback.txt.part",
+      "bytes": 166,
+      "sha256": "fa434abe98b74a85531a97279c029b6ae8b6061e5d7161cc413e82ebcc105620"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/trial_tools.py",
+      "bytes": 4603,
+      "sha256": "4416819f77402d4a486bb21f2e305287974fb0b5dab9fb8112e19531915db14e"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/verification-console.txt",
+      "bytes": 3116,
+      "sha256": "27c2cddc3be8ea76edb6f5ebd87536e3b816f269b45d52d51fa1a722d3eba515"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/verification.json",
+      "bytes": 1541,
+      "sha256": "e34d49f4b5f3c06c0ffe7e85027847c94973e23d9862454c9071490d5742c5c3"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/verify_evidence.py",
+      "bytes": 9848,
+      "sha256": "1b5a84d973fbe4af12518de11bad32381bd1459115f42910d50de98d52cc5cc5"
+    }
+  ],
+  "external_files": [
+    {
+      "path": ".maixpy/imu-design-20261010/BMI088_Accelerometer.cpp",
+      "bytes": 18760,
+      "sha256": "a9bd1a165c40a3959f5a64c0d912f2dab1c9b94255c72733d1ebf879ec3dda9f"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/BMI088_Gyroscope.cpp",
+      "bytes": 13987,
+      "sha256": "323d7a50a6a9448e42abd36551c13e9f147c485e13a3d65f1f26381057620185"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/LATEST.md",
+      "bytes": 9582,
+      "sha256": "90643afa338d2c0f1b34c8a1b066b88d8bfecb5aa3e0870f8a43fba5e28a5f96"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/uart_session.py",
+      "bytes": 12495,
+      "sha256": "2d908b68f1e0fc948bde7d7b5a86243c85f198372033cb4c1b63df30dbd27654"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/reassembly/manifest.json",
+      "bytes": 2345,
+      "sha256": "951a937bbb58187faef9902de3ef331027c3c40a8ece10670f6ca268e84c22ae"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/manifest.json",
+      "bytes": 18302,
+      "sha256": "7589feaeb4db79e487a5edecd6af2fc7e6aa55fbd753f98221b652f03016fe26"
+    },
+    {
+      "path": ".maixpy/imu-input-20261010/msg__VehicleImu.msg",
+      "bytes": 1394,
+      "sha256": "3d38685a61825342c70c124d7758ea31c87099a08265313e0d1e91444a8d7e6f"
+    },
+    {
+      "path": ".maixpy/imu-negotiation-fix-20261011/manifest.json",
+      "bytes": 18253,
+      "sha256": "1c996ea4c1ef07ccfd765ee52f3f3286697d80c262b0d0de06546a50176a4f11"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/manifest.json",
+      "bytes": 11295,
+      "sha256": "bdc4bef5f8c9646ec1df8692488ecb1d98c8ab176ed17a566bd880cefbcc4f4c"
+    },
+    {
+      "path": ".maixpy/imu-transport-20261010/src__modules__sensors__Integrator.hpp",
+      "bytes": 7059,
+      "sha256": "860941bb8cfcccc151ea12cfd2b61265bd974182ece648aac8424df18c9d1c26"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/manifest.json",
+      "bytes": 22272,
+      "sha256": "d40e023bd27b99e313d7f5b32fddcb033c432cd58de5239caffb70eb9b4a901c"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/source/log_writer_mavlink.cpp",
+      "bytes": 5207,
+      "sha256": "ae48cc6de1cbfc0edefc0f15c37b2886472caa66f49d4b817a47607eddd35131"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/manifest.json",
+      "bytes": 20495,
+      "sha256": "4998a984647f0be93fba98b099b26c471c0b3916e6a90e7a74122baa9c45f6fd"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/manifest.json",
+      "bytes": 9009,
+      "sha256": "4f212f7f6ded771946c4423fd8a252e54aff1ee2384033023bc15785e7a2f57f"
+    },
+    {
+      "path": ".maixpy/mavlink2-20261010/VALIDATION.md",
+      "bytes": 6245,
+      "sha256": "d9c79727ad749e8ec6ba970a2e41c0ef4aa5ccc3ac6e6e7bc53c0f1bbb7ffd0f"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/msg__SensorAccel.msg",
+      "bytes": 692,
+      "sha256": "2bd894577cc016f0d2bf022f708125fa2ca61b45c8e29377007f3615db4f58e2"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/msg__SensorGyro.msg",
+      "bytes": 704,
+      "sha256": "03771583b942c4755e4ed102601b0246ac3ccdacba3bfd6cd1175680e2df0e69"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/platforms__common__uORB__SubscriptionCallback.hpp",
+      "bytes": 5331,
+      "sha256": "23cc99a6f8e99574efba19629795766a79dd39864e2cfcf2e732c64729808767"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/platforms__common__uORB__uORBDeviceNode.cpp",
+      "bytes": 12222,
+      "sha256": "f383fdd0f4fac33d529cfead6eadff0146e679797ddc348e4cae5a7edace2a59"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/platforms__common__uORB__uORBDeviceNode.hpp",
+      "bytes": 9186,
+      "sha256": "b0a56f55e9571603d67e6c9861ac4346cf81f9ea030faa87fec7561e7ad9c94f"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__logger__logged_topics.cpp",
+      "bytes": 19639,
+      "sha256": "33c1cd7c55dc81d4fa53153b7f269401b67c7f6edc929707ec536203096bcfe5"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__logger__logger.cpp",
+      "bytes": 70842,
+      "sha256": "2218ab36e3d327a805b52f0b62ac738c7af7774af2e819d23b65158d0edfec48"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__sensors__vehicle_imu__VehicleIMU.cpp",
+      "bytes": 33089,
+      "sha256": "5824adf05da2549de2fe8d736a0aa7f3860ccfa05cb4e9042cada9d29e35568b"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__sensors__vehicle_imu__VehicleIMU.hpp",
+      "bytes": 7277,
+      "sha256": "bdaae040ad8d4149398dc8e5c86a1bc359b0bf84aa8167fc79297cfd5d7ba9c1"
+    },
+    {
+      "path": ".maixpy/README.md",
+      "bytes": 8457,
+      "sha256": "7eb8bb497f76af932bbca0ccf1c49f32d3b9eefa7bae6eca5f81d717e535c1b4"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-11-vio-s0-logger-reader-control.md",
+      "bytes": 28667,
+      "sha256": "d8573eb7983172743c7c173c208961b54d174c0f770ea8be92347bd5776a293d"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 70353,
+      "sha256": "a547751fd26dd8b8089e2ba67d0b6c8bcb6f1c70c02045d0d8aec1e74e2b942d"
+    },
+    {
+      "path": "new_plan.md",
+      "bytes": 44239,
+      "sha256": "5f495642516f33b9494f282893b45684e55044454b8e99eab73a05d3e033acd3"
+    },
+    {
+      "path": "rm27/perception/vision/docs/CODEX_RESUME.md",
+      "bytes": 12572,
+      "sha256": "a70eb36336468c58a7cbb07131aa0fa0eb94cbdd9ba77e55540ab7e6f33e94d4"
+    },
+    {
+      "path": "VAULT_UPDATE.md",
+      "bytes": 28305,
+      "sha256": "c7592368316fa8519c84ed67438670c34665037a0b1787f98bd85fedb370d163"
+    }
+  ]
+}

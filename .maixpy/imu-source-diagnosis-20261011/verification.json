@@ -1,0 +1,45 @@
+{
+  "scope": "ENTIRELY_OFFLINE_NO_NEW_DEVICE_ACCESS",
+  "frozen_own_files": 80,
+  "frozen_external_files": 36,
+  "frozen_manifest_sha256": "4998a984647f0be93fba98b099b26c471c0b3916e6a90e7a74122baa9c45f6fd",
+  "raw_sha256": "658287cb149e1afbd56c9df799807729cd0930e4943190a580fb08b42eebca06",
+  "exact_source_hashes_verified": {
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\src__modules__sensors__vehicle_imu__VehicleIMU.cpp": "5824adf05da2549de2fe8d736a0aa7f3860ccfa05cb4e9042cada9d29e35568b",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\src__modules__sensors__vehicle_imu__VehicleIMU.hpp": "bdaae040ad8d4149398dc8e5c86a1bc359b0bf84aa8167fc79297cfd5d7ba9c1",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\src__modules__logger__logger.cpp": "2218ab36e3d327a805b52f0b62ac738c7af7774af2e819d23b65158d0edfec48",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\src__modules__logger__logged_topics.cpp": "33c1cd7c55dc81d4fa53153b7f269401b67c7f6edc929707ec536203096bcfe5",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\platforms__common__uORB__uORBDeviceNode.hpp": "b0a56f55e9571603d67e6c9861ac4346cf81f9ea030faa87fec7561e7ad9c94f",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\platforms__common__uORB__uORBDeviceNode.cpp": "f383fdd0f4fac33d529cfead6eadff0146e679797ddc348e4cae5a7edace2a59",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\platforms__common__uORB__SubscriptionCallback.hpp": "23cc99a6f8e99574efba19629795766a79dd39864e2cfcf2e732c64729808767",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\msg__SensorGyro.msg": "03771583b942c4755e4ed102601b0246ac3ccdacba3bfd6cd1175680e2df0e69",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\msg__SensorAccel.msg": "2bd894577cc016f0d2bf022f708125fa2ca61b45c8e29377007f3615db4f58e2",
+    ".maixpy\\imu-transport-20261010\\src__modules__sensors__Integrator.hpp": "860941bb8cfcccc151ea12cfd2b61265bd974182ece648aac8424df18c9d1c26",
+    ".maixpy\\imu-design-20261010\\BMI088_Gyroscope.cpp": "323d7a50a6a9448e42abd36551c13e9f147c485e13a3d65f1f26381057620185",
+    ".maixpy\\imu-design-20261010\\BMI088_Accelerometer.cpp": "a9bd1a165c40a3959f5a64c0d912f2dab1c9b94255c72733d1ebf879ec3dda9f",
+    ".maixpy\\imu-input-20261010\\msg__VehicleImu.msg": "3d38685a61825342c70c124d7758ea31c87099a08265313e0d1e91444a8d7e6f",
+    ".maixpy\\imu-uart-negotiated-trial-20261011\\source\\log_writer_mavlink.cpp": "ae48cc6de1cbfc0edefc0f15c37b2886472caa66f49d4b817a47607eddd35131"
+  },
+  "stage_ab_sha256": "d9c79727ad749e8ec6ba970a2e41c0ef4aa5ccc3ac6e6e7bc53c0f1bbb7ffd0f",
+  "independent_arithmetic": "VERIFIED",
+  "saved_uorb_one_second_rates": [
+    198,
+    195,
+    198
+  ],
+  "gyro_hole_us": 4554,
+  "gyro_hole_interval_us": [
+    17284902631,
+    17284907185
+  ],
+  "actual_generation_magnitude": "UNKNOWN",
+  "precise_run_logger_scheduling_trigger": "UNKNOWN",
+  "no_reliable_acked_packets_during_normal_stream": true,
+  "original_minimum_hz": 200,
+  "rate_gate_pass": false,
+  "source_complete": "UNKNOWN",
+  "tail_complete": "UNKNOWN",
+  "clock_status": "UNKNOWN",
+  "openvins_admissible": false,
+  "stage_c": "CLOSED"
+}

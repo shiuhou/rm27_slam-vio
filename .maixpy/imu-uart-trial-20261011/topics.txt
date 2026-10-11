@@ -1,0 +1,8 @@
+vehicle_imu 0 0
+vehicle_imu_status 100 0
+sensor_selection 100 0
+timesync_status 100 0
+logger_status 1000 0
+cpuload 1000 0
+vehicle_status 1000 0
+actuator_armed 1000 0

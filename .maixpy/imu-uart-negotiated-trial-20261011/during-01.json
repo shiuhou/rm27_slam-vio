@@ -1,0 +1,8 @@
+{
+  "receipt_mono_ns": 11291224840799,
+  "clk_tck": 100,
+  "memory": "MemTotal:         457724 kB\nMemFree:           41788 kB\nMemAvailable:     333120 kB\nBuffers:           23720 kB\nCached:           260768 kB\nSwapCached:            0 kB\nActive:           212488 kB\nInactive:         134224 kB\nActive(anon):      62668 kB\nInactive(anon):      568 kB\nActive(file):     149820 kB\nInactive(file):   133656 kB\nUnevictable:           0 kB\nMlocked:               0 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:              9096 kB\nWriteback:             0 kB\nAnonPages:         62232 kB\nMapped:           187332 kB\nShmem:              1012 kB\nSlab:              46748 kB\nSReclaimable:      18580 kB\nSUnreclaim:        28168 kB\nKernelStack:        2240 kB\nPageTables:         2548 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:      228860 kB\nCommitted_AS:     273092 kB\nVmallocTotal:   135290290112 kB\nVmallocUsed:           0 kB\nVmallocChunk:          0 kB\nPercpu:              264 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:         0 kB\nShmemHugePages:        0 kB\nShmemPmdMapped:        0 kB\nHugePages_Total:       0\nHugePages_Free:        0\nHugePages_Rsvd:        0\nHugePages_Surp:        0\nHugepagesize:       2048 kB\nHugetlb:               0 kB\n",
+  "system_cpu": "cpu  17949 0 15550 2219404 1183 2026 2109 0 0 0",
+  "uart_access": false,
+  "receiver_alive": false
+}

@@ -1,0 +1,34 @@
+{
+  "scope": "OFFLINE_ONLY_NO_DEVICE_OR_RUNTIME_CHANGE",
+  "prior_trial_files_verified": 58,
+  "prior_external_snapshot_files_verified": 25,
+  "root_before_report_backups": 6,
+  "deployed_source_files_unchanged": 18,
+  "other_frozen_artifacts": {
+    "original_trial": 18,
+    "imu-uart-retry-20261011": 37,
+    "imu-negotiation-fix-20261011": 44,
+    "imu-design-20261010/single-uart/reassembly": 14
+  },
+  "stage_ab_sha256": "d9c79727ad749e8ec6ba970a2e41c0ef4aa5ccc3ac6e6e7bc53c0f1bbb7ffd0f",
+  "raw_wire_replay_unchanged": true,
+  "all_retained_px4_frames": 3697,
+  "previous_unknown_crc_verified": 33,
+  "previous_unknown_types": {
+    "LINK_NODE_STATUS": 10,
+    "CURRENT_EVENT_SEQUENCE": 4,
+    "TIME_ESTIMATE_TO_TARGET": 5,
+    "CURRENT_MODE": 5,
+    "EVENT": 9
+  },
+  "counter_and_packet_metadata_replay_matches": true,
+  "rejected_send_total_in_nine_intervals": 6,
+  "terminal_interval_successful_writes": 398,
+  "terminal_interval_received_frames": 398,
+  "terminal_interval_send_rejection_events": 1,
+  "source_sequence_assigned_before_buffer_check": true,
+  "transport_qualified": false,
+  "openvins_admissible": false,
+  "physical_fix": "NOT_VALIDATED",
+  "stage_c": "CLOSED"
+}

@@ -1,0 +1,277 @@
+{
+  "session_result": "FAILED_SEQUENCE_GAP_NO_60S_ACCEPTANCE",
+  "raw_prefix_sha256": "b66b017ab4acbf04a85e76b196f8d98a4752ab885350881c15ab83d9e7505327",
+  "original_bytes": 107784,
+  "diagnostic_in_memory_bytes": 107657,
+  "diagnostic_excluded_partial_bytes": 127,
+  "diagnostic_view": "COMPLETE_RETAINED_RECORDS_IN_MEMORY_ONLY; no shortened ULog written, failure unchanged",
+  "normal_data_first_to_last_accepted_receipt_s": 2.596507084,
+  "wire": {
+    "px4_frames": 3697,
+    "logging_frames": 484,
+    "frame_counts": {
+      "ATTITUDE_QUATERNION": 447,
+      "ATTITUDE": 890,
+      "HIGHRES_IMU": 446,
+      "LOCAL_POSITION_NED": 267,
+      "TIMESYNC": 89,
+      "ALTITUDE": 89,
+      "DISTANCE_SENSOR": 89,
+      "ATTITUDE_TARGET": 89,
+      "EXTENDED_SYS_STATE": 46,
+      "OPTICAL_FLOW_RAD": 88,
+      "POSITION_TARGET_LOCAL_NED": 88,
+      "SERVO_OUTPUT_RAW": 88,
+      "SYS_STATUS": 45,
+      "VFR_HUD": 89,
+      "HEARTBEAT": 10,
+      "ESTIMATOR_STATUS": 10,
+      "PING": 10,
+      "SCALED_PRESSURE": 10,
+      "UNKNOWN_8": 10,
+      "UNKNOWN_411": 4,
+      "ODOMETRY": 258,
+      "MISSION_CURRENT": 10,
+      "UNKNOWN_380": 5,
+      "BATTERY_STATUS": 5,
+      "UNKNOWN_436": 5,
+      "OPEN_DRONE_ID_LOCATION": 9,
+      "VIBRATION": 5,
+      "COMMAND_ACK": 3,
+      "LOGGING_DATA_ACKED": 330,
+      "LOGGING_DATA": 154,
+      "UNKNOWN_410": 9
+    },
+    "mavlink_sequence_discontinuities": [
+      {
+        "before_seq": 137,
+        "after_seq": 139,
+        "expected": 138,
+        "missing_modulo256": 1,
+        "before_type": "OPEN_DRONE_ID_LOCATION",
+        "after_type": "PING",
+        "receipt_interval_ns": 0
+      },
+      {
+        "before_seq": 139,
+        "after_seq": 141,
+        "expected": 140,
+        "missing_modulo256": 1,
+        "before_type": "PING",
+        "after_type": "SCALED_PRESSURE",
+        "receipt_interval_ns": 0
+      },
+      {
+        "before_seq": 141,
+        "after_seq": 144,
+        "expected": 142,
+        "missing_modulo256": 2,
+        "before_type": "SCALED_PRESSURE",
+        "after_type": "VFR_HUD",
+        "receipt_interval_ns": 0
+      },
+      {
+        "before_seq": 34,
+        "after_seq": 36,
+        "expected": 35,
+        "missing_modulo256": 1,
+        "before_type": "SERVO_OUTPUT_RAW",
+        "after_type": "HIGHRES_IMU",
+        "receipt_interval_ns": 0
+      },
+      {
+        "before_seq": 50,
+        "after_seq": 52,
+        "expected": 51,
+        "missing_modulo256": 1,
+        "before_type": "SERVO_OUTPUT_RAW",
+        "after_type": "HIGHRES_IMU",
+        "receipt_interval_ns": 0
+      }
+    ],
+    "logging_discontinuities": [
+      {
+        "before_sequence": 434,
+        "after_sequence": 436,
+        "expected": 435,
+        "missing_modulo65536": 1,
+        "before_mavlink_seq": 20,
+        "after_mavlink_seq": 41,
+        "before_receipt_ns": 11272986036665,
+        "after_receipt_ns": 11273027677123
+      }
+    ],
+    "duplicate_acked_logging_sequences": [
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437,
+      437
+    ],
+    "caveat": "Modulo sequence evidence on retained frames, not exact sensor loss or an authenticated delivery counter",
+    "transport_qualified": false,
+    "openvins_admissible": false
+  },
+  "tx_write_counts": {
+    "HEARTBEAT": 7,
+    "COMMAND_LONG:2510": 1,
+    "LOGGING_ACK": 282,
+    "COMMAND_LONG:2511": 1
+  },
+  "topics": [
+    {
+      "name": "actuator_armed",
+      "instance": 0,
+      "records": 2
+    },
+    {
+      "name": "cpuload",
+      "instance": 0,
+      "records": 2
+    },
+    {
+      "name": "event",
+      "instance": 0,
+      "records": 9
+    },
+    {
+      "name": "logger_status",
+      "instance": 0,
+      "records": 3
+    },
+    {
+      "name": "sensor_selection",
+      "instance": 0,
+      "records": 1
+    },
+    {
+      "name": "vehicle_imu",
+      "instance": 0,
+      "records": 513
+    },
+    {
+      "name": "vehicle_imu_status",
+      "instance": 0,
+      "records": 26
+    },
+    {
+      "name": "vehicle_status",
+      "instance": 0,
+      "records": 2
+    }
+  ],
+  "imu": {
+    "count": 513,
+    "issues": [
+      "gap"
+    ],
+    "source_intervals": {
+      "count": 513,
+      "first": 11288467656,
+      "last": 11291074144,
+      "duplicates": 0,
+      "backwards": 0,
+      "median_positive_interval": 4508.0,
+      "max_interval": 15023,
+      "gap_events_gt_1_5_median": 13,
+      "effective_hz": 196.43290128325933
+    },
+    "accel_coverage": "UNKNOWN_NO_SEPARATE_ENDPOINT",
+    "openvins_admissible": false,
+    "limits": "Coverage residual is diagnostic, not exact sensor loss. Segment changes; no repair/interpolation.",
+    "dropout_events": 0,
+    "dropout_duration_ms": 0,
+    "source_instance": 0,
+    "gyro_device_id": 6684690,
+    "accel_device_id": 6946834,
+    "clock_status": "UNKNOWN",
+    "publication_minus_sample_us": {
+      "count": 513,
+      "median": 225,
+      "p95": 4697.8,
+      "p99": 4730.64,
+      "max": 4774
+    },
+    "gyro_dt_us": {
+      "count": 513,
+      "median": 4508,
+      "p95": 6056.0,
+      "p99": 9054.72,
+      "max": 10561
+    },
+    "accel_dt_us": {
+      "count": 513,
+      "median": 4992,
+      "p95": 4994.0,
+      "p99": 8586.479999999994,
+      "max": 8738
+    },
+    "gyro_coverage_residual_us_summary": {
+      "count": 512,
+      "median": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "max": 9013
+    }
+  },
+  "cpu_load_retained_samples": [
+    0.5290824770927429,
+    0.5334428548812866
+  ],
+  "disarmed_retained_records": {
+    "armed_values": [
+      false
+    ],
+    "arming_states": [
+      1
+    ]
+  },
+  "changed_parameter_count_retained": 0,
+  "temporal_alignment": "NO_CAMERA_CLOCK_MAP",
+  "tail_complete": "UNKNOWN",
+  "source_complete": "UNKNOWN",
+  "transport_qualified": false,
+  "openvins_admissible": false
+}

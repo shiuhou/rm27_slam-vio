@@ -1,0 +1,203 @@
+{
+  "scope": "M3C_BOARD_SOFTWARE_PTY_ONLY_NO_PHYSICAL_UART",
+  "head": "3ea1e16086965176db68b88e1c42990f92c5913e",
+  "deployment": "/root/rm27-controller-startup-pty-20261011.Jg12Lv/",
+  "hostname": "maixcam2-9d05",
+  "versions": {
+    "numpy": "2.2.6",
+    "pymavlink": "2.4.49",
+    "pyulog": "1.2.4"
+  },
+  "tests_pass": 87,
+  "skips": 0,
+  "python_ssh_exit": 0,
+  "source_files_verified": 16,
+  "pty_cases_pass": 4,
+  "remaining_test_processes": 0,
+  "physical_uart": "NOT_TESTED",
+  "vio_s0": "PARTIAL",
+  "stage_c": "NOT_STARTED",
+  "previous_snapshot_entries_preserved": 29,
+  "files": [
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/PLAN.md",
+      "bytes": 2356,
+      "sha256": "7999095950e3864aa78c3cc9c017ada7f94fc5b13511867d9c3d36372db5b7ae"
+    },
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/VALIDATION.md",
+      "bytes": 7062,
+      "sha256": "b11bef594501e6ac3e7c7afc7bb5f1eecf1d3ac9a07b1217f44b48e9af9ce2fb"
+    },
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/environment.json",
+      "bytes": 2853,
+      "sha256": "cb80eb6cecfe5328e335c16ce01713f06430ff8fdf7288fb46c256978d33b0c8"
+    },
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/tests.txt",
+      "bytes": 11978,
+      "sha256": "7025db48adc361230557683b496571928fa139eda9c3dccacf2f08b767be4f53"
+    },
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/cleanup.json",
+      "bytes": 561,
+      "sha256": "b9c44178a70bc363c65d6b90094e9f6d3184d7654947123563d8d5a656eab56d"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 46748,
+      "sha256": "5deb91366902b7a73163c3f84513df9a0e2251bac679012bff8e6af1d81bd323"
+    },
+    {
+      "path": "VAULT_UPDATE.md",
+      "bytes": 16619,
+      "sha256": "c72a575e2275f9d82e0232ba7e8af98a7b15e80483dc314d5725c221b0a3f986"
+    },
+    {
+      "path": "new_plan.md",
+      "bytes": 38253,
+      "sha256": "a09dbd92e2ecf9ab3d4d3f0a5bc18fd4ce759aaa8244a2cfd0ff296cd71c46a6"
+    },
+    {
+      "path": ".maixpy/README.md",
+      "bytes": 4150,
+      "sha256": "e4622c63574572564e862a8f8a18951df4e5af7c9474c135d859841061213e4a"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/LATEST.md",
+      "bytes": 3850,
+      "sha256": "de2df92613fd957f641163ed8c9941ed1a40710c8577fdbf61add1733c7173e7"
+    },
+    {
+      "path": "rm27/perception/vision/docs/CODEX_RESUME.md",
+      "bytes": 6082,
+      "sha256": "529deda787927b27c8f8bd01b0455e9863ab6aadf0c9d7ed2524a2f6ea6adbf8"
+    },
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/repo-before/CODEX_RESUME.md",
+      "bytes": 5600,
+      "sha256": "d432a24082398ab195bdf1286cadfae535fc1f603fdb6bb3f804055d6afe6877"
+    },
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/repo-before/HANDOFF.md",
+      "bytes": 44809,
+      "sha256": "4549bc3ed4c449d371926e284e4c8c93ca1fd645d31a171d443d8076b3164602"
+    },
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/repo-before/imu-LATEST.md",
+      "bytes": 3481,
+      "sha256": "de53b3810b39bf17daa92b314cb37a07cddbbecbe8dc9484276f1062bf9c6138"
+    },
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/repo-before/maixpy-README.md",
+      "bytes": 3970,
+      "sha256": "729d4b95503d8bab96795aef04ab2fafedb3d24af0510e3d5dc04ec0680ad69a"
+    },
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/repo-before/new_plan.md",
+      "bytes": 37861,
+      "sha256": "77bb19b74629ed73be824160fb6f950ca14c99562d2f267eda10afd00285cb23"
+    },
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/repo-before/VAULT_UPDATE.md",
+      "bytes": 15595,
+      "sha256": "e84db34a6b5cfcc7d63fe959ae74a1c33269032e182b8b9fc344af800084c0e1"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/offline.py",
+      "bytes": 6720,
+      "sha256": "0e7abe57bbaa11901755e202cfa80a1d884880b00113e46eb3f80b8f2170c3b8"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/capture_report.py",
+      "bytes": 7526,
+      "sha256": "2192488626e77be2a0f519a0d7c3ff7ad574056b848c82e9d0fe50bc136da944"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/replay_controller.py",
+      "bytes": 2060,
+      "sha256": "c368b078a0a5b4e51206ecfc14f5b14e0a41036a2f259b6a81a2dd872f44cbfd"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/session.py",
+      "bytes": 13435,
+      "sha256": "4792208a6cc397fd70dee89b1f116b5050c5bbe5be94bcb4b38c2675f9d18424"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/startup_sync.py",
+      "bytes": 4748,
+      "sha256": "2640c5aa5efd5ce551564576353db736fda7a2bb8970c7a476099c43f0d1edf2"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_capture_report.py",
+      "bytes": 4584,
+      "sha256": "90678b10cc0c34fa5e1ad285caacd3504d1608f5589a7eba9a69eed9899d83c5"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_posix_pty.py",
+      "bytes": 3665,
+      "sha256": "e3bfbfa06fa3aba29a02a4d7674b91038f12033122159b2feb5e57b1050187b4"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_session.py",
+      "bytes": 12992,
+      "sha256": "4cb18f46173f2c5d3d5a4cfa8e1a6894b4e7233be9ff998643063da1c8dac3da"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_startup_pty.py",
+      "bytes": 4704,
+      "sha256": "10b2190e2562e3b26bd13dbef556b2a0883493763e1d0e7c0d8c0d53844d00a8"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_startup_sync.py",
+      "bytes": 14774,
+      "sha256": "cf003fccd7426b28ebb0d9665a5751453ad169678b417a9b3c4d2af2b1bf5dc4"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_uart_session.py",
+      "bytes": 11389,
+      "sha256": "81f31c54bd4ea6065ea49592888897d297ff7e6bee0f32de5ae374fce9cceb27"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/uart_session.py",
+      "bytes": 11393,
+      "sha256": "285340c7bbfbe6bf8a2d39bef9c8958f0ba1d0868066bb47d6f1c3597f5a1f84"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/reassembly/test_ulog_mavlink.py",
+      "bytes": 12641,
+      "sha256": "004a4505a1da0e8fc331712c089ed1608ae4325137bd78410a8589e0ca453c26"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/reassembly/ulog_mavlink.py",
+      "bytes": 10335,
+      "sha256": "76dcb97456e613384b4024b40e013cf6f8046c371f0ff0e821edadd2dd00cb6f"
+    },
+    {
+      "path": ".maixpy/imu-input-20261010/imu_input.py",
+      "bytes": 9306,
+      "sha256": "4365eae552af524946dab393e6191c9fec5dc7705e5642166773c1e1a609415a"
+    },
+    {
+      "path": ".maixpy/m3c-ping-20261009/probe.py",
+      "bytes": 7162,
+      "sha256": "974c58917f5eed09d727b8caeab8a11642e9d802ac1debce98ae9147a7fee031"
+    },
+    {
+      "path": ".maixpy/imu-startup-fix-20261011/controller-source-03.tar.gz",
+      "bytes": 34656,
+      "sha256": "cbeb9283d44e46701656bd8c0652cc617d249ebb9bfcdb92d55071f8d531bb57"
+    },
+    {
+      "path": ".maixpy/controller-m3c-pty-20261011/pyulog-1.2.4.tar.gz",
+      "bytes": 132644,
+      "sha256": "10f7915ac46416e9392267334e156f24566ee2df56fcd812c405c427803d3573"
+    },
+    {
+      "path": ".maixpy/imu-startup-fix-20261011/manifest.json",
+      "bytes": 5654,
+      "sha256": "9e92d75627c1101bac6f0be195f241b2bf2bbef52d686b39db6e682d6600582e"
+    }
+  ]
+}

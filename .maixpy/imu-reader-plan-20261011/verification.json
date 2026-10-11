@@ -1,0 +1,54 @@
+{
+    "scope":  "PLAN_ONLY_NO_IMPLEMENTATION_OR_HARDWARE",
+    "head":  "3ea1e16086965176db68b88e1c42990f92c5913e",
+    "previous_manifest_sha256":  "bdc4bef5f8c9646ec1df8692488ecb1d98c8ab176ed17a566bd880cefbcc4f4c",
+    "historical_entries_verified":  55,
+    "own_entries":  28,
+    "external_entries":  27,
+    "root_snapshot_resolution":  [
+                                     {
+                                         "logical_path":  "HANDOFF.md",
+                                         "prior_snapshot":  ".maixpy/imu-reader-plan-20261011/repo-before/HANDOFF.md",
+                                         "prior_body_bytes":  65521,
+                                         "original_body_byte_preserved":  true
+                                     },
+                                     {
+                                         "logical_path":  "VAULT_UPDATE.md",
+                                         "prior_snapshot":  ".maixpy/imu-reader-plan-20261011/repo-before/VAULT_UPDATE.md",
+                                         "prior_body_bytes":  26382,
+                                         "original_body_byte_preserved":  true
+                                     }
+                                 ],
+    "python_example_ast_blocks":  7,
+    "python_ast_exit":  0,
+    "runtime_tests_executed":  false,
+    "code_examples_executed":  false,
+    "preliminary_scanner_attempts":  [
+                                         "Shell quoting yielded zero matched blocks; not valid syntax evidence",
+                                         "Shell quoting caused SyntaxError exit1; corrected"
+                                     ],
+    "git_diff_check_exit":  0,
+    "staged_paths":  [
+
+                     ],
+    "current_artifacts":  [
+                              {
+                                  "path":  "docs/superpowers/plans/2026-10-11-vio-s0-logger-reader-control.md",
+                                  "bytes":  28667,
+                                  "sha256":  "d8573eb7983172743c7c173c208961b54d174c0f770ea8be92347bd5776a293d"
+                              },
+                              {
+                                  "path":  "HANDOFF.md",
+                                  "bytes":  67883,
+                                  "sha256":  "3838ecb408b421315889dd4643cae61b469d8612044163aba22a908226fa7c2d"
+                              },
+                              {
+                                  "path":  "VAULT_UPDATE.md",
+                                  "bytes":  27310,
+                                  "sha256":  "6ec9cdc777b98cea85cb673d265a1f154184d05176e37d1c664e326b42c9bfff"
+                              }
+                          ],
+    "stage_c":  "CLOSED",
+    "vio_s0":  "PARTIAL",
+    "physical_trial":  "NOT_EXECUTED_NOT_AUTHORIZED_BY_PLANNING"
+}

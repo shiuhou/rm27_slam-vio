@@ -1,0 +1,212 @@
+{
+  "restoration_verified": true,
+  "firmware_hash": "d6f12ad1c4f70ad3230afd7d86e971421e02fef4",
+  "single_trial_no_retry": true,
+  "command_scope_verified": true,
+  "px4_stream_mapping_restored": true,
+  "px4_logger_restored": "logger start -b 64 -t -m all; Not logging; 187 subscriptions",
+  "px4_uart_restored": "115200/5760B_s/Onboard/flow_OFF",
+  "sdlog_restored": {
+    "SDLOG_BACKEND": 3,
+    "SDLOG_BOOT_BAT": 0,
+    "SDLOG_DIRS_MAX": 0,
+    "SDLOG_MISSION": 0,
+    "SDLOG_MODE": 0,
+    "SDLOG_PROFILE": 1,
+    "SDLOG_UTC_OFFSET": 0,
+    "SDLOG_UUID": 1
+  },
+  "m3c_exact_termios_restored": true,
+  "m3c_owners_after": [],
+  "unrelated_ports_preserved": true,
+  "observed_usb_heartbeat_count": 228,
+  "observed_base_modes": [
+    29
+  ],
+  "propellers": "USER_CONFIRMED_SAME_BENCH_SESSION",
+  "disarmed": true,
+  "ekf2_ev_ctrl": 0,
+  "board_tests": 120,
+  "board_posix_pty_tests": 7,
+  "board_skips": 0,
+  "deployed_source_files_verified": 18,
+  "remote_hashes": [
+    {
+      "local": "download\\physical-trial-01\\wire.jsonl",
+      "sha256": "f424acde1d4a64a51a441ab6e4bbd4c0f8be171eaf419c4b184d8ffed3a97153"
+    },
+    {
+      "local": "download\\physical-trial-01\\received-prefix.bin",
+      "sha256": "b66b017ab4acbf04a85e76b196f8d98a4752ab885350881c15ab83d9e7505327"
+    },
+    {
+      "local": "download\\physical-trial-01\\summary.json",
+      "sha256": "b5cd54d1d195290c1bf3b707fbf221a87391854f691a552ddce67bc1b92d4922"
+    },
+    {
+      "local": "download\\physical-trial-01\\preflight-attestation.json",
+      "sha256": "60b9c36fce18990859b814273323eb6e4ad436bc39369172360ae04910ba290d"
+    },
+    {
+      "local": "tests.txt",
+      "sha256": "1bb818b43f54b8cad7a383c021d9068b734b04ca8bb6040e5324b0b2f41f7515"
+    },
+    {
+      "local": "board-after.json",
+      "sha256": "1aea3d25dc119af1deda60510086dd835128eae8e63f3a932928fbf69d704525"
+    }
+  ],
+  "frozen_artifacts_verified": {
+    "original_trial": 18,
+    "imu-uart-retry-20261011": 37,
+    "imu-negotiation-fix-20261011": 44,
+    "reassembly": 14
+  },
+  "stage_ab_sha256": "d9c79727ad749e8ec6ba970a2e41c0ef4aa5ccc3ac6e6e7bc53c0f1bbb7ffd0f",
+  "actual_receiver_exit": 1,
+  "negotiation": "VERIFIED_THIS_ATTEMPT",
+  "start_ack": true,
+  "stop_ack": true,
+  "retained_prefix_bytes": 107784,
+  "diagnostic_excluded_incomplete_bytes": 127,
+  "raw_decode_parity_verified": true,
+  "source_identity_calibration_clip_values": {
+    "gyro_device_id": [
+      6684690
+    ],
+    "accel_device_id": [
+      6946834
+    ],
+    "gyro_calibration_count": [
+      1
+    ],
+    "accel_calibration_count": [
+      1
+    ],
+    "delta_angle_clipping": [
+      0
+    ],
+    "delta_velocity_clipping": [
+      0
+    ]
+  },
+  "gyro_coverage_residual_gt2us_events": 2,
+  "gyro_coverage_residual_gt2us_sum": 13520,
+  "gyro_coverage_caveat": "Retained integration coverage diagnostic, not exact hardware sample loss",
+  "logging_gap_transport_context": [
+    {
+      "seq": 20,
+      "type": "LOGGING_DATA",
+      "receipt_mono_ns": 11272986036665
+    },
+    {
+      "seq": 21,
+      "type": "ATTITUDE",
+      "receipt_mono_ns": 11272986036665
+    },
+    {
+      "seq": 22,
+      "type": "HIGHRES_IMU",
+      "receipt_mono_ns": 11272992967373
+    },
+    {
+      "seq": 23,
+      "type": "ATTITUDE_QUATERNION",
+      "receipt_mono_ns": 11272992967373
+    },
+    {
+      "seq": 24,
+      "type": "ATTITUDE",
+      "receipt_mono_ns": 11272994885998
+    },
+    {
+      "seq": 25,
+      "type": "TIMESYNC",
+      "receipt_mono_ns": 11273014119082
+    },
+    {
+      "seq": 26,
+      "type": "LOCAL_POSITION_NED",
+      "receipt_mono_ns": 11273014119082
+    },
+    {
+      "seq": 27,
+      "type": "ATTITUDE",
+      "receipt_mono_ns": 11273014119082
+    },
+    {
+      "seq": 28,
+      "type": "ALTITUDE",
+      "receipt_mono_ns": 11273014119082
+    },
+    {
+      "seq": 29,
+      "type": "DISTANCE_SENSOR",
+      "receipt_mono_ns": 11273014119082
+    },
+    {
+      "seq": 30,
+      "type": "ODOMETRY",
+      "receipt_mono_ns": 11273014119082
+    },
+    {
+      "seq": 31,
+      "type": "ATTITUDE_TARGET",
+      "receipt_mono_ns": 11273014119082
+    },
+    {
+      "seq": 32,
+      "type": "OPTICAL_FLOW_RAD",
+      "receipt_mono_ns": 11273014119082
+    },
+    {
+      "seq": 33,
+      "type": "POSITION_TARGET_LOCAL_NED",
+      "receipt_mono_ns": 11273014119082
+    },
+    {
+      "seq": 34,
+      "type": "SERVO_OUTPUT_RAW",
+      "receipt_mono_ns": 11273014119082
+    },
+    {
+      "seq": 36,
+      "type": "HIGHRES_IMU",
+      "receipt_mono_ns": 11273014119082
+    },
+    {
+      "seq": 37,
+      "type": "ATTITUDE_QUATERNION",
+      "receipt_mono_ns": 11273014119082
+    },
+    {
+      "seq": 38,
+      "type": "ATTITUDE",
+      "receipt_mono_ns": 11273020542457
+    },
+    {
+      "seq": 39,
+      "type": "VFR_HUD",
+      "receipt_mono_ns": 11273020542457
+    },
+    {
+      "seq": 40,
+      "type": "ATTITUDE",
+      "receipt_mono_ns": 11273027677123
+    },
+    {
+      "seq": 41,
+      "type": "LOGGING_DATA",
+      "receipt_mono_ns": 11273027677123
+    }
+  ],
+  "gap_attribution": "CONFIRMED_LOGGING_GAP_WITH_MAVLINK_SEQ35_ABSENT; layer/root_cause_UNKNOWN",
+  "source_rate_qualification": "PARTIAL_196.432901HZ_FAILED_PREFIX_NOT_200HZ_OR_60S",
+  "source_complete": "UNKNOWN",
+  "tail_complete": "UNKNOWN",
+  "clock_synchronization": "UNKNOWN",
+  "m3c_cpu_qualification": "NOT_MEASURED_PROCESS_ALREADY_GONE",
+  "transport_qualified": false,
+  "openvins_admissible": false,
+  "stage_c": "CLOSED"
+}

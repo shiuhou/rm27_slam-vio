@@ -1,0 +1,20 @@
+{
+  "firmware_hash": "d6f12ad1c4f70ad3230afd7d86e971421e02fef4",
+  "ekf2_ev_ctrl": 0,
+  "disarmed": true,
+  "propellers_removed": true,
+  "uart": "/dev/ttyS2",
+  "baud": 921600,
+  "mavlink_datarate": 46080,
+  "gyro_device_id": 6684690,
+  "accel_device_id": 6946834,
+  "vehicle_imu_instance": 0,
+  "logger_backend": "mavlink",
+  "logger_poll": null,
+  "logger_rate_hz": 2500,
+  "logger_reader": "fixed_2500hz",
+  "configuration_backup_verified": true,
+  "heartbeat_negotiation_approved": true,
+  "experimental_factor": "LOGGER_READER_FIXED_2500HZ",
+  "treatment_readback_verified": true
+}

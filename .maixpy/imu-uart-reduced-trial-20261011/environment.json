@@ -1,0 +1,39 @@
+{
+  "hostname": "maixcam2-9d05",
+  "architecture": "aarch64",
+  "python": "3.13.2 (main, Mar 27 2025, 19:10:37) [GCC 11.4.0]",
+  "versions": {
+    "numpy": "2.2.6",
+    "pymavlink": "2.4.49",
+    "pyulog": "1.2.4"
+  },
+  "imported_files": {
+    "numpy": "/usr/local/lib/python3.13/site-packages/numpy/__init__.py",
+    "pymavlink": "/root/rm27-mavlink-test-20261010/venv/lib/python3.13/site-packages/pymavlink/__init__.py",
+    "pyulog": "/root/rm27-controller-reduced-20261011.NWMjuL/pyulog/__init__.py"
+  },
+  "source_sha256": {
+    ".maixpy/imu-design-20261010/single-uart/controller/uart_session.py": "3fdbf617481f03f6b05b4c2fa19ae481c02e6f920f8d530b631319c36c18b4b7",
+    ".maixpy/imu-design-20261010/single-uart/controller/test_startup_pty.py": "10b2190e2562e3b26bd13dbef556b2a0883493763e1d0e7c0d8c0d53844d00a8",
+    ".maixpy/imu-design-20261010/single-uart/controller/test_posix_pty.py": "50ade6d891256f2eedea5cb0624223108049d5c3f6d9efd24dd0a0e8962a7f34",
+    ".maixpy/imu-design-20261010/single-uart/controller/replay_controller.py": "c368b078a0a5b4e51206ecfc14f5b14e0a41036a2f259b6a81a2dd872f44cbfd",
+    ".maixpy/imu-design-20261010/single-uart/reassembly/ulog_mavlink.py": "76dcb97456e613384b4024b40e013cf6f8046c371f0ff0e821edadd2dd00cb6f",
+    ".maixpy/imu-design-20261010/offline.py": "0e7abe57bbaa11901755e202cfa80a1d884880b00113e46eb3f80b8f2170c3b8",
+    ".maixpy/m3c-ping-20261009/probe.py": "974c58917f5eed09d727b8caeab8a11642e9d802ac1debce98ae9147a7fee031",
+    ".maixpy/imu-design-20261010/single-uart/controller/test_session.py": "4cb18f46173f2c5d3d5a4cfa8e1a6894b4e7233be9ff998643063da1c8dac3da",
+    ".maixpy/imu-design-20261010/single-uart/reassembly/test_ulog_mavlink.py": "004a4505a1da0e8fc331712c089ed1608ae4325137bd78410a8589e0ca453c26",
+    ".maixpy/imu-design-20261010/single-uart/controller/test_capture_report.py": "90678b10cc0c34fa5e1ad285caacd3504d1608f5589a7eba9a69eed9899d83c5",
+    ".maixpy/imu-design-20261010/single-uart/controller/test_startup_sync.py": "cf003fccd7426b28ebb0d9665a5751453ad169678b417a9b3c4d2af2b1bf5dc4",
+    ".maixpy/imu-design-20261010/single-uart/controller/capture_report.py": "9a6ebd85f6794036c4be14add6c9c90816c349317474ae4f904c2cec7816fa33",
+    ".maixpy/imu-design-20261010/single-uart/controller/startup_sync.py": "2640c5aa5efd5ce551564576353db736fda7a2bb8970c7a476099c43f0d1edf2",
+    ".maixpy/imu-design-20261010/single-uart/controller/session.py": "f1421fdcc36c1514a63bc2292dc8537c60d58d0092fd405d86df6e3e28328533",
+    ".maixpy/imu-design-20261010/single-uart/reassembly/replay_saved.py": "090023e447ec0a3591378dcf92ad86f1f77ef24c3413150bc40f227e8a8d6a30",
+    ".maixpy/imu-design-20261010/single-uart/controller/test_negotiation.py": "6faa1b9ed507775dc9b330597aaf2cae3d3c14e82b511a32f1176643a5405c05",
+    ".maixpy/imu-input-20261010/imu_input.py": "4365eae552af524946dab393e6191c9fec5dc7705e5642166773c1e1a609415a",
+    ".maixpy/imu-design-20261010/single-uart/controller/test_uart_session.py": "81f31c54bd4ea6065ea49592888897d297ff7e6bee0f32de5ae374fce9cceb27"
+  },
+  "source_archive_sha256": "2686a084b66638e01690f83aceab31c80053c4766ef62e00bf49ca8a9249337d",
+  "pyulog_archive_sha256": "10f7915ac46416e9392267334e156f24566ee2df56fcd812c405c427803d3573",
+  "physical_uart_opened": false,
+  "unchanged120_test_suite_not_repeated": true
+}

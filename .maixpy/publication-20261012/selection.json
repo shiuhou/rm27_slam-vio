@@ -1,0 +1,1975 @@
+{
+  "scope": "CURATED_RESEARCH_PUBLICATION_NO_NEW_HARDWARE_QUALIFICATION",
+  "date": "2026-10-12",
+  "baseline": "3ea1e16086965176db68b88e1c42990f92c5913e",
+  "author": "shiuhou",
+  "email": "uhshi371@connect.hkust-gz.edu.cn",
+  "authentication": "verified GitHub CLI shiuhou; explicit helper on push",
+  "status": "STAGED_EXPORT_AND_INDEX_CHECKS_VERIFIED_PUSH_NOT_PRECLAIMED",
+  "worktree_tests": {
+    "passed": 463,
+    "skipped": 14
+  },
+  "portable_export_tests": {
+    "passed": 462,
+    "skipped": 14,
+    "real_saved_log_test_not_in_portable_scope": 1
+  },
+  "stage_c": "CLOSED",
+  "vio_s0": "PARTIAL",
+  "stage_ab_unchanged": true,
+  "excluded": [
+    "raw recordings/environments/builds/vendor trees",
+    "tests/camera_capture.py",
+    "tmp/",
+    "rm27/perception/vision/docs/PLAN_HISTORY.md"
+  ],
+  "files": [
+    {
+      "path": ".codex/tasks/2026-10-11-imu-reader-control/decision-record.md",
+      "bytes": 981,
+      "sha256": "188f8116fd648ddb0adf00a52951673feeddbe932c873d3da03a1498dda481a6",
+      "git_blob_bytes": 981,
+      "git_blob_sha256": "188f8116fd648ddb0adf00a52951673feeddbe932c873d3da03a1498dda481a6"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-reader-control/evidence-map.md",
+      "bytes": 800,
+      "sha256": "a80dda0a7691a76200ce1f057e199a03dbf539a9e03e730995c8850b596a7438",
+      "git_blob_bytes": 800,
+      "git_blob_sha256": "a80dda0a7691a76200ce1f057e199a03dbf539a9e03e730995c8850b596a7438"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-reader-control/README.md",
+      "bytes": 423,
+      "sha256": "90deaeb1d0ed67a003a6fcdb845b826dc5e4ee23be5fb36655d3463c57f04d5d",
+      "git_blob_bytes": 423,
+      "git_blob_sha256": "90deaeb1d0ed67a003a6fcdb845b826dc5e4ee23be5fb36655d3463c57f04d5d"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-reader-control/task-brief.md",
+      "bytes": 347,
+      "sha256": "b8c2ed247fff449688b16d97c573641beff793058fc18108a2cdc821304143bb",
+      "git_blob_bytes": 347,
+      "git_blob_sha256": "b8c2ed247fff449688b16d97c573641beff793058fc18108a2cdc821304143bb"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-reader-control/validation-report.md",
+      "bytes": 884,
+      "sha256": "bf6adff7db51fab92a43112ae18c8a8bd4cb1a15381e175ad5bf6fb598f6d26e",
+      "git_blob_bytes": 884,
+      "git_blob_sha256": "bf6adff7db51fab92a43112ae18c8a8bd4cb1a15381e175ad5bf6fb598f6d26e"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-source-diagnosis/evidence-map.md",
+      "bytes": 298,
+      "sha256": "28e42e0ffca6b2b69ef45d4ff44294528555ab634bbd3d73a50cbbc776a85bb8",
+      "git_blob_bytes": 298,
+      "git_blob_sha256": "28e42e0ffca6b2b69ef45d4ff44294528555ab634bbd3d73a50cbbc776a85bb8"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-source-diagnosis/README.md",
+      "bytes": 341,
+      "sha256": "f620cde0f1420bb9f7209ad6635a757eb18f5956b3ada48569c70c8053bf01a2",
+      "git_blob_bytes": 341,
+      "git_blob_sha256": "f620cde0f1420bb9f7209ad6635a757eb18f5956b3ada48569c70c8053bf01a2"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-source-diagnosis/task-brief.md",
+      "bytes": 396,
+      "sha256": "f2f19be89896819bd10a6124bb3485b3f825acedb39cfcd02eb083e6c57cf9c0",
+      "git_blob_bytes": 396,
+      "git_blob_sha256": "f2f19be89896819bd10a6124bb3485b3f825acedb39cfcd02eb083e6c57cf9c0"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-source-diagnosis/validation-report.md",
+      "bytes": 621,
+      "sha256": "bfc4e42f31fbda3f502b10779e8d03527139a7cee09593b0d89b7525b277a327",
+      "git_blob_bytes": 621,
+      "git_blob_sha256": "bfc4e42f31fbda3f502b10779e8d03527139a7cee09593b0d89b7525b277a327"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-upstream-gyro/README.md",
+      "bytes": 1182,
+      "sha256": "6f82e70e3e8cd47a1f953e733a1acc8e3a73bcdc704352b2b5bde3f31d38601f",
+      "git_blob_bytes": 1182,
+      "git_blob_sha256": "6f82e70e3e8cd47a1f953e733a1acc8e3a73bcdc704352b2b5bde3f31d38601f"
+    },
+    {
+      "path": ".gitattributes",
+      "bytes": 605,
+      "sha256": "7f5cb1709b109375bfa0db23468b4d8991892bc45a3792ef3a097318834bbfdf",
+      "git_blob_bytes": 605,
+      "git_blob_sha256": "7f5cb1709b109375bfa0db23468b4d8991892bc45a3792ef3a097318834bbfdf"
+    },
+    {
+      "path": ".maixpy/controller-m3c-pty-20261011/VALIDATION.md",
+      "bytes": 2822,
+      "sha256": "6848a659581a5274217d6c25c3763162c5534e4bcf0223c96c3022156a905c78",
+      "git_blob_bytes": 2822,
+      "git_blob_sha256": "6848a659581a5274217d6c25c3763162c5534e4bcf0223c96c3022156a905c78"
+    },
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/cleanup.json",
+      "bytes": 561,
+      "sha256": "b9c44178a70bc363c65d6b90094e9f6d3184d7654947123563d8d5a656eab56d",
+      "git_blob_bytes": 561,
+      "git_blob_sha256": "b9c44178a70bc363c65d6b90094e9f6d3184d7654947123563d8d5a656eab56d"
+    },
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/environment.json",
+      "bytes": 2853,
+      "sha256": "cb80eb6cecfe5328e335c16ce01713f06430ff8fdf7288fb46c256978d33b0c8",
+      "git_blob_bytes": 2853,
+      "git_blob_sha256": "cb80eb6cecfe5328e335c16ce01713f06430ff8fdf7288fb46c256978d33b0c8"
+    },
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/manifest.json",
+      "bytes": 7462,
+      "sha256": "3df36e8e10fe986cd332c675671e45e652801ea784ccff350c9dea5a2a5c7281",
+      "git_blob_bytes": 7462,
+      "git_blob_sha256": "3df36e8e10fe986cd332c675671e45e652801ea784ccff350c9dea5a2a5c7281"
+    },
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/PLAN.md",
+      "bytes": 2356,
+      "sha256": "7999095950e3864aa78c3cc9c017ada7f94fc5b13511867d9c3d36372db5b7ae",
+      "git_blob_bytes": 2356,
+      "git_blob_sha256": "7999095950e3864aa78c3cc9c017ada7f94fc5b13511867d9c3d36372db5b7ae"
+    },
+    {
+      "path": ".maixpy/controller-m3c-startup-pty-20261011/VALIDATION.md",
+      "bytes": 7062,
+      "sha256": "b11bef594501e6ac3e7c7afc7bb5f1eecf1d3ac9a07b1217f44b48e9af9ce2fb",
+      "git_blob_bytes": 7062,
+      "git_blob_sha256": "b11bef594501e6ac3e7c7afc7bb5f1eecf1d3ac9a07b1217f44b48e9af9ce2fb"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/BMI088_Accelerometer.cpp",
+      "bytes": 18760,
+      "sha256": "a9bd1a165c40a3959f5a64c0d912f2dab1c9b94255c72733d1ebf879ec3dda9f",
+      "git_blob_bytes": 18760,
+      "git_blob_sha256": "a9bd1a165c40a3959f5a64c0d912f2dab1c9b94255c72733d1ebf879ec3dda9f"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/BMI088_Gyroscope.cpp",
+      "bytes": 13987,
+      "sha256": "323d7a50a6a9448e42abd36551c13e9f147c485e13a3d65f1f26381057620185",
+      "git_blob_bytes": 13987,
+      "git_blob_sha256": "323d7a50a6a9448e42abd36551c13e9f147c485e13a3d65f1f26381057620185"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/LATEST.md",
+      "bytes": 10393,
+      "sha256": "eab2d4ab8057f86a55be6ce2f02f49c327cf0280e217e45a27c8a6dbb5e9179f",
+      "git_blob_bytes": 10393,
+      "git_blob_sha256": "eab2d4ab8057f86a55be6ce2f02f49c327cf0280e217e45a27c8a6dbb5e9179f"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/capture_report.py",
+      "bytes": 10501,
+      "sha256": "9a6ebd85f6794036c4be14add6c9c90816c349317474ae4f904c2cec7816fa33",
+      "git_blob_bytes": 10501,
+      "git_blob_sha256": "9a6ebd85f6794036c4be14add6c9c90816c349317474ae4f904c2cec7816fa33"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/manifest.json",
+      "bytes": 6123,
+      "sha256": "594b9a3638d0babc2030177ec6137d11dbc267de4f45a5ed0ec1ca8d1d65cb40",
+      "git_blob_bytes": 6123,
+      "git_blob_sha256": "594b9a3638d0babc2030177ec6137d11dbc267de4f45a5ed0ec1ca8d1d65cb40"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/PLAN.md",
+      "bytes": 4250,
+      "sha256": "74b696170644fae5ae0ac340522fc3959f21d8448f168014d140485d35bd08ca",
+      "git_blob_bytes": 4250,
+      "git_blob_sha256": "74b696170644fae5ae0ac340522fc3959f21d8448f168014d140485d35bd08ca"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/preflight.template.json",
+      "bytes": 589,
+      "sha256": "06995f98d4dbe33cf33f55ee33f0545134426b86a731c9f37fc1634760dd1f37",
+      "git_blob_bytes": 589,
+      "git_blob_sha256": "06995f98d4dbe33cf33f55ee33f0545134426b86a731c9f37fc1634760dd1f37"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/replay_controller.py",
+      "bytes": 2060,
+      "sha256": "c368b078a0a5b4e51206ecfc14f5b14e0a41036a2f259b6a81a2dd872f44cbfd",
+      "git_blob_bytes": 2060,
+      "git_blob_sha256": "c368b078a0a5b4e51206ecfc14f5b14e0a41036a2f259b6a81a2dd872f44cbfd"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/RUNBOOK.md",
+      "bytes": 7986,
+      "sha256": "7186edd73198a472d4d7bdfe5fe82bd7cfeb32e95857ee7292da71af675d5d88",
+      "git_blob_bytes": 7986,
+      "git_blob_sha256": "7186edd73198a472d4d7bdfe5fe82bd7cfeb32e95857ee7292da71af675d5d88"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/session.py",
+      "bytes": 16379,
+      "sha256": "f1421fdcc36c1514a63bc2292dc8537c60d58d0092fd405d86df6e3e28328533",
+      "git_blob_bytes": 16379,
+      "git_blob_sha256": "f1421fdcc36c1514a63bc2292dc8537c60d58d0092fd405d86df6e3e28328533"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/startup_sync.py",
+      "bytes": 4748,
+      "sha256": "2640c5aa5efd5ce551564576353db736fda7a2bb8970c7a476099c43f0d1edf2",
+      "git_blob_bytes": 4748,
+      "git_blob_sha256": "2640c5aa5efd5ce551564576353db736fda7a2bb8970c7a476099c43f0d1edf2"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_capture_report.py",
+      "bytes": 4584,
+      "sha256": "90678b10cc0c34fa5e1ad285caacd3504d1608f5589a7eba9a69eed9899d83c5",
+      "git_blob_bytes": 4584,
+      "git_blob_sha256": "90678b10cc0c34fa5e1ad285caacd3504d1608f5589a7eba9a69eed9899d83c5"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_negotiation.py",
+      "bytes": 15270,
+      "sha256": "6faa1b9ed507775dc9b330597aaf2cae3d3c14e82b511a32f1176643a5405c05",
+      "git_blob_bytes": 15270,
+      "git_blob_sha256": "6faa1b9ed507775dc9b330597aaf2cae3d3c14e82b511a32f1176643a5405c05"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_posix_pty.py",
+      "bytes": 5493,
+      "sha256": "50ade6d891256f2eedea5cb0624223108049d5c3f6d9efd24dd0a0e8962a7f34",
+      "git_blob_bytes": 5493,
+      "git_blob_sha256": "50ade6d891256f2eedea5cb0624223108049d5c3f6d9efd24dd0a0e8962a7f34"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_session.py",
+      "bytes": 12992,
+      "sha256": "4cb18f46173f2c5d3d5a4cfa8e1a6894b4e7233be9ff998643063da1c8dac3da",
+      "git_blob_bytes": 12992,
+      "git_blob_sha256": "4cb18f46173f2c5d3d5a4cfa8e1a6894b4e7233be9ff998643063da1c8dac3da"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_startup_pty.py",
+      "bytes": 4704,
+      "sha256": "10b2190e2562e3b26bd13dbef556b2a0883493763e1d0e7c0d8c0d53844d00a8",
+      "git_blob_bytes": 4704,
+      "git_blob_sha256": "10b2190e2562e3b26bd13dbef556b2a0883493763e1d0e7c0d8c0d53844d00a8"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_startup_sync.py",
+      "bytes": 14774,
+      "sha256": "cf003fccd7426b28ebb0d9665a5751453ad169678b417a9b3c4d2af2b1bf5dc4",
+      "git_blob_bytes": 14774,
+      "git_blob_sha256": "cf003fccd7426b28ebb0d9665a5751453ad169678b417a9b3c4d2af2b1bf5dc4"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_uart_session.py",
+      "bytes": 11389,
+      "sha256": "81f31c54bd4ea6065ea49592888897d297ff7e6bee0f32de5ae374fce9cceb27",
+      "git_blob_bytes": 11389,
+      "git_blob_sha256": "81f31c54bd4ea6065ea49592888897d297ff7e6bee0f32de5ae374fce9cceb27"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/uart_session.py",
+      "bytes": 12495,
+      "sha256": "2d908b68f1e0fc948bde7d7b5a86243c85f198372033cb4c1b63df30dbd27654",
+      "git_blob_bytes": 12495,
+      "git_blob_sha256": "2d908b68f1e0fc948bde7d7b5a86243c85f198372033cb4c1b63df30dbd27654"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/VALIDATION.md",
+      "bytes": 10306,
+      "sha256": "27d4044eaed03d51dc5605fef318b6059697df18a60f599b39a405864f9838a5",
+      "git_blob_bytes": 10306,
+      "git_blob_sha256": "27d4044eaed03d51dc5605fef318b6059697df18a60f599b39a405864f9838a5"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/diagnose.py",
+      "bytes": 15025,
+      "sha256": "6cc59e9c8f9bc7289f5d5fa529b4ad4b5eae875ae4ff5d080575ab1e2a6ec7b0",
+      "git_blob_bytes": 15025,
+      "git_blob_sha256": "6cc59e9c8f9bc7289f5d5fa529b4ad4b5eae875ae4ff5d080575ab1e2a6ec7b0"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/diagnosis.json",
+      "bytes": 16245,
+      "sha256": "e2d6010ddb31a9eaf443e223d84bde88e87360606dc393ddd838d59137c6c45a",
+      "git_blob_bytes": 16245,
+      "git_blob_sha256": "e2d6010ddb31a9eaf443e223d84bde88e87360606dc393ddd838d59137c6c45a"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/DIAGNOSIS.md",
+      "bytes": 12878,
+      "sha256": "cce9e3f827772c8201e26aca0640eab92194198a8f6882fba44280abb4d96663",
+      "git_blob_bytes": 12878,
+      "git_blob_sha256": "cce9e3f827772c8201e26aca0640eab92194198a8f6882fba44280abb4d96663"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/manifest.json",
+      "bytes": 18302,
+      "sha256": "7589feaeb4db79e487a5edecd6af2fc7e6aa55fbd753f98221b652f03016fe26",
+      "git_blob_bytes": 18302,
+      "git_blob_sha256": "7589feaeb4db79e487a5edecd6af2fc7e6aa55fbd753f98221b652f03016fe26"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/NEXT_TRIAL_PLAN.md",
+      "bytes": 7534,
+      "sha256": "fe4f27ccb8efb202af5916fa0780f7173fd9c39a73ab33bf4fa90395aa4626fb",
+      "git_blob_bytes": 7534,
+      "git_blob_sha256": "fe4f27ccb8efb202af5916fa0780f7173fd9c39a73ab33bf4fa90395aa4626fb"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/PLAN.md",
+      "bytes": 1803,
+      "sha256": "2b48baaa6a054b54637c9fc3a78fe26849fc589f8a18352b1ad79788b771398e",
+      "git_blob_bytes": 1803,
+      "git_blob_sha256": "2b48baaa6a054b54637c9fc3a78fe26849fc589f8a18352b1ad79788b771398e"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/source/common.xml",
+      "bytes": 664134,
+      "sha256": "bbc1c382a217209f2cb3922416539da3226878dd19c7549f928913a6f72b1498",
+      "git_blob_bytes": 664134,
+      "git_blob_sha256": "bbc1c382a217209f2cb3922416539da3226878dd19c7549f928913a6f72b1498"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/source/development.xml",
+      "bytes": 53476,
+      "sha256": "aa9f7f0955c0247fb0c9758d1171638679a698da3d9b768b4aaaf6fff28962da",
+      "git_blob_bytes": 53476,
+      "git_blob_sha256": "aa9f7f0955c0247fb0c9758d1171638679a698da3d9b768b4aaaf6fff28962da"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/source/LINK_NODE_STATUS.hpp",
+      "bytes": 3452,
+      "sha256": "62366f57147595f7ca76bbbf18847f40dceef6531722957a27b9202fd9991c37",
+      "git_blob_bytes": 3452,
+      "git_blob_sha256": "62366f57147595f7ca76bbbf18847f40dceef6531722957a27b9202fd9991c37"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/source/mavlink_helpers.h",
+      "bytes": 37881,
+      "sha256": "e7faaadd54e0057afa0437369e2a3fc363ae12db5ae3e3e390c13e7f26d3ba15",
+      "git_blob_bytes": 37881,
+      "git_blob_sha256": "e7faaadd54e0057afa0437369e2a3fc363ae12db5ae3e3e390c13e7f26d3ba15"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/source/mavlink_ulog.h",
+      "bytes": 5327,
+      "sha256": "19989c4503de082a07a021e94353b6cc525d9e13ff28bbe341f19ea3e362acc2",
+      "git_blob_bytes": 5327,
+      "git_blob_sha256": "19989c4503de082a07a021e94353b6cc525d9e13ff28bbe341f19ea3e362acc2"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/source/mavlink-pymavlink-submodule.json",
+      "bytes": 859,
+      "sha256": "05ea23a4fccfdfba123db6b83660971273b68f13eb4b769d119838ab704ad556",
+      "git_blob_bytes": 859,
+      "git_blob_sha256": "05ea23a4fccfdfba123db6b83660971273b68f13eb4b769d119838ab704ad556"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/source/nuttx_serial.c",
+      "bytes": 54198,
+      "sha256": "fb0aee9071466a8d9dde8fc191b492195c54b34cda6f5e0c3d86c3bce3335405",
+      "git_blob_bytes": 54198,
+      "git_blob_sha256": "fb0aee9071466a8d9dde8fc191b492195c54b34cda6f5e0c3d86c3bce3335405"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/source/px4-mavlink-submodule.json",
+      "bytes": 895,
+      "sha256": "777f0502dbcf9de8920b2a9437a37e107196effdd23e4dc04ded49fb524172b7",
+      "git_blob_bytes": 895,
+      "git_blob_sha256": "777f0502dbcf9de8920b2a9437a37e107196effdd23e4dc04ded49fb524172b7"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/source/px4-nuttx-submodule.json",
+      "bytes": 863,
+      "sha256": "5370b47b070b5ce9b9685063ca507c9e18d300e218779e556c1ead5579c7dbd9",
+      "git_blob_bytes": 863,
+      "git_blob_sha256": "5370b47b070b5ce9b9685063ca507c9e18d300e218779e556c1ead5579c7dbd9"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/source/stm32_serial.c",
+      "bytes": 117180,
+      "sha256": "cb84e4e3061d5ad55f9d774aaf50cb230b16cd25e1396b3ab3d04cd30f1e5537",
+      "git_blob_bytes": 117180,
+      "git_blob_sha256": "cb84e4e3061d5ad55f9d774aaf50cb230b16cd25e1396b3ab3d04cd30f1e5537"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/test_diagnosis.py",
+      "bytes": 8038,
+      "sha256": "d8f6405663c93a51cb5a1f69465eb4e8b1f9de1688903f4afefb012a6b57307c",
+      "git_blob_bytes": 8038,
+      "git_blob_sha256": "d8f6405663c93a51cb5a1f69465eb4e8b1f9de1688903f4afefb012a6b57307c"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/verification.json",
+      "bytes": 1223,
+      "sha256": "16d4e0e3ea74590bc45eb10263e01503adda36640c7230109db76f4ac065dfeb",
+      "git_blob_bytes": 1223,
+      "git_blob_sha256": "16d4e0e3ea74590bc45eb10263e01503adda36640c7230109db76f4ac065dfeb"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/verify_evidence.py",
+      "bytes": 6838,
+      "sha256": "86912bd83eb327d0a6221395f6f09972a1234637e7cd91da8f21012a61cfbcfe",
+      "git_blob_bytes": 6838,
+      "git_blob_sha256": "86912bd83eb327d0a6221395f6f09972a1234637e7cd91da8f21012a61cfbcfe"
+    },
+    {
+      "path": ".maixpy/imu-input-20261010/msg__VehicleImu.msg",
+      "bytes": 1394,
+      "sha256": "3d38685a61825342c70c124d7758ea31c87099a08265313e0d1e91444a8d7e6f",
+      "git_blob_bytes": 1394,
+      "git_blob_sha256": "3d38685a61825342c70c124d7758ea31c87099a08265313e0d1e91444a8d7e6f"
+    },
+    {
+      "path": ".maixpy/imu-negotiation-fix-20261011/manifest.json",
+      "bytes": 18253,
+      "sha256": "1c996ea4c1ef07ccfd765ee52f3f3286697d80c262b0d0de06546a50176a4f11",
+      "git_blob_bytes": 18253,
+      "git_blob_sha256": "1c996ea4c1ef07ccfd765ee52f3f3286697d80c262b0d0de06546a50176a4f11"
+    },
+    {
+      "path": ".maixpy/imu-negotiation-fix-20261011/PLAN.md",
+      "bytes": 2468,
+      "sha256": "9c97946c82387e1aa3ab11e22b0a7c6f0b95f4e3accf047bb700658f7b0ca09d",
+      "git_blob_bytes": 2468,
+      "git_blob_sha256": "9c97946c82387e1aa3ab11e22b0a7c6f0b95f4e3accf047bb700658f7b0ca09d"
+    },
+    {
+      "path": ".maixpy/imu-negotiation-fix-20261011/saved-replay-01.json",
+      "bytes": 6016,
+      "sha256": "1b54f0cb45c5dbf1a9530141b40130a7cf890cd26aba5caddb4f825811f7abfd",
+      "git_blob_bytes": 6016,
+      "git_blob_sha256": "1b54f0cb45c5dbf1a9530141b40130a7cf890cd26aba5caddb4f825811f7abfd"
+    },
+    {
+      "path": ".maixpy/imu-negotiation-fix-20261011/synthetic_roundtrip.py",
+      "bytes": 1566,
+      "sha256": "ec721847becdd05fc94a725ced245986d3a9631498d25fad2db0695e0a68361d",
+      "git_blob_bytes": 1566,
+      "git_blob_sha256": "ec721847becdd05fc94a725ced245986d3a9631498d25fad2db0695e0a68361d"
+    },
+    {
+      "path": ".maixpy/imu-negotiation-fix-20261011/VALIDATION.md",
+      "bytes": 9978,
+      "sha256": "901ee0c1c5b8d874a1331c75ca6e26cf4a455a1def63ed2712b5014843832106",
+      "git_blob_bytes": 9978,
+      "git_blob_sha256": "901ee0c1c5b8d874a1331c75ca6e26cf4a455a1def63ed2712b5014843832106"
+    },
+    {
+      "path": ".maixpy/imu-negotiation-fix-20261011/verification-02.json",
+      "bytes": 2822,
+      "sha256": "7dab3700ef8e6b0b17ec588d1778aed3118a85fbc96820e031480a8d88949312",
+      "git_blob_bytes": 2822,
+      "git_blob_sha256": "7dab3700ef8e6b0b17ec588d1778aed3118a85fbc96820e031480a8d88949312"
+    },
+    {
+      "path": ".maixpy/imu-negotiation-fix-20261011/verification-03.json",
+      "bytes": 2822,
+      "sha256": "2fd4e60d4a2d8e831767974a858c85d1b2af0a6bff32a03c53495e70b9898c40",
+      "git_blob_bytes": 2822,
+      "git_blob_sha256": "2fd4e60d4a2d8e831767974a858c85d1b2af0a6bff32a03c53495e70b9898c40"
+    },
+    {
+      "path": ".maixpy/imu-negotiation-fix-20261011/verify.py",
+      "bytes": 3638,
+      "sha256": "97402b25ed0ef6a8ce56e8d8818d2b6ccfd186cdf166826f4fcb4b2bee39f364",
+      "git_blob_bytes": 3638,
+      "git_blob_sha256": "97402b25ed0ef6a8ce56e8d8818d2b6ccfd186cdf166826f4fcb4b2bee39f364"
+    },
+    {
+      "path": ".maixpy/imu-offline-20261008/analysis.json",
+      "bytes": 17758,
+      "sha256": "e8b14375567d87e633fa7cfd1cff5a28123569f9819fbd5b86e8e8604d582c9e",
+      "git_blob_bytes": 17758,
+      "git_blob_sha256": "e8b14375567d87e633fa7cfd1cff5a28123569f9819fbd5b86e8e8604d582c9e"
+    },
+    {
+      "path": ".maixpy/imu-offline-20261008/analyze_ulog.py",
+      "bytes": 6787,
+      "sha256": "834f7f84fdcea41a736eb727b2de5e11fef1166f38067fd982b77b690727bcf1",
+      "git_blob_bytes": 6787,
+      "git_blob_sha256": "834f7f84fdcea41a736eb727b2de5e11fef1166f38067fd982b77b690727bcf1"
+    },
+    {
+      "path": ".maixpy/imu-offline-20261008/bench_io.py",
+      "bytes": 6544,
+      "sha256": "e4c1eeb6c471c883141e2b2184197c50687483750bcb2630d55a0ab9a5f6d05d",
+      "git_blob_bytes": 6544,
+      "git_blob_sha256": "e4c1eeb6c471c883141e2b2184197c50687483750bcb2630d55a0ab9a5f6d05d"
+    },
+    {
+      "path": ".maixpy/imu-offline-20261008/capture_guard.py",
+      "bytes": 1529,
+      "sha256": "269213147774d04368d4688205bbc7cb443a9ccb02849f6fc7d0008eed2623d7",
+      "git_blob_bytes": 1529,
+      "git_blob_sha256": "269213147774d04368d4688205bbc7cb443a9ccb02849f6fc7d0008eed2623d7"
+    },
+    {
+      "path": ".maixpy/imu-offline-20261008/PLAN.md",
+      "bytes": 2077,
+      "sha256": "7dbe9a9546df02d6925290738434bad941e273102ec1bff2fffef249816cfab2",
+      "git_blob_bytes": 2077,
+      "git_blob_sha256": "7dbe9a9546df02d6925290738434bad941e273102ec1bff2fffef249816cfab2"
+    },
+    {
+      "path": ".maixpy/imu-offline-20261008/PX4_IMU_OFFLINE_VALIDATION.md",
+      "bytes": 13108,
+      "sha256": "c9c4bf571b8ac8ded850a871a6d06b6894534af3c52d00f91ce6acd87a861f6c",
+      "git_blob_bytes": 13108,
+      "git_blob_sha256": "c9c4bf571b8ac8ded850a871a6d06b6894534af3c52d00f91ce6acd87a861f6c"
+    },
+    {
+      "path": ".maixpy/imu-offline-20261008/test_analysis.py",
+      "bytes": 1118,
+      "sha256": "849fff1f867e19cf0cd995f49617bfec631aa19c2d5562cc545853e74e7c9de9",
+      "git_blob_bytes": 1118,
+      "git_blob_sha256": "849fff1f867e19cf0cd995f49617bfec631aa19c2d5562cc545853e74e7c9de9"
+    },
+    {
+      "path": ".maixpy/imu-offline-20261008/test_capture_guard.py",
+      "bytes": 2296,
+      "sha256": "ac572406e784acfb1e91e32e30f03c590f35aec3aaea7f6757094cf412ece0aa",
+      "git_blob_bytes": 2296,
+      "git_blob_sha256": "ac572406e784acfb1e91e32e30f03c590f35aec3aaea7f6757094cf412ece0aa"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/analysis.json",
+      "bytes": 1163278,
+      "sha256": "684352252dd428aedd5cf6d8f33923b2a0daad8aee49a345f5bc72fc9b4449c7",
+      "git_blob_bytes": 1163278,
+      "git_blob_sha256": "684352252dd428aedd5cf6d8f33923b2a0daad8aee49a345f5bc72fc9b4449c7"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/analyze.py",
+      "bytes": 5572,
+      "sha256": "a2654a4d3f82e94e3c686bcc0842ac6a6aaa7cbe2ce5d7f4473345489b13f875",
+      "git_blob_bytes": 5572,
+      "git_blob_sha256": "a2654a4d3f82e94e3c686bcc0842ac6a6aaa7cbe2ce5d7f4473345489b13f875"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/artifact_inventory.py",
+      "bytes": 762,
+      "sha256": "bb4f3f1fe9f9fe2b5ea39126eb4e9da20f910aa13a2a024198aee79c5bd216e2",
+      "git_blob_bytes": 762,
+      "git_blob_sha256": "bb4f3f1fe9f9fe2b5ea39126eb4e9da20f910aa13a2a024198aee79c5bd216e2"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/attestation.json",
+      "bytes": 606,
+      "sha256": "25405f8584569945ecd974caa4463eb3a010e62628b1f3fe2f5ea6a42497227d",
+      "git_blob_bytes": 606,
+      "git_blob_sha256": "25405f8584569945ecd974caa4463eb3a010e62628b1f3fe2f5ea6a42497227d"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board_after.py",
+      "bytes": 1250,
+      "sha256": "c909785cd75158dc5ce3a8d16630ce615e974840307aa429c5c6ff15e268b31a",
+      "git_blob_bytes": 1250,
+      "git_blob_sha256": "c909785cd75158dc5ce3a8d16630ce615e974840307aa429c5c6ff15e268b31a"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board_preflight.py",
+      "bytes": 1574,
+      "sha256": "7281b798d221c071661d0016b225e16d0fb2193a297f56d591b3c8ce0dc4d792",
+      "git_blob_bytes": 1574,
+      "git_blob_sha256": "7281b798d221c071661d0016b225e16d0fb2193a297f56d591b3c8ce0dc4d792"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board_tools_test.py",
+      "bytes": 1971,
+      "sha256": "153fdf198dacae6a9650be7d01ca2b96cd04274e684b80cc2d8eca6a5db0d82d",
+      "git_blob_bytes": 1971,
+      "git_blob_sha256": "153fdf198dacae6a9650be7d01ca2b96cd04274e684b80cc2d8eca6a5db0d82d"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/board-preflight.json",
+      "bytes": 4369,
+      "sha256": "d93f7d6c5808a9268bb791f2f84effab2c5c74ee64e9e4a8828518e2f67f2525",
+      "git_blob_bytes": 4369,
+      "git_blob_sha256": "d93f7d6c5808a9268bb791f2f84effab2c5c74ee64e9e4a8828518e2f67f2525"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/capture-audit.json",
+      "bytes": 3669,
+      "sha256": "b939ddc3e5b585edf3f09de7f2e79d2893bc395ebfb8b97e89c0f17d31bf112e",
+      "git_blob_bytes": 3669,
+      "git_blob_sha256": "b939ddc3e5b585edf3f09de7f2e79d2893bc395ebfb8b97e89c0f17d31bf112e"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/compare.py",
+      "bytes": 1546,
+      "sha256": "5a4842ab0934f292a7bc01c8593ea319983d2fc508ca6befcf0da865b4eec7e4",
+      "git_blob_bytes": 1546,
+      "git_blob_sha256": "5a4842ab0934f292a7bc01c8593ea319983d2fc508ca6befcf0da865b4eec7e4"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/comparison.json",
+      "bytes": 18448,
+      "sha256": "9a111bf634d81fcd8b6b75f7c5bda639c38cbab1e5df786f759fac1b3048d3c2",
+      "git_blob_bytes": 18448,
+      "git_blob_sha256": "9a111bf634d81fcd8b6b75f7c5bda639c38cbab1e5df786f759fac1b3048d3c2"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/coordinator.py",
+      "bytes": 12622,
+      "sha256": "a36c5b97fdd5432be399f47ea7c581f409f13db37013b8ffc9729aafbbb42381",
+      "git_blob_bytes": 12622,
+      "git_blob_sha256": "a36c5b97fdd5432be399f47ea7c581f409f13db37013b8ffc9729aafbbb42381"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/deployment.json",
+      "bytes": 212,
+      "sha256": "b45724b2dd1dfa6d633e992bcd96d15d4cace6e060b1fa2d1711af67a64c46f5",
+      "git_blob_bytes": 212,
+      "git_blob_sha256": "b45724b2dd1dfa6d633e992bcd96d15d4cace6e060b1fa2d1711af67a64c46f5"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/deployment-01.json",
+      "bytes": 111,
+      "sha256": "0076922f1600a43ba75158d9078b8799466dd85a2c95f345afbaf4b19c5fd63f",
+      "git_blob_bytes": 111,
+      "git_blob_sha256": "0076922f1600a43ba75158d9078b8799466dd85a2c95f345afbaf4b19c5fd63f"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/environment.json",
+      "bytes": 4449,
+      "sha256": "c2ab885448773b5273823c6a06b88731b02d947ab44d9187a3c8b29d582da334",
+      "git_blob_bytes": 4449,
+      "git_blob_sha256": "c2ab885448773b5273823c6a06b88731b02d947ab44d9187a3c8b29d582da334"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/expected.json",
+      "bytes": 3893,
+      "sha256": "99b05c7d9f0a69b3c9c87a7030816828a2fbf1c0615cd40c3f728a00cce31c90",
+      "git_blob_bytes": 3893,
+      "git_blob_sha256": "99b05c7d9f0a69b3c9c87a7030816828a2fbf1c0615cd40c3f728a00cce31c90"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/expected-01.json",
+      "bytes": 3862,
+      "sha256": "a1dba4bd0cf725c72d445b5dbf23470410b3cf75b1ed7dd5dbd5580512ab2489",
+      "git_blob_bytes": 3862,
+      "git_blob_sha256": "a1dba4bd0cf725c72d445b5dbf23470410b3cf75b1ed7dd5dbd5580512ab2489"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/expected-02.json",
+      "bytes": 3893,
+      "sha256": "99b05c7d9f0a69b3c9c87a7030816828a2fbf1c0615cd40c3f728a00cce31c90",
+      "git_blob_bytes": 3893,
+      "git_blob_sha256": "99b05c7d9f0a69b3c9c87a7030816828a2fbf1c0615cd40c3f728a00cce31c90"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/HANDOFF.md",
+      "bytes": 3595,
+      "sha256": "50ee55af5b22e5def44939951149b67319ecf69d4864eb3f4ee102eaf8018dcb",
+      "git_blob_bytes": 3595,
+      "git_blob_sha256": "50ee55af5b22e5def44939951149b67319ecf69d4864eb3f4ee102eaf8018dcb"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/launch.py",
+      "bytes": 578,
+      "sha256": "e728389d306d525e5990c65d97579f438808ababa1c921bfe1bb8c8f2ef282f8",
+      "git_blob_bytes": 578,
+      "git_blob_sha256": "e728389d306d525e5990c65d97579f438808ababa1c921bfe1bb8c8f2ef282f8"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/manifest.json",
+      "bytes": 28561,
+      "sha256": "36466499bea6cbfc6845468e155d8d42580e5ade5ab1180b5ac1d1c83adf8d6b",
+      "git_blob_bytes": 28561,
+      "git_blob_sha256": "36466499bea6cbfc6845468e155d8d42580e5ade5ab1180b5ac1d1c83adf8d6b"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/monitor.py",
+      "bytes": 2892,
+      "sha256": "56c0a4f17fca640a705bbe1cc6d01f755abc4892e535a03baef846627d089350",
+      "git_blob_bytes": 2892,
+      "git_blob_sha256": "56c0a4f17fca640a705bbe1cc6d01f755abc4892e535a03baef846627d089350"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/package_sources.py",
+      "bytes": 777,
+      "sha256": "f60a55ad0e94f5edec747db8eb5b3b6f0eb70534077403240942277a363ee202",
+      "git_blob_bytes": 777,
+      "git_blob_sha256": "f60a55ad0e94f5edec747db8eb5b3b6f0eb70534077403240942277a363ee202"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/PLAN.md",
+      "bytes": 1701,
+      "sha256": "5f98b78f3a13d342fefde71a6f1e6aa199365575ef4be96e64c8b24f2fa39e3f",
+      "git_blob_bytes": 1701,
+      "git_blob_sha256": "5f98b78f3a13d342fefde71a6f1e6aa199365575ef4be96e64c8b24f2fa39e3f"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/preservation-check.json",
+      "bytes": 14045,
+      "sha256": "8276c3b706c1355f5a39ac83358d179580b308d092db2b2633e11badcecfb907",
+      "git_blob_bytes": 14045,
+      "git_blob_sha256": "8276c3b706c1355f5a39ac83358d179580b308d092db2b2633e11badcecfb907"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/previous_coordinator.py",
+      "bytes": 13869,
+      "sha256": "28dac9fdb10035588507dfe4db8c36cbb53d8a804687f8b21a153d1e45abcdbf",
+      "git_blob_bytes": 13869,
+      "git_blob_sha256": "28dac9fdb10035588507dfe4db8c36cbb53d8a804687f8b21a153d1e45abcdbf"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/receive.py",
+      "bytes": 2135,
+      "sha256": "615eb5af9d4de4435efd21f7d69560f7786003825f6f0f2d24957b6e181268ee",
+      "git_blob_bytes": 2135,
+      "git_blob_sha256": "615eb5af9d4de4435efd21f7d69560f7786003825f6f0f2d24957b6e181268ee"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/RESULT.md",
+      "bytes": 10911,
+      "sha256": "8d3c02de8e6cda6fcca212e506b4e93d98bbc967d2ad964166d4f941ddc61393",
+      "git_blob_bytes": 10911,
+      "git_blob_sha256": "8d3c02de8e6cda6fcca212e506b4e93d98bbc967d2ad964166d4f941ddc61393"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/seal.py",
+      "bytes": 6405,
+      "sha256": "43fe3720e9593943ea90261df6c4df7463070f0f6acd87cdb0e0fbee8f7415f5",
+      "git_blob_bytes": 6405,
+      "git_blob_sha256": "43fe3720e9593943ea90261df6c4df7463070f0f6acd87cdb0e0fbee8f7415f5"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/source_timing.py",
+      "bytes": 2377,
+      "sha256": "e8634301cf5bef347ef687e2b96da64b8fb8a30a91e523f98cf067fa33c3f2af",
+      "git_blob_bytes": 2377,
+      "git_blob_sha256": "e8634301cf5bef347ef687e2b96da64b8fb8a30a91e523f98cf067fa33c3f2af"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/source-timing.json",
+      "bytes": 2988,
+      "sha256": "2137ca38207bed14d3db802002bd2f951bb0f2ed1a21b899e7a37f39b5fb15ea",
+      "git_blob_bytes": 2988,
+      "git_blob_sha256": "2137ca38207bed14d3db802002bd2f951bb0f2ed1a21b899e7a37f39b5fb15ea"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/stop.py",
+      "bytes": 546,
+      "sha256": "3e00761be2674db81f2748b6b88f0b17220ceff966c90383e6aeb44467dc0be5",
+      "git_blob_bytes": 546,
+      "git_blob_sha256": "3e00761be2674db81f2748b6b88f0b17220ceff966c90383e6aeb44467dc0be5"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/test_compare.py",
+      "bytes": 3546,
+      "sha256": "84f048da8278be64b68ff8c1b42552796fc211cf85efdfad69c47f1d317d2fb7",
+      "git_blob_bytes": 3546,
+      "git_blob_sha256": "84f048da8278be64b68ff8c1b42552796fc211cf85efdfad69c47f1d317d2fb7"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/test_reader_profile.py",
+      "bytes": 4815,
+      "sha256": "514b1a6c66c3d40a49968a258a88c53bdc4c610972f95b1a154ca9dfb64f0851",
+      "git_blob_bytes": 4815,
+      "git_blob_sha256": "514b1a6c66c3d40a49968a258a88c53bdc4c610972f95b1a154ca9dfb64f0851"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/test_supervisor.py",
+      "bytes": 2244,
+      "sha256": "927d8b95cb572e601cf1184ccef0d6193fdf1d43def8d9085a447a72f7ab9e47",
+      "git_blob_bytes": 2244,
+      "git_blob_sha256": "927d8b95cb572e601cf1184ccef0d6193fdf1d43def8d9085a447a72f7ab9e47"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/test_tools.py",
+      "bytes": 4354,
+      "sha256": "f39e2ae9b5049c9088cae3b43f1d6b65abd21a69f30459376eb580cee768e6ed",
+      "git_blob_bytes": 4354,
+      "git_blob_sha256": "f39e2ae9b5049c9088cae3b43f1d6b65abd21a69f30459376eb580cee768e6ed"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/tools-expected.json",
+      "bytes": 972,
+      "sha256": "60e3210bbf4121ca80f589797e961162950d36b270c2650c23a12f9e82a95cbe",
+      "git_blob_bytes": 972,
+      "git_blob_sha256": "60e3210bbf4121ca80f589797e961162950d36b270c2650c23a12f9e82a95cbe"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/tools-parity.json",
+      "bytes": 1218,
+      "sha256": "90327187c16e958667c817e85e0234e1ef45fa19dbea2560bdcf81ac6bb2d9c2",
+      "git_blob_bytes": 1218,
+      "git_blob_sha256": "90327187c16e958667c817e85e0234e1ef45fa19dbea2560bdcf81ac6bb2d9c2"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/tools-parity-01.json",
+      "bytes": 1076,
+      "sha256": "b73e163555ed6fd8bcfcbf696dfac9d37dde36f5fc10a3610b9fa1937f655bbc",
+      "git_blob_bytes": 1076,
+      "git_blob_sha256": "b73e163555ed6fd8bcfcbf696dfac9d37dde36f5fc10a3610b9fa1937f655bbc"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/trial_tools.py",
+      "bytes": 4603,
+      "sha256": "4416819f77402d4a486bb21f2e305287974fb0b5dab9fb8112e19531915db14e",
+      "git_blob_bytes": 4603,
+      "git_blob_sha256": "4416819f77402d4a486bb21f2e305287974fb0b5dab9fb8112e19531915db14e"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/verification.json",
+      "bytes": 1541,
+      "sha256": "e34d49f4b5f3c06c0ffe7e85027847c94973e23d9862454c9071490d5742c5c3",
+      "git_blob_bytes": 1541,
+      "git_blob_sha256": "e34d49f4b5f3c06c0ffe7e85027847c94973e23d9862454c9071490d5742c5c3"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/verify_evidence.py",
+      "bytes": 9848,
+      "sha256": "1b5a84d973fbe4af12518de11bad32381bd1459115f42910d50de98d52cc5cc5",
+      "git_blob_bytes": 9848,
+      "git_blob_sha256": "1b5a84d973fbe4af12518de11bad32381bd1459115f42910d50de98d52cc5cc5"
+    },
+    {
+      "path": ".maixpy/imu-reader-plan-20261011/verification.json",
+      "bytes": 2820,
+      "sha256": "5c7bd8fd30549d1cc712eaa999052301f0c1c34eb87ac7f899859a27ecaf3411",
+      "git_blob_bytes": 2820,
+      "git_blob_sha256": "5c7bd8fd30549d1cc712eaa999052301f0c1c34eb87ac7f899859a27ecaf3411"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/analysis.json",
+      "bytes": 18301,
+      "sha256": "c620bb8305001ad4c1f15610340b752b111473698ff27e9513530c64f84bf545",
+      "git_blob_bytes": 18301,
+      "git_blob_sha256": "c620bb8305001ad4c1f15610340b752b111473698ff27e9513530c64f84bf545"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/DIAGNOSIS.md",
+      "bytes": 13020,
+      "sha256": "1d2010641d5fc48b3b69cd438dd52afd0c5304caba8444a2bfe81b7632003191",
+      "git_blob_bytes": 13020,
+      "git_blob_sha256": "1d2010641d5fc48b3b69cd438dd52afd0c5304caba8444a2bfe81b7632003191"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/diagnosis.py",
+      "bytes": 11016,
+      "sha256": "17510e9951d4e05294d13d8934d4866d502f210e4eebdf9133b392df8454e948",
+      "git_blob_bytes": 11016,
+      "git_blob_sha256": "17510e9951d4e05294d13d8934d4866d502f210e4eebdf9133b392df8454e948"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/manifest.json",
+      "bytes": 11295,
+      "sha256": "bdc4bef5f8c9646ec1df8692488ecb1d98c8ab176ed17a566bd880cefbcc4f4c",
+      "git_blob_bytes": 11295,
+      "git_blob_sha256": "bdc4bef5f8c9646ec1df8692488ecb1d98c8ab176ed17a566bd880cefbcc4f4c"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/PLAN.md",
+      "bytes": 862,
+      "sha256": "02dc2ce0ec42fcbd6bc6d983c9a1eb673070173cd7cab1a3bb8fe1d2ff2e4608",
+      "git_blob_bytes": 862,
+      "git_blob_sha256": "02dc2ce0ec42fcbd6bc6d983c9a1eb673070173cd7cab1a3bb8fe1d2ff2e4608"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/preservation-check.json",
+      "bytes": 733,
+      "sha256": "0ca4ecdc0cfcd8e6dd0ba1715ac5420cd0c9c16a86cc517a3659997034c31928",
+      "git_blob_bytes": 733,
+      "git_blob_sha256": "0ca4ecdc0cfcd8e6dd0ba1715ac5420cd0c9c16a86cc517a3659997034c31928"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/seal.py",
+      "bytes": 4920,
+      "sha256": "7d1242ddce56b7d1be6d4c985b603072f84b466fccd6e08544d1dfefebaf3a0a",
+      "git_blob_bytes": 4920,
+      "git_blob_sha256": "7d1242ddce56b7d1be6d4c985b603072f84b466fccd6e08544d1dfefebaf3a0a"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/test_diagnosis.py",
+      "bytes": 6902,
+      "sha256": "49fad3f001e6194635f4a06a462b5213c32760f758d7ad9014b59d4741db1be6",
+      "git_blob_bytes": 6902,
+      "git_blob_sha256": "49fad3f001e6194635f4a06a462b5213c32760f758d7ad9014b59d4741db1be6"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/verification.json",
+      "bytes": 3212,
+      "sha256": "213998532900e051f7cfd9114ff9c96d9d05c08a619c5192e74f76a4dd4b1895",
+      "git_blob_bytes": 3212,
+      "git_blob_sha256": "213998532900e051f7cfd9114ff9c96d9d05c08a619c5192e74f76a4dd4b1895"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/verify.py",
+      "bytes": 8070,
+      "sha256": "9e3f290cb9e1c3748156441ad28ce3796ec7483ef174d6038d28f4a0bd254c87",
+      "git_blob_bytes": 8070,
+      "git_blob_sha256": "9e3f290cb9e1c3748156441ad28ce3796ec7483ef174d6038d28f4a0bd254c87"
+    },
+    {
+      "path": ".maixpy/imu-startup-diagnosis-20261011/DIAGNOSIS.md",
+      "bytes": 5978,
+      "sha256": "c1b2eac2b7ea1cb031e07bcb9bd42d112f0432e5d64347890e5513bc28c9c7a8",
+      "git_blob_bytes": 5978,
+      "git_blob_sha256": "c1b2eac2b7ea1cb031e07bcb9bd42d112f0432e5d64347890e5513bc28c9c7a8"
+    },
+    {
+      "path": ".maixpy/imu-startup-diagnosis-20261011/reproduce.py",
+      "bytes": 4693,
+      "sha256": "127e16191b3aadbefd994e67b8fa96a1b3d46dfa36230145908885c095c1e20f",
+      "git_blob_bytes": 4693,
+      "git_blob_sha256": "127e16191b3aadbefd994e67b8fa96a1b3d46dfa36230145908885c095c1e20f"
+    },
+    {
+      "path": ".maixpy/imu-startup-fix-20261011/manifest.json",
+      "bytes": 5654,
+      "sha256": "9e92d75627c1101bac6f0be195f241b2bf2bbef52d686b39db6e682d6600582e",
+      "git_blob_bytes": 5654,
+      "git_blob_sha256": "9e92d75627c1101bac6f0be195f241b2bf2bbef52d686b39db6e682d6600582e"
+    },
+    {
+      "path": ".maixpy/imu-startup-fix-20261011/PLAN.md",
+      "bytes": 5641,
+      "sha256": "6626028e66c59553946c9c10d2d34a737c9d952f8b074861b5779ae9a77ec0a3",
+      "git_blob_bytes": 5641,
+      "git_blob_sha256": "6626028e66c59553946c9c10d2d34a737c9d952f8b074861b5779ae9a77ec0a3"
+    },
+    {
+      "path": ".maixpy/imu-startup-fix-20261011/saved-replay.json",
+      "bytes": 5284,
+      "sha256": "2848ac1aa69c8fa790bc7c9d1e740ad067af326b53c8e6029158cc446343870c",
+      "git_blob_bytes": 5284,
+      "git_blob_sha256": "2848ac1aa69c8fa790bc7c9d1e740ad067af326b53c8e6029158cc446343870c"
+    },
+    {
+      "path": ".maixpy/imu-startup-fix-20261011/saved-replay-03.json",
+      "bytes": 5284,
+      "sha256": "2848ac1aa69c8fa790bc7c9d1e740ad067af326b53c8e6029158cc446343870c",
+      "git_blob_bytes": 5284,
+      "git_blob_sha256": "2848ac1aa69c8fa790bc7c9d1e740ad067af326b53c8e6029158cc446343870c"
+    },
+    {
+      "path": ".maixpy/imu-startup-fix-20261011/VALIDATION.md",
+      "bytes": 9687,
+      "sha256": "65033870f5c3b260c8afca8c49ba147497a68d94a96c9d6f84c0dcfe13774ebf",
+      "git_blob_bytes": 9687,
+      "git_blob_sha256": "65033870f5c3b260c8afca8c49ba147497a68d94a96c9d6f84c0dcfe13774ebf"
+    },
+    {
+      "path": ".maixpy/imu-startup-fix-20261011/verification.json",
+      "bytes": 2170,
+      "sha256": "cccfaede23d44b1b638a1bf0023543b7f37a353254a5d5638c54a7e74d44743d",
+      "git_blob_bytes": 2170,
+      "git_blob_sha256": "cccfaede23d44b1b638a1bf0023543b7f37a353254a5d5638c54a7e74d44743d"
+    },
+    {
+      "path": ".maixpy/imu-startup-fix-20261011/verification-02.json",
+      "bytes": 2170,
+      "sha256": "595862eea97388eda45dd0c9f08ef8740812405550504b86da6765389c33c0f4",
+      "git_blob_bytes": 2170,
+      "git_blob_sha256": "595862eea97388eda45dd0c9f08ef8740812405550504b86da6765389c33c0f4"
+    },
+    {
+      "path": ".maixpy/imu-startup-fix-20261011/verification-03.json",
+      "bytes": 2170,
+      "sha256": "b1e76c458d056092fa8725bada7120a27e0fa79ea42a38c4b05e99a06dd93e2f",
+      "git_blob_bytes": 2170,
+      "git_blob_sha256": "b1e76c458d056092fa8725bada7120a27e0fa79ea42a38c4b05e99a06dd93e2f"
+    },
+    {
+      "path": ".maixpy/imu-startup-fix-20261011/verify.py",
+      "bytes": 3229,
+      "sha256": "ffa3cd97f7c509cccfeeb6383b1b67b35af41b95157422845d1f4d27f4ac842a",
+      "git_blob_bytes": 3229,
+      "git_blob_sha256": "ffa3cd97f7c509cccfeeb6383b1b67b35af41b95157422845d1f4d27f4ac842a"
+    },
+    {
+      "path": ".maixpy/imu-transport-20261010/rate_control.py",
+      "bytes": 2093,
+      "sha256": "995b4863523bcc8feb60c25113e92e421411d254620f2ded0588e88cd8120120",
+      "git_blob_bytes": 2093,
+      "git_blob_sha256": "995b4863523bcc8feb60c25113e92e421411d254620f2ded0588e88cd8120120"
+    },
+    {
+      "path": ".maixpy/imu-transport-20261010/src__modules__sensors__Integrator.hpp",
+      "bytes": 7059,
+      "sha256": "860941bb8cfcccc151ea12cfd2b61265bd974182ece648aac8424df18c9d1c26",
+      "git_blob_bytes": 7059,
+      "git_blob_sha256": "860941bb8cfcccc151ea12cfd2b61265bd974182ece648aac8424df18c9d1c26"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/analyze_failure.py",
+      "bytes": 5354,
+      "sha256": "0d93d41f1d08adfbc4381e7e9cacc0afc6b778d63b519f0e61214d1f546a3fb1",
+      "git_blob_bytes": 5354,
+      "git_blob_sha256": "0d93d41f1d08adfbc4381e7e9cacc0afc6b778d63b519f0e61214d1f546a3fb1"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/attestation.json",
+      "bytes": 411,
+      "sha256": "5003a32ab42f39c57977300e63b4b15a495aac6c7e22f23d32b974d604d5039d",
+      "git_blob_bytes": 411,
+      "git_blob_sha256": "5003a32ab42f39c57977300e63b4b15a495aac6c7e22f23d32b974d604d5039d"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/board_after.py",
+      "bytes": 1250,
+      "sha256": "c909785cd75158dc5ce3a8d16630ce615e974840307aa429c5c6ff15e268b31a",
+      "git_blob_bytes": 1250,
+      "git_blob_sha256": "c909785cd75158dc5ce3a8d16630ce615e974840307aa429c5c6ff15e268b31a"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/board_metrics.py",
+      "bytes": 1238,
+      "sha256": "4393a0ef465b506c68a1bcf5da3c30e3aff4de3eb56c372bea36460cafb3273d",
+      "git_blob_bytes": 1238,
+      "git_blob_sha256": "4393a0ef465b506c68a1bcf5da3c30e3aff4de3eb56c372bea36460cafb3273d"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/board_preflight.py",
+      "bytes": 1526,
+      "sha256": "741bd044a3b20802c5b9b129c4c08e91e3e078903d12945bbfc69feadff04355",
+      "git_blob_bytes": 1526,
+      "git_blob_sha256": "741bd044a3b20802c5b9b129c4c08e91e3e078903d12945bbfc69feadff04355"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/board_test.py",
+      "bytes": 2150,
+      "sha256": "91e5fcb4c9a480a0f6f75829089408c4106fc39f7816dec54a239875b3a9488b",
+      "git_blob_bytes": 2150,
+      "git_blob_sha256": "91e5fcb4c9a480a0f6f75829089408c4106fc39f7816dec54a239875b3a9488b"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/board-after.json",
+      "bytes": 3094,
+      "sha256": "1aea3d25dc119af1deda60510086dd835128eae8e63f3a932928fbf69d704525",
+      "git_blob_bytes": 3094,
+      "git_blob_sha256": "1aea3d25dc119af1deda60510086dd835128eae8e63f3a932928fbf69d704525"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/board-preflight.json",
+      "bytes": 3228,
+      "sha256": "63e66141e7f94b7f6ad3cc4c03005939d800181242a1031254b8651e2168c89c",
+      "git_blob_bytes": 3228,
+      "git_blob_sha256": "63e66141e7f94b7f6ad3cc4c03005939d800181242a1031254b8651e2168c89c"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/capture-audit.json",
+      "bytes": 2417,
+      "sha256": "2f1dae0625ca96ba6110dc7034c311498e68f43c5db07debb29118bee1f4af95",
+      "git_blob_bytes": 2417,
+      "git_blob_sha256": "2f1dae0625ca96ba6110dc7034c311498e68f43c5db07debb29118bee1f4af95"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/coordinator.py",
+      "bytes": 13869,
+      "sha256": "28dac9fdb10035588507dfe4db8c36cbb53d8a804687f8b21a153d1e45abcdbf",
+      "git_blob_bytes": 13869,
+      "git_blob_sha256": "28dac9fdb10035588507dfe4db8c36cbb53d8a804687f8b21a153d1e45abcdbf"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/during-01.json",
+      "bytes": 1488,
+      "sha256": "df67932fd2bff7d1a81d18f8b36edb1d945a3245f2082a46917dbce6fa4a43a4",
+      "git_blob_bytes": 1488,
+      "git_blob_sha256": "df67932fd2bff7d1a81d18f8b36edb1d945a3245f2082a46917dbce6fa4a43a4"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/environment.json",
+      "bytes": 3264,
+      "sha256": "3bcb720e5dc1f20162e34a7a7061ba64c4f484ac3b6db2da77050b13d544d984",
+      "git_blob_bytes": 3264,
+      "git_blob_sha256": "3bcb720e5dc1f20162e34a7a7061ba64c4f484ac3b6db2da77050b13d544d984"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/expected.json",
+      "bytes": 3186,
+      "sha256": "ff80e3ce0c5f5ef82422db4300ab4d2e2ae3fbd7f82a014b62e04783f5285b92",
+      "git_blob_bytes": 3186,
+      "git_blob_sha256": "ff80e3ce0c5f5ef82422db4300ab4d2e2ae3fbd7f82a014b62e04783f5285b92"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/failure-analysis.json",
+      "bytes": 6501,
+      "sha256": "ed1914047cff014b68d5db937bc6f64436b0f5f747a14e5ab37c4a3b7ea7c23a",
+      "git_blob_bytes": 6501,
+      "git_blob_sha256": "ed1914047cff014b68d5db937bc6f64436b0f5f747a14e5ab37c4a3b7ea7c23a"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/launch.py",
+      "bytes": 871,
+      "sha256": "c7ed2f4286ab6229da3addc4a34b50fdadb5eb58c629e8203337465624cf1151",
+      "git_blob_bytes": 871,
+      "git_blob_sha256": "c7ed2f4286ab6229da3addc4a34b50fdadb5eb58c629e8203337465624cf1151"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/manifest.json",
+      "bytes": 22272,
+      "sha256": "d40e023bd27b99e313d7f5b32fddcb033c432cd58de5239caffb70eb9b4a901c",
+      "git_blob_bytes": 22272,
+      "git_blob_sha256": "d40e023bd27b99e313d7f5b32fddcb033c432cd58de5239caffb70eb9b4a901c"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/PLAN.md",
+      "bytes": 2082,
+      "sha256": "65ec82d208d87cf0f8749e2c9c5d9dadddda827376f86b8e0959c473981fa7a9",
+      "git_blob_bytes": 2082,
+      "git_blob_sha256": "65ec82d208d87cf0f8749e2c9c5d9dadddda827376f86b8e0959c473981fa7a9"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/RESULT.md",
+      "bytes": 12717,
+      "sha256": "30754e9169c85c02543e27241a04f725eb2bbe56bf8288bf076b3c631893be6a",
+      "git_blob_bytes": 12717,
+      "git_blob_sha256": "30754e9169c85c02543e27241a04f725eb2bbe56bf8288bf076b3c631893be6a"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/source/log_writer_mavlink.cpp",
+      "bytes": 5207,
+      "sha256": "ae48cc6de1cbfc0edefc0f15c37b2886472caa66f49d4b817a47607eddd35131",
+      "git_blob_bytes": 5207,
+      "git_blob_sha256": "ae48cc6de1cbfc0edefc0f15c37b2886472caa66f49d4b817a47607eddd35131"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/source/mavlink_ulog.cpp",
+      "bytes": 7640,
+      "sha256": "898784d79d5a52d55213cde233814b1b92d79de570c45d192da3a81c8b2ca40b",
+      "git_blob_bytes": 7640,
+      "git_blob_sha256": "898784d79d5a52d55213cde233814b1b92d79de570c45d192da3a81c8b2ca40b"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/source/README.md",
+      "bytes": 1287,
+      "sha256": "65c2602e88021548025d1c733d3cb273bdc4fcef4a222541d9bd260f37f66fd8",
+      "git_blob_bytes": 1287,
+      "git_blob_sha256": "65c2602e88021548025d1c733d3cb273bdc4fcef4a222541d9bd260f37f66fd8"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/stop.py",
+      "bytes": 645,
+      "sha256": "c1442f63b3443c49bf232b6914285ed28de755f349d4d80812a3c8f2cef6e1fe",
+      "git_blob_bytes": 645,
+      "git_blob_sha256": "c1442f63b3443c49bf232b6914285ed28de755f349d4d80812a3c8f2cef6e1fe"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/test_analysis.py",
+      "bytes": 2115,
+      "sha256": "1564501840254dc14041b4899998a6b3be7bf40ba7fb8d8764e5b0598e47f8e4",
+      "git_blob_bytes": 2115,
+      "git_blob_sha256": "1564501840254dc14041b4899998a6b3be7bf40ba7fb8d8764e5b0598e47f8e4"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/test_scope.py",
+      "bytes": 3032,
+      "sha256": "4c5f2e5403dafa217ec1714a152ee6b576cfcab8efd02db8900fec63df30fc0e",
+      "git_blob_bytes": 3032,
+      "git_blob_sha256": "4c5f2e5403dafa217ec1714a152ee6b576cfcab8efd02db8900fec63df30fc0e"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/verification.json",
+      "bytes": 5672,
+      "sha256": "919c8c9012275226a7dbff5da97221344b5454913b259d5ea16663ea75ee115a",
+      "git_blob_bytes": 5672,
+      "git_blob_sha256": "919c8c9012275226a7dbff5da97221344b5454913b259d5ea16663ea75ee115a"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/verify_evidence.py",
+      "bytes": 10974,
+      "sha256": "315f0e3a5a5fb0c1e9015f80ade99b9314029e8f3a876901eac43288f0aee965",
+      "git_blob_bytes": 10974,
+      "git_blob_sha256": "315f0e3a5a5fb0c1e9015f80ade99b9314029e8f3a876901eac43288f0aee965"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/analysis-02.json",
+      "bytes": 1144736,
+      "sha256": "fdfb910ffbdc26f32a05943eab497aac4ed5a54349b2a776a92645ee6bb38c42",
+      "git_blob_bytes": 1144736,
+      "git_blob_sha256": "fdfb910ffbdc26f32a05943eab497aac4ed5a54349b2a776a92645ee6bb38c42"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/attestation.json",
+      "bytes": 564,
+      "sha256": "a2a537faf8237c8412834e8a47fd2bde137f6e02706342e476746fbf05a6f2d6",
+      "git_blob_bytes": 564,
+      "git_blob_sha256": "a2a537faf8237c8412834e8a47fd2bde137f6e02706342e476746fbf05a6f2d6"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/board_after.py",
+      "bytes": 1250,
+      "sha256": "c909785cd75158dc5ce3a8d16630ce615e974840307aa429c5c6ff15e268b31a",
+      "git_blob_bytes": 1250,
+      "git_blob_sha256": "c909785cd75158dc5ce3a8d16630ce615e974840307aa429c5c6ff15e268b31a"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/board_preflight.py",
+      "bytes": 1574,
+      "sha256": "7281b798d221c071661d0016b225e16d0fb2193a297f56d591b3c8ce0dc4d792",
+      "git_blob_bytes": 1574,
+      "git_blob_sha256": "7281b798d221c071661d0016b225e16d0fb2193a297f56d591b3c8ce0dc4d792"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/board_tools_test.py",
+      "bytes": 1971,
+      "sha256": "153fdf198dacae6a9650be7d01ca2b96cd04274e684b80cc2d8eca6a5db0d82d",
+      "git_blob_bytes": 1971,
+      "git_blob_sha256": "153fdf198dacae6a9650be7d01ca2b96cd04274e684b80cc2d8eca6a5db0d82d"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/board-preflight.json",
+      "bytes": 3228,
+      "sha256": "b019d833a2533d2c544b229d5e7cc1694c04967290a4a3fb2ab448f778a502f5",
+      "git_blob_bytes": 3228,
+      "git_blob_sha256": "b019d833a2533d2c544b229d5e7cc1694c04967290a4a3fb2ab448f778a502f5"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/capture-audit.json",
+      "bytes": 3673,
+      "sha256": "a82b99401226dee68f8d51e42814dc9cd0723310765f46661ba2c8c7566127f5",
+      "git_blob_bytes": 3673,
+      "git_blob_sha256": "a82b99401226dee68f8d51e42814dc9cd0723310765f46661ba2c8c7566127f5"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/collect_evidence.py",
+      "bytes": 746,
+      "sha256": "c77d6f8e1a42087ceee0b98ad20ab78ede55ad2979806d54a74d70f5c40e21dc",
+      "git_blob_bytes": 746,
+      "git_blob_sha256": "c77d6f8e1a42087ceee0b98ad20ab78ede55ad2979806d54a74d70f5c40e21dc"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/coordinator.py",
+      "bytes": 11520,
+      "sha256": "b602f2eccaea8346d27b0b475e52f67c90d6e9e6bb16f3b622d816e011a08eb0",
+      "git_blob_bytes": 11520,
+      "git_blob_sha256": "b602f2eccaea8346d27b0b475e52f67c90d6e9e6bb16f3b622d816e011a08eb0"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/environment.json",
+      "bytes": 3309,
+      "sha256": "3bc3f518f2acd44be26192b20713d1c5101e6bb49f678efe8df94d4fb64f37b3",
+      "git_blob_bytes": 3309,
+      "git_blob_sha256": "3bc3f518f2acd44be26192b20713d1c5101e6bb49f678efe8df94d4fb64f37b3"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/environment-previous.json",
+      "bytes": 3264,
+      "sha256": "3bcb720e5dc1f20162e34a7a7061ba64c4f484ac3b6db2da77050b13d544d984",
+      "git_blob_bytes": 3264,
+      "git_blob_sha256": "3bcb720e5dc1f20162e34a7a7061ba64c4f484ac3b6db2da77050b13d544d984"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/expected.json",
+      "bytes": 3186,
+      "sha256": "ff80e3ce0c5f5ef82422db4300ab4d2e2ae3fbd7f82a014b62e04783f5285b92",
+      "git_blob_bytes": 3186,
+      "git_blob_sha256": "ff80e3ce0c5f5ef82422db4300ab4d2e2ae3fbd7f82a014b62e04783f5285b92"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/launch.py",
+      "bytes": 578,
+      "sha256": "e728389d306d525e5990c65d97579f438808ababa1c921bfe1bb8c8f2ef282f8",
+      "git_blob_bytes": 578,
+      "git_blob_sha256": "e728389d306d525e5990c65d97579f438808ababa1c921bfe1bb8c8f2ef282f8"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/manifest.json",
+      "bytes": 20495,
+      "sha256": "4998a984647f0be93fba98b099b26c471c0b3916e6a90e7a74122baa9c45f6fd",
+      "git_blob_bytes": 20495,
+      "git_blob_sha256": "4998a984647f0be93fba98b099b26c471c0b3916e6a90e7a74122baa9c45f6fd"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/monitor.py",
+      "bytes": 2892,
+      "sha256": "56c0a4f17fca640a705bbe1cc6d01f755abc4892e535a03baef846627d089350",
+      "git_blob_bytes": 2892,
+      "git_blob_sha256": "56c0a4f17fca640a705bbe1cc6d01f755abc4892e535a03baef846627d089350"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/PLAN.md",
+      "bytes": 2063,
+      "sha256": "0910adee879ea15d72209d907a8b0d3b98a31a84dd48b96b585ff273efd31190",
+      "git_blob_bytes": 2063,
+      "git_blob_sha256": "0910adee879ea15d72209d907a8b0d3b98a31a84dd48b96b585ff273efd31190"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/previous_coordinator.py",
+      "bytes": 13869,
+      "sha256": "28dac9fdb10035588507dfe4db8c36cbb53d8a804687f8b21a153d1e45abcdbf",
+      "git_blob_bytes": 13869,
+      "git_blob_sha256": "28dac9fdb10035588507dfe4db8c36cbb53d8a804687f8b21a153d1e45abcdbf"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/receive.py",
+      "bytes": 2080,
+      "sha256": "96b16c1a05bf51d01585943402447373dda2d06424f04264cd08219cc70a0926",
+      "git_blob_bytes": 2080,
+      "git_blob_sha256": "96b16c1a05bf51d01585943402447373dda2d06424f04264cd08219cc70a0926"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/RESULT.md",
+      "bytes": 12010,
+      "sha256": "3b9718b290e716431928f935e8121927b94fc0a9275d4f22362c860646827d9e",
+      "git_blob_bytes": 12010,
+      "git_blob_sha256": "3b9718b290e716431928f935e8121927b94fc0a9275d4f22362c860646827d9e"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/seal_evidence.py",
+      "bytes": 3278,
+      "sha256": "aee045f93ebf1a3209b9c564ffe5cce979fd1bae71a75e4f9fb8c0198ca7c409",
+      "git_blob_bytes": 3278,
+      "git_blob_sha256": "aee045f93ebf1a3209b9c564ffe5cce979fd1bae71a75e4f9fb8c0198ca7c409"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/stop.py",
+      "bytes": 546,
+      "sha256": "3e00761be2674db81f2748b6b88f0b17220ceff966c90383e6aeb44467dc0be5",
+      "git_blob_bytes": 546,
+      "git_blob_sha256": "3e00761be2674db81f2748b6b88f0b17220ceff966c90383e6aeb44467dc0be5"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/test_metrics_summary.py",
+      "bytes": 2578,
+      "sha256": "05fe3ea2f1dea5f213cd617048310114312876573f882f0e745f1b2a9496c951",
+      "git_blob_bytes": 2578,
+      "git_blob_sha256": "05fe3ea2f1dea5f213cd617048310114312876573f882f0e745f1b2a9496c951"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/test_supervisor.py",
+      "bytes": 2244,
+      "sha256": "927d8b95cb572e601cf1184ccef0d6193fdf1d43def8d9085a447a72f7ab9e47",
+      "git_blob_bytes": 2244,
+      "git_blob_sha256": "927d8b95cb572e601cf1184ccef0d6193fdf1d43def8d9085a447a72f7ab9e47"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/test_tools.py",
+      "bytes": 4354,
+      "sha256": "f39e2ae9b5049c9088cae3b43f1d6b65abd21a69f30459376eb580cee768e6ed",
+      "git_blob_bytes": 4354,
+      "git_blob_sha256": "f39e2ae9b5049c9088cae3b43f1d6b65abd21a69f30459376eb580cee768e6ed"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/tools-expected.json",
+      "bytes": 1016,
+      "sha256": "09f33e73ab27e1d3985f0cb6d7d5e52b7d2d0ce502357748e59464590891deb7",
+      "git_blob_bytes": 1016,
+      "git_blob_sha256": "09f33e73ab27e1d3985f0cb6d7d5e52b7d2d0ce502357748e59464590891deb7"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/tools-parity.json",
+      "bytes": 1075,
+      "sha256": "4cfef8f3106d25ee504fa70835a848c698f85f04405511045ba98ef51372eb2c",
+      "git_blob_bytes": 1075,
+      "git_blob_sha256": "4cfef8f3106d25ee504fa70835a848c698f85f04405511045ba98ef51372eb2c"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/trial_analysis.py",
+      "bytes": 6230,
+      "sha256": "28eeadaaa118e321cd172ff007babc16cccd432075ad1d5e05b5e89d59b734d2",
+      "git_blob_bytes": 6230,
+      "git_blob_sha256": "28eeadaaa118e321cd172ff007babc16cccd432075ad1d5e05b5e89d59b734d2"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/trial_tools.py",
+      "bytes": 4603,
+      "sha256": "4416819f77402d4a486bb21f2e305287974fb0b5dab9fb8112e19531915db14e",
+      "git_blob_bytes": 4603,
+      "git_blob_sha256": "4416819f77402d4a486bb21f2e305287974fb0b5dab9fb8112e19531915db14e"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/verification.json",
+      "bytes": 2612,
+      "sha256": "786a762d9b4bb9664c0f158a4a54aae08eb3cfb8bd50ce790eb0202457d6cdef",
+      "git_blob_bytes": 2612,
+      "git_blob_sha256": "786a762d9b4bb9664c0f158a4a54aae08eb3cfb8bd50ce790eb0202457d6cdef"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/verification-02.json",
+      "bytes": 4840,
+      "sha256": "db003750e1fef68b1bd6aa19cf3aa7ed49dd7b1cd8976921b014ab554bbb0206",
+      "git_blob_bytes": 4840,
+      "git_blob_sha256": "db003750e1fef68b1bd6aa19cf3aa7ed49dd7b1cd8976921b014ab554bbb0206"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/verify_evidence.py",
+      "bytes": 11933,
+      "sha256": "37d8b646834dc5a944273d51867604b51927da5e368fda9658f97284cdb09971",
+      "git_blob_bytes": 11933,
+      "git_blob_sha256": "37d8b646834dc5a944273d51867604b51927da5e368fda9658f97284cdb09971"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/verify_tools.py",
+      "bytes": 655,
+      "sha256": "28b102331fa53728a4fbef6bb211f1afca12971c1a63f301fc2d7eb57d3cc993",
+      "git_blob_bytes": 655,
+      "git_blob_sha256": "28b102331fa53728a4fbef6bb211f1afca12971c1a63f301fc2d7eb57d3cc993"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/board_after.py",
+      "bytes": 1235,
+      "sha256": "f1aa74b7221df9d46283aacdae0655de10a83c72b83d08dee538767fbd0f4cb0",
+      "git_blob_bytes": 1235,
+      "git_blob_sha256": "f1aa74b7221df9d46283aacdae0655de10a83c72b83d08dee538767fbd0f4cb0"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/board_preflight.py",
+      "bytes": 1854,
+      "sha256": "2638dcf94d4a0140da6b2af0c6426ce769f7374e2ca2c64473ec965650b167a0",
+      "git_blob_bytes": 1854,
+      "git_blob_sha256": "2638dcf94d4a0140da6b2af0c6426ce769f7374e2ca2c64473ec965650b167a0"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/board-after.json",
+      "bytes": 605,
+      "sha256": "1f52a3be5de1098cebf7f31de52c4c372e35f68e6f3f2563d4dbf0df243c3d6c",
+      "git_blob_bytes": 605,
+      "git_blob_sha256": "1f52a3be5de1098cebf7f31de52c4c372e35f68e6f3f2563d4dbf0df243c3d6c"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/board-preflight.json",
+      "bytes": 3035,
+      "sha256": "47c6b693ab43ca844d364c8d8f295c21942a62fe2e0269fa03767f75f7b2db59",
+      "git_blob_bytes": 3035,
+      "git_blob_sha256": "47c6b693ab43ca844d364c8d8f295c21942a62fe2e0269fa03767f75f7b2db59"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/coordinator.py",
+      "bytes": 12859,
+      "sha256": "7abf10cbd4cbbe434e0b430848ecb1573514c5ab2f423a5b8adf074af249e4b7",
+      "git_blob_bytes": 12859,
+      "git_blob_sha256": "7abf10cbd4cbbe434e0b430848ecb1573514c5ab2f423a5b8adf074af249e4b7"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/diagnose_protocol.py",
+      "bytes": 3211,
+      "sha256": "ff36314b36ceb78e95ed180cee95227283238bc28909e8b0b57cc206163c6770",
+      "git_blob_bytes": 3211,
+      "git_blob_sha256": "ff36314b36ceb78e95ed180cee95227283238bc28909e8b0b57cc206163c6770"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/launch_retry.py",
+      "bytes": 877,
+      "sha256": "a56606f3cb085b3ca4e3bdf359236092810acecfb16fc256e0f13b67ed6376a2",
+      "git_blob_bytes": 877,
+      "git_blob_sha256": "a56606f3cb085b3ca4e3bdf359236092810acecfb16fc256e0f13b67ed6376a2"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/manifest.json",
+      "bytes": 9009,
+      "sha256": "4f212f7f6ded771946c4423fd8a252e54aff1ee2384033023bc15785e7a2f57f",
+      "git_blob_bytes": 9009,
+      "git_blob_sha256": "4f212f7f6ded771946c4423fd8a252e54aff1ee2384033023bc15785e7a2f57f"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/PLAN.md",
+      "bytes": 1756,
+      "sha256": "a303fcdc9a424422b4dab814b786ce2808221e575caba5710894177c7e0941eb",
+      "git_blob_bytes": 1756,
+      "git_blob_sha256": "a303fcdc9a424422b4dab814b786ce2808221e575caba5710894177c7e0941eb"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/protocol-diagnosis.json",
+      "bytes": 1363,
+      "sha256": "8d87cbbea753c586e3a8a80dd55ff9953aae9ab7bf0e8088cd551a6ed63e81b8",
+      "git_blob_bytes": 1363,
+      "git_blob_sha256": "8d87cbbea753c586e3a8a80dd55ff9953aae9ab7bf0e8088cd551a6ed63e81b8"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/RESULT.md",
+      "bytes": 7731,
+      "sha256": "fb4ad89174aa513348560d6e43ce77a6a332be672896bd60329458a666919106",
+      "git_blob_bytes": 7731,
+      "git_blob_sha256": "fb4ad89174aa513348560d6e43ce77a6a332be672896bd60329458a666919106"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/stop_retry.py",
+      "bytes": 649,
+      "sha256": "83f444970028fd4036a836e7e32a6bdb2fa75ab26e2e4ba696b5c48b08d83d9e",
+      "git_blob_bytes": 649,
+      "git_blob_sha256": "83f444970028fd4036a836e7e32a6bdb2fa75ab26e2e4ba696b5c48b08d83d9e"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/test_scope.py",
+      "bytes": 2403,
+      "sha256": "54af0537a8448d75b95d74372e854cb46d5b942bc414269cb59c7927fb63d1e5",
+      "git_blob_bytes": 2403,
+      "git_blob_sha256": "54af0537a8448d75b95d74372e854cb46d5b942bc414269cb59c7927fb63d1e5"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/verification.json",
+      "bytes": 622,
+      "sha256": "11454ca69cef6d9b395596d521e1928b7a4f72939baa05d51a1e41eb190287fc",
+      "git_blob_bytes": 622,
+      "git_blob_sha256": "11454ca69cef6d9b395596d521e1928b7a4f72939baa05d51a1e41eb190287fc"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/verify_evidence.py",
+      "bytes": 3805,
+      "sha256": "ea5e68aff1541750297997c0a485b7ad26d6a113b415a0d36ceda167e6e3c4a3",
+      "git_blob_bytes": 3805,
+      "git_blob_sha256": "ea5e68aff1541750297997c0a485b7ad26d6a113b415a0d36ceda167e6e3c4a3"
+    },
+    {
+      "path": ".maixpy/imu-uart-trial-20261011/attestation.json",
+      "bytes": 371,
+      "sha256": "f0e474d400b00361bc80e3cece49a79f4516005b55e424289d1c7fe5556e7133",
+      "git_blob_bytes": 371,
+      "git_blob_sha256": "f0e474d400b00361bc80e3cece49a79f4516005b55e424289d1c7fe5556e7133"
+    },
+    {
+      "path": ".maixpy/imu-uart-trial-20261011/capture-report.json",
+      "bytes": 1601,
+      "sha256": "de122beddeb75af5c3c3eba12c66bb964e6d53caff68fa15a86ff7b0d820ba24",
+      "git_blob_bytes": 1601,
+      "git_blob_sha256": "de122beddeb75af5c3c3eba12c66bb964e6d53caff68fa15a86ff7b0d820ba24"
+    },
+    {
+      "path": ".maixpy/imu-uart-trial-20261011/coordinator.py",
+      "bytes": 9101,
+      "sha256": "475b7877b8fe07a3d06434ac413446b2058e0dfdfff691550fc08f1b8752882f",
+      "git_blob_bytes": 9101,
+      "git_blob_sha256": "475b7877b8fe07a3d06434ac413446b2058e0dfdfff691550fc08f1b8752882f"
+    },
+    {
+      "path": ".maixpy/imu-uart-trial-20261011/hashes.json",
+      "bytes": 1742,
+      "sha256": "2484faeba1381aec2cc6e4bfa5c55e0bc16c55f0c5034076b448ccbf35fc241f",
+      "git_blob_bytes": 1742,
+      "git_blob_sha256": "2484faeba1381aec2cc6e4bfa5c55e0bc16c55f0c5034076b448ccbf35fc241f"
+    },
+    {
+      "path": ".maixpy/imu-uart-trial-20261011/launch.py",
+      "bytes": 825,
+      "sha256": "2128bdc175f023602583a1be7efee726368f382315ad46a44a81c0c2ac94533e",
+      "git_blob_bytes": 825,
+      "git_blob_sha256": "2128bdc175f023602583a1be7efee726368f382315ad46a44a81c0c2ac94533e"
+    },
+    {
+      "path": ".maixpy/imu-uart-trial-20261011/RESULT.md",
+      "bytes": 5495,
+      "sha256": "dd69deba2db1a1502911c015c9f6ea0608fe4818b285dc1ac8743b6f5a1e514c",
+      "git_blob_bytes": 5495,
+      "git_blob_sha256": "dd69deba2db1a1502911c015c9f6ea0608fe4818b285dc1ac8743b6f5a1e514c"
+    },
+    {
+      "path": ".maixpy/imu-uart-trial-20261011/topics.txt",
+      "bytes": 166,
+      "sha256": "fa434abe98b74a85531a97279c029b6ae8b6061e5d7161cc413e82ebcc105620",
+      "git_blob_bytes": 166,
+      "git_blob_sha256": "fa434abe98b74a85531a97279c029b6ae8b6061e5d7161cc413e82ebcc105620"
+    },
+    {
+      "path": ".maixpy/imu-uart-trial-20261011/trial-preflight.json",
+      "bytes": 415,
+      "sha256": "b6d623170db48ac8115f52529820864e247514c3ecc4359761229eeb978459bd",
+      "git_blob_bytes": 415,
+      "git_blob_sha256": "b6d623170db48ac8115f52529820864e247514c3ecc4359761229eeb978459bd"
+    },
+    {
+      "path": ".maixpy/imu-uart-trial-20261011/verify_evidence.py",
+      "bytes": 1993,
+      "sha256": "7c2e83d076916c8bf565930a460d670d083c6f48397264dfcc45305bae132ff3",
+      "git_blob_bytes": 1993,
+      "git_blob_sha256": "7c2e83d076916c8bf565930a460d670d083c6f48397264dfcc45305bae132ff3"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/analyze.py",
+      "bytes": 5586,
+      "sha256": "03ea576c0a9fd2993a4beb4b634fda2a3e9bad35182ac437e19a970c9c6d258d",
+      "git_blob_bytes": 5586,
+      "git_blob_sha256": "03ea576c0a9fd2993a4beb4b634fda2a3e9bad35182ac437e19a970c9c6d258d"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/analyze_failure.py",
+      "bytes": 4316,
+      "sha256": "7d594df85af60963d454c0dd605034bc7afa353fc35224b8bdc045383e38652e",
+      "git_blob_bytes": 4316,
+      "git_blob_sha256": "7d594df85af60963d454c0dd605034bc7afa353fc35224b8bdc045383e38652e"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/artifact_inventory.py",
+      "bytes": 760,
+      "sha256": "0db8905ae8ffd862083bc4a5f4188961792d98f056f5039c2203b0a2c881a0d7",
+      "git_blob_bytes": 760,
+      "git_blob_sha256": "0db8905ae8ffd862083bc4a5f4188961792d98f056f5039c2203b0a2c881a0d7"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/attestation.json",
+      "bytes": 651,
+      "sha256": "9f9c5753dd5f096e71fe1e4e20606e928bc8d73e28ef2bb702f3097c42f31a41",
+      "git_blob_bytes": 651,
+      "git_blob_sha256": "9f9c5753dd5f096e71fe1e4e20606e928bc8d73e28ef2bb702f3097c42f31a41"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/board_after.py",
+      "bytes": 1250,
+      "sha256": "c909785cd75158dc5ce3a8d16630ce615e974840307aa429c5c6ff15e268b31a",
+      "git_blob_bytes": 1250,
+      "git_blob_sha256": "c909785cd75158dc5ce3a8d16630ce615e974840307aa429c5c6ff15e268b31a"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/board_preflight.py",
+      "bytes": 1574,
+      "sha256": "7281b798d221c071661d0016b225e16d0fb2193a297f56d591b3c8ce0dc4d792",
+      "git_blob_bytes": 1574,
+      "git_blob_sha256": "7281b798d221c071661d0016b225e16d0fb2193a297f56d591b3c8ce0dc4d792"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/board_tools_test.py",
+      "bytes": 1971,
+      "sha256": "153fdf198dacae6a9650be7d01ca2b96cd04274e684b80cc2d8eca6a5db0d82d",
+      "git_blob_bytes": 1971,
+      "git_blob_sha256": "153fdf198dacae6a9650be7d01ca2b96cd04274e684b80cc2d8eca6a5db0d82d"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/board-preflight.json",
+      "bytes": 4001,
+      "sha256": "761aeeebd7664516ffc27675c4d12207a4abab5737ce7dc127fa72ae67284e70",
+      "git_blob_bytes": 4001,
+      "git_blob_sha256": "761aeeebd7664516ffc27675c4d12207a4abab5737ce7dc127fa72ae67284e70"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/coordinator.py",
+      "bytes": 13320,
+      "sha256": "fe025d598b80a482d4048ee71a00559f91f259b84cb3a68e3a0fd59f4be1b1ba",
+      "git_blob_bytes": 13320,
+      "git_blob_sha256": "fe025d598b80a482d4048ee71a00559f91f259b84cb3a68e3a0fd59f4be1b1ba"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/deployment.json",
+      "bytes": 56,
+      "sha256": "cd9dc76231bbfaf0870536cafebc3149d0cc15942f988dfed66f340458f40d6f",
+      "git_blob_bytes": 56,
+      "git_blob_sha256": "cd9dc76231bbfaf0870536cafebc3149d0cc15942f988dfed66f340458f40d6f"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/environment.json",
+      "bytes": 4079,
+      "sha256": "9c6a7a7fccb976262b6e3f45f964618a929e31affa69e8629ec7ac7a44804f9a",
+      "git_blob_bytes": 4079,
+      "git_blob_sha256": "9c6a7a7fccb976262b6e3f45f964618a929e31affa69e8629ec7ac7a44804f9a"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/expected.json",
+      "bytes": 3522,
+      "sha256": "48464e4b4137f30f251a72138635ba4538e0867872c6cdef51b083c76996a92e",
+      "git_blob_bytes": 3522,
+      "git_blob_sha256": "48464e4b4137f30f251a72138635ba4538e0867872c6cdef51b083c76996a92e"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/failure-analysis.json",
+      "bytes": 61420,
+      "sha256": "a3c7e5ed1b2be79734433b4424f7690924f00b34eb476500ecfba2be7d25eebf",
+      "git_blob_bytes": 61420,
+      "git_blob_sha256": "a3c7e5ed1b2be79734433b4424f7690924f00b34eb476500ecfba2be7d25eebf"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/HANDOFF.md",
+      "bytes": 2057,
+      "sha256": "3b8c08c38b99d8348205b9b7b8c7eb66a3f23f4bb1d46dd494d45e8f3d109d8d",
+      "git_blob_bytes": 2057,
+      "git_blob_sha256": "3b8c08c38b99d8348205b9b7b8c7eb66a3f23f4bb1d46dd494d45e8f3d109d8d"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/launch.py",
+      "bytes": 578,
+      "sha256": "e728389d306d525e5990c65d97579f438808ababa1c921bfe1bb8c8f2ef282f8",
+      "git_blob_bytes": 578,
+      "git_blob_sha256": "e728389d306d525e5990c65d97579f438808ababa1c921bfe1bb8c8f2ef282f8"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/manifest.json",
+      "bytes": 28095,
+      "sha256": "2c133f03e9c885afdac15a42ee491d1129b23d2e346533983a3d3bbb4427fcef",
+      "git_blob_bytes": 28095,
+      "git_blob_sha256": "2c133f03e9c885afdac15a42ee491d1129b23d2e346533983a3d3bbb4427fcef"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/monitor.py",
+      "bytes": 2892,
+      "sha256": "56c0a4f17fca640a705bbe1cc6d01f755abc4892e535a03baef846627d089350",
+      "git_blob_bytes": 2892,
+      "git_blob_sha256": "56c0a4f17fca640a705bbe1cc6d01f755abc4892e535a03baef846627d089350"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/NEXT_TRACE_PLAN.md",
+      "bytes": 4231,
+      "sha256": "e8ba79357bf246eed1d6926c1ad28e84b6ac72163e8981a3b96cf888a6fd538e",
+      "git_blob_bytes": 4231,
+      "git_blob_sha256": "e8ba79357bf246eed1d6926c1ad28e84b6ac72163e8981a3b96cf888a6fd538e"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/observation.py",
+      "bytes": 4230,
+      "sha256": "1ab4df056fbadccfdf559e4b082a576ec78f5b9e931e6fa1123c8362de3b63c3",
+      "git_blob_bytes": 4230,
+      "git_blob_sha256": "1ab4df056fbadccfdf559e4b082a576ec78f5b9e931e6fa1123c8362de3b63c3"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/package_sources.py",
+      "bytes": 1069,
+      "sha256": "c5353a04b7fa8ccb8a7ea588c613e20a9f11f80f7cdb921e887fe8730903a3d5",
+      "git_blob_bytes": 1069,
+      "git_blob_sha256": "c5353a04b7fa8ccb8a7ea588c613e20a9f11f80f7cdb921e887fe8730903a3d5"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/preservation-check.json",
+      "bytes": 15913,
+      "sha256": "ad8f25a4932832473fa49d4fe5cc45f9118daba03e566a1a62be88736fe19ef7",
+      "git_blob_bytes": 15913,
+      "git_blob_sha256": "ad8f25a4932832473fa49d4fe5cc45f9118daba03e566a1a62be88736fe19ef7"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/previous_coordinator.py",
+      "bytes": 13869,
+      "sha256": "28dac9fdb10035588507dfe4db8c36cbb53d8a804687f8b21a153d1e45abcdbf",
+      "git_blob_bytes": 13869,
+      "git_blob_sha256": "28dac9fdb10035588507dfe4db8c36cbb53d8a804687f8b21a153d1e45abcdbf"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/receive.py",
+      "bytes": 2105,
+      "sha256": "c02f4b0d47f73e37974082a0c221b85a7d237c4ad24345443ac64a31144ac8d7",
+      "git_blob_bytes": 2105,
+      "git_blob_sha256": "c02f4b0d47f73e37974082a0c221b85a7d237c4ad24345443ac64a31144ac8d7"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/RESULT.md",
+      "bytes": 10855,
+      "sha256": "090642177d5d57c0d85cb59a608ca9d3d67c57c4e09848ed9c2efc2b72f2c214",
+      "git_blob_bytes": 10855,
+      "git_blob_sha256": "090642177d5d57c0d85cb59a608ca9d3d67c57c4e09848ed9c2efc2b72f2c214"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/seal.py",
+      "bytes": 8162,
+      "sha256": "f7ac84a7ac24b2f6235ccc9812c80f4ec03cadb1592a60f7f25403acd3b4086f",
+      "git_blob_bytes": 8162,
+      "git_blob_sha256": "f7ac84a7ac24b2f6235ccc9812c80f4ec03cadb1592a60f7f25403acd3b4086f"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/source-mavlink_main.h",
+      "bytes": 22874,
+      "sha256": "eb99428f71f0378d2cac7b42ad6059e50ac6c0b2734254aad503a2ce9846f309",
+      "git_blob_bytes": 22874,
+      "git_blob_sha256": "eb99428f71f0378d2cac7b42ad6059e50ac6c0b2734254aad503a2ce9846f309"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/stop.py",
+      "bytes": 546,
+      "sha256": "3e00761be2674db81f2748b6b88f0b17220ceff966c90383e6aeb44467dc0be5",
+      "git_blob_bytes": 546,
+      "git_blob_sha256": "3e00761be2674db81f2748b6b88f0b17220ceff966c90383e6aeb44467dc0be5"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/test_observation.py",
+      "bytes": 4231,
+      "sha256": "d5703b829545a4d3a652159a7fb6c9c5cb757abc1000bd258d41447fcbcfc833",
+      "git_blob_bytes": 4231,
+      "git_blob_sha256": "d5703b829545a4d3a652159a7fb6c9c5cb757abc1000bd258d41447fcbcfc833"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/test_scope.py",
+      "bytes": 1745,
+      "sha256": "cf585c6b66a51ae57f72053292221c8a856d3e3b5473f5018cab268a0f844add",
+      "git_blob_bytes": 1745,
+      "git_blob_sha256": "cf585c6b66a51ae57f72053292221c8a856d3e3b5473f5018cab268a0f844add"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/test_supervisor.py",
+      "bytes": 2244,
+      "sha256": "927d8b95cb572e601cf1184ccef0d6193fdf1d43def8d9085a447a72f7ab9e47",
+      "git_blob_bytes": 2244,
+      "git_blob_sha256": "927d8b95cb572e601cf1184ccef0d6193fdf1d43def8d9085a447a72f7ab9e47"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/test_tools.py",
+      "bytes": 4354,
+      "sha256": "f39e2ae9b5049c9088cae3b43f1d6b65abd21a69f30459376eb580cee768e6ed",
+      "git_blob_bytes": 4354,
+      "git_blob_sha256": "f39e2ae9b5049c9088cae3b43f1d6b65abd21a69f30459376eb580cee768e6ed"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/tool_parity.py",
+      "bytes": 479,
+      "sha256": "8c3de6515f4ba8f6e6ce42c4a25c35258d2e656ce254f7bb982a2fa1e49680a5",
+      "git_blob_bytes": 479,
+      "git_blob_sha256": "8c3de6515f4ba8f6e6ce42c4a25c35258d2e656ce254f7bb982a2fa1e49680a5"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/tools-expected.json",
+      "bytes": 1072,
+      "sha256": "a2ab422b686bbc0d4832e60475b0c9f684211373d1c312c87e277218c58c1ab6",
+      "git_blob_bytes": 1072,
+      "git_blob_sha256": "a2ab422b686bbc0d4832e60475b0c9f684211373d1c312c87e277218c58c1ab6"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/tools-parity.json",
+      "bytes": 1106,
+      "sha256": "6e19e2e308b76f616964b6550adc9bf4f3a2ed38e6f8d2ac59db51fcc5f13169",
+      "git_blob_bytes": 1106,
+      "git_blob_sha256": "6e19e2e308b76f616964b6550adc9bf4f3a2ed38e6f8d2ac59db51fcc5f13169"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/topics.txt",
+      "bytes": 182,
+      "sha256": "c86999ce768478cd8db656ae610f8b3ee2d1fe348af8c3b46db304db1eb06306",
+      "git_blob_bytes": 182,
+      "git_blob_sha256": "c86999ce768478cd8db656ae610f8b3ee2d1fe348af8c3b46db304db1eb06306"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/trial_tools.py",
+      "bytes": 4603,
+      "sha256": "4416819f77402d4a486bb21f2e305287974fb0b5dab9fb8112e19531915db14e",
+      "git_blob_bytes": 4603,
+      "git_blob_sha256": "4416819f77402d4a486bb21f2e305287974fb0b5dab9fb8112e19531915db14e"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/verification.json",
+      "bytes": 1740,
+      "sha256": "fd07377d6dc3bcd84fdaa97db1179a1c0c7d2c8489a78d81c79ce90c4142d8bd",
+      "git_blob_bytes": 1740,
+      "git_blob_sha256": "fd07377d6dc3bcd84fdaa97db1179a1c0c7d2c8489a78d81c79ce90c4142d8bd"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/verify_evidence.py",
+      "bytes": 9986,
+      "sha256": "fd2723ced6cec34400e049f66c6179afd9885b864ea1b036988ea3560f160866",
+      "git_blob_bytes": 9986,
+      "git_blob_sha256": "fd2723ced6cec34400e049f66c6179afd9885b864ea1b036988ea3560f160866"
+    },
+    {
+      "path": ".maixpy/live-baseline-20261011/BASELINE.md",
+      "bytes": 4141,
+      "sha256": "ad840a2a0e8d159529b93e9e537cba2ea0db46766d5070b557a09898d88d5389",
+      "git_blob_bytes": 4141,
+      "git_blob_sha256": "ad840a2a0e8d159529b93e9e537cba2ea0db46766d5070b557a09898d88d5389"
+    },
+    {
+      "path": ".maixpy/publication-20261012/VALIDATION.md",
+      "bytes": 5714,
+      "sha256": "009929264a5f4bcc65829099108acf248f7e791b1e6c9b52845995424af7b61b",
+      "git_blob_bytes": 5714,
+      "git_blob_sha256": "009929264a5f4bcc65829099108acf248f7e791b1e6c9b52845995424af7b61b"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/msg__SensorAccel.msg",
+      "bytes": 692,
+      "sha256": "2bd894577cc016f0d2bf022f708125fa2ca61b45c8e29377007f3615db4f58e2",
+      "git_blob_bytes": 692,
+      "git_blob_sha256": "2bd894577cc016f0d2bf022f708125fa2ca61b45c8e29377007f3615db4f58e2"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/msg__SensorGyro.msg",
+      "bytes": 704,
+      "sha256": "03771583b942c4755e4ed102601b0246ac3ccdacba3bfd6cd1175680e2df0e69",
+      "git_blob_bytes": 704,
+      "git_blob_sha256": "03771583b942c4755e4ed102601b0246ac3ccdacba3bfd6cd1175680e2df0e69"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/platforms__common__uORB__SubscriptionCallback.hpp",
+      "bytes": 5331,
+      "sha256": "23cc99a6f8e99574efba19629795766a79dd39864e2cfcf2e732c64729808767",
+      "git_blob_bytes": 5331,
+      "git_blob_sha256": "23cc99a6f8e99574efba19629795766a79dd39864e2cfcf2e732c64729808767"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/platforms__common__uORB__uORBDeviceNode.cpp",
+      "bytes": 12222,
+      "sha256": "f383fdd0f4fac33d529cfead6eadff0146e679797ddc348e4cae5a7edace2a59",
+      "git_blob_bytes": 12222,
+      "git_blob_sha256": "f383fdd0f4fac33d529cfead6eadff0146e679797ddc348e4cae5a7edace2a59"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/platforms__common__uORB__uORBDeviceNode.hpp",
+      "bytes": 9186,
+      "sha256": "b0a56f55e9571603d67e6c9861ac4346cf81f9ea030faa87fec7561e7ad9c94f",
+      "git_blob_bytes": 9186,
+      "git_blob_sha256": "b0a56f55e9571603d67e6c9861ac4346cf81f9ea030faa87fec7561e7ad9c94f"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__logger__logged_topics.cpp",
+      "bytes": 19639,
+      "sha256": "33c1cd7c55dc81d4fa53153b7f269401b67c7f6edc929707ec536203096bcfe5",
+      "git_blob_bytes": 19639,
+      "git_blob_sha256": "33c1cd7c55dc81d4fa53153b7f269401b67c7f6edc929707ec536203096bcfe5"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__logger__logger.cpp",
+      "bytes": 70842,
+      "sha256": "2218ab36e3d327a805b52f0b62ac738c7af7774af2e819d23b65158d0edfec48",
+      "git_blob_bytes": 70842,
+      "git_blob_sha256": "2218ab36e3d327a805b52f0b62ac738c7af7774af2e819d23b65158d0edfec48"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__sensors__vehicle_imu__VehicleIMU.cpp",
+      "bytes": 33089,
+      "sha256": "5824adf05da2549de2fe8d736a0aa7f3860ccfa05cb4e9042cada9d29e35568b",
+      "git_blob_bytes": 33089,
+      "git_blob_sha256": "5824adf05da2549de2fe8d736a0aa7f3860ccfa05cb4e9042cada9d29e35568b"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__sensors__vehicle_imu__VehicleIMU.hpp",
+      "bytes": 7277,
+      "sha256": "bdaae040ad8d4149398dc8e5c86a1bc359b0bf84aa8167fc79297cfd5d7ba9c1",
+      "git_blob_bytes": 7277,
+      "git_blob_sha256": "bdaae040ad8d4149398dc8e5c86a1bc359b0bf84aa8167fc79297cfd5d7ba9c1"
+    },
+    {
+      "path": ".maixpy/README.md",
+      "bytes": 9579,
+      "sha256": "a858abc3ea8cbde205ad626eb4c7d9ab04bb7cfc52174c9a1bc37b9c77f9d58b",
+      "git_blob_bytes": 9579,
+      "git_blob_sha256": "a858abc3ea8cbde205ad626eb4c7d9ab04bb7cfc52174c9a1bc37b9c77f9d58b"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-11-vio-s0-logger-reader-control.md",
+      "bytes": 28667,
+      "sha256": "d8573eb7983172743c7c173c208961b54d174c0f770ea8be92347bd5776a293d",
+      "git_blob_bytes": 28667,
+      "git_blob_sha256": "d8573eb7983172743c7c173c208961b54d174c0f770ea8be92347bd5776a293d"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-11-vio-s0-upstream-gyro-observation.md",
+      "bytes": 4909,
+      "sha256": "77be21c489a21af426f3a2e829460662fbf95142b32cd243a292b4d51a21e2c0",
+      "git_blob_bytes": 4909,
+      "git_blob_sha256": "77be21c489a21af426f3a2e829460662fbf95142b32cd243a292b4d51a21e2c0"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 73558,
+      "sha256": "55202eebf8bdfd945f25fc487e7b26d4fd763a299b0355090efc630d7359a298",
+      "git_blob_bytes": 72414,
+      "git_blob_sha256": "6f7ead38d8191f63c9d7f4f1fb33d7e416b4fdb7ee69cdb41d32b74aa43972bf"
+    },
+    {
+      "path": "new_plan.md",
+      "bytes": 45147,
+      "sha256": "681aa80486c9f35672e9cbac74e2ea00f5583d2bd444bb8c95d3f115c5cae417",
+      "git_blob_bytes": 42823,
+      "git_blob_sha256": "e146c39da8fc3d2a397efe89d445a052e91e3c5f11dcd2a2fda67e069aede31d"
+    },
+    {
+      "path": "rm27/perception/vision/docs/CODEX_RESUME.md",
+      "bytes": 14086,
+      "sha256": "3c187c235d1edabd08583c713ca7eab92d085077aca7e8f4bb253d5db3d9326a",
+      "git_blob_bytes": 14086,
+      "git_blob_sha256": "3c187c235d1edabd08583c713ca7eab92d085077aca7e8f4bb253d5db3d9326a"
+    },
+    {
+      "path": "rm27/perception/vision/docs/PUBLICATION_20261012.md",
+      "bytes": 5383,
+      "sha256": "29f897eb7c935612943f94cd59bd5a7497685eaf2fce015fe5ace617b769df85",
+      "git_blob_bytes": 5383,
+      "git_blob_sha256": "29f897eb7c935612943f94cd59bd5a7497685eaf2fce015fe5ace617b769df85"
+    },
+    {
+      "path": "VAULT_UPDATE.md",
+      "bytes": 29942,
+      "sha256": "294e5840fdeece20e315ae0a7ebd3010271f83e5b5764a4dac0aedac93c94e3f",
+      "git_blob_bytes": 29475,
+      "git_blob_sha256": "7b2843f391e5cd268424990ac272f46cd38c0035d4c9bb4a49dfd6aa1a29ec98"
+    }
+  ]
+}

@@ -1,0 +1,730 @@
+{
+  "provenance": "REAL_SAVED_REDUCED_TELEMETRY_LOG_OFFLINE_REANALYSIS",
+  "raw_sha256": "658287cb149e1afbd56c9df799807729cd0930e4943190a580fb08b42eebca06",
+  "raw_bytes": 944329,
+  "firmware": "d6f12ad1c4f70ad3230afd7d86e971421e02fef4",
+  "parameters": {
+    "IMU_INTEG_RATE": 200,
+    "SENS_IMU_AUTOCAL": 1,
+    "SENS_IMU_MODE": 0
+  },
+  "changed_parameters": 0,
+  "cadence": {
+    "count": 11843,
+    "span_us": 60046056,
+    "retained_hz": 197.2152842145036,
+    "original_minimum_hz": 200,
+    "original_rate_gate_pass": false,
+    "gyro_holes": [
+      {
+        "after_index": 8092,
+        "residual_us": 4554,
+        "before": {
+          "timestamp": 17284902808,
+          "timestamp_sample": 17284902631,
+          "accel_device_id": 6946834,
+          "gyro_device_id": 6684690,
+          "delta_angle_dt": 4507,
+          "delta_velocity_dt": 4991,
+          "delta_angle_clipping": 0,
+          "delta_velocity_clipping": 0,
+          "accel_calibration_count": 1,
+          "gyro_calibration_count": 1,
+          "delta_angle": [
+            2.7220953597861808e-06,
+            1.4372364603332244e-05,
+            -4.20581636717543e-06
+          ],
+          "delta_velocity": [
+            0.0009942862670868635,
+            -0.002021770691499114,
+            -0.04908471554517746
+          ]
+        },
+        "after": {
+          "timestamp": 17284913378,
+          "timestamp_sample": 17284913148,
+          "accel_device_id": 6946834,
+          "gyro_device_id": 6684690,
+          "delta_angle_dt": 5963,
+          "delta_velocity_dt": 4993,
+          "delta_angle_clipping": 0,
+          "delta_velocity_clipping": 0,
+          "accel_calibration_count": 1,
+          "gyro_calibration_count": 1,
+          "delta_angle": [
+            -3.0218388928915374e-06,
+            2.479144859535154e-05,
+            1.582293953106273e-05
+          ],
+          "delta_velocity": [
+            0.001137104001827538,
+            -0.002005720743909478,
+            -0.04886860400438309
+          ]
+        }
+      }
+    ],
+    "uncovered_gyro_us": 4554,
+    "covered_gyro_us": 60041502,
+    "gyro_overlap_events": 0,
+    "max_endpoint_interval_us": 10563,
+    "median_endpoint_interval_us": 4507.0,
+    "large_endpoint_intervals": 271,
+    "accel_coverage": "UNKNOWN_NO_SEPARATE_ENDPOINT",
+    "complete_one_second_bins": [
+      {
+        "second": 0,
+        "count": 198
+      },
+      {
+        "second": 1,
+        "count": 198
+      },
+      {
+        "second": 2,
+        "count": 193
+      },
+      {
+        "second": 3,
+        "count": 195
+      },
+      {
+        "second": 4,
+        "count": 196
+      },
+      {
+        "second": 5,
+        "count": 196
+      },
+      {
+        "second": 6,
+        "count": 197
+      },
+      {
+        "second": 7,
+        "count": 199
+      },
+      {
+        "second": 8,
+        "count": 196
+      },
+      {
+        "second": 9,
+        "count": 195
+      },
+      {
+        "second": 10,
+        "count": 197
+      },
+      {
+        "second": 11,
+        "count": 196
+      },
+      {
+        "second": 12,
+        "count": 195
+      },
+      {
+        "second": 13,
+        "count": 195
+      },
+      {
+        "second": 14,
+        "count": 200
+      },
+      {
+        "second": 15,
+        "count": 199
+      },
+      {
+        "second": 16,
+        "count": 196
+      },
+      {
+        "second": 17,
+        "count": 198
+      },
+      {
+        "second": 18,
+        "count": 199
+      },
+      {
+        "second": 19,
+        "count": 196
+      },
+      {
+        "second": 20,
+        "count": 196
+      },
+      {
+        "second": 21,
+        "count": 197
+      },
+      {
+        "second": 22,
+        "count": 200
+      },
+      {
+        "second": 23,
+        "count": 193
+      },
+      {
+        "second": 24,
+        "count": 195
+      },
+      {
+        "second": 25,
+        "count": 199
+      },
+      {
+        "second": 26,
+        "count": 198
+      },
+      {
+        "second": 27,
+        "count": 196
+      },
+      {
+        "second": 28,
+        "count": 196
+      },
+      {
+        "second": 29,
+        "count": 194
+      },
+      {
+        "second": 30,
+        "count": 195
+      },
+      {
+        "second": 31,
+        "count": 199
+      },
+      {
+        "second": 32,
+        "count": 196
+      },
+      {
+        "second": 33,
+        "count": 197
+      },
+      {
+        "second": 34,
+        "count": 197
+      },
+      {
+        "second": 35,
+        "count": 197
+      },
+      {
+        "second": 36,
+        "count": 200
+      },
+      {
+        "second": 37,
+        "count": 192
+      },
+      {
+        "second": 38,
+        "count": 198
+      },
+      {
+        "second": 39,
+        "count": 198
+      },
+      {
+        "second": 40,
+        "count": 200
+      },
+      {
+        "second": 41,
+        "count": 196
+      },
+      {
+        "second": 42,
+        "count": 199
+      },
+      {
+        "second": 43,
+        "count": 198
+      },
+      {
+        "second": 44,
+        "count": 200
+      },
+      {
+        "second": 45,
+        "count": 198
+      },
+      {
+        "second": 46,
+        "count": 199
+      },
+      {
+        "second": 47,
+        "count": 198
+      },
+      {
+        "second": 48,
+        "count": 199
+      },
+      {
+        "second": 49,
+        "count": 199
+      },
+      {
+        "second": 50,
+        "count": 201
+      },
+      {
+        "second": 51,
+        "count": 199
+      },
+      {
+        "second": 52,
+        "count": 199
+      },
+      {
+        "second": 53,
+        "count": 199
+      },
+      {
+        "second": 54,
+        "count": 200
+      },
+      {
+        "second": 55,
+        "count": 195
+      },
+      {
+        "second": 56,
+        "count": 193
+      },
+      {
+        "second": 57,
+        "count": 196
+      },
+      {
+        "second": 58,
+        "count": 199
+      },
+      {
+        "second": 59,
+        "count": 199
+      }
+    ],
+    "publication_minus_sample_us": {
+      "min": 152,
+      "median": 218,
+      "max": 4794
+    },
+    "openvins_admissible": false,
+    "source_complete": "UNKNOWN",
+    "clock_status": "UNKNOWN",
+    "tail_complete": "UNKNOWN"
+  },
+  "status_rates": {
+    "gyro_rate_hz": {
+      "min": 665.6389770507812,
+      "median": 665.6396484375,
+      "max": 665.64111328125
+    },
+    "gyro_raw_rate_hz": {
+      "min": 1996.9168701171875,
+      "median": 1996.9189453125,
+      "max": 1996.92333984375
+    },
+    "accel_rate_hz": {
+      "min": 801.3869018554688,
+      "median": 801.4142456054688,
+      "max": 801.4295654296875
+    },
+    "accel_raw_rate_hz": {
+      "min": 1602.7738037109375,
+      "median": 1602.8284912109375,
+      "max": 1602.859130859375
+    }
+  },
+  "configuration_model": {
+    "semantic": "TIMING_CONFIGURATION_MODEL_NOT_PUBLICATION_TRACE",
+    "configured_hz": 200,
+    "requested_interval_us": 5000,
+    "gyro_samples": 3,
+    "accel_samples": 4,
+    "gyro_callback_updates": 3,
+    "gyro_reset_interval_us": 3756,
+    "accel_reset_interval_us": 4367,
+    "backup_schedule_us": 4991,
+    "gyro_nominal_window_us": 4506.9430690345725,
+    "accel_nominal_window_us": 4991.176563099398,
+    "accel_baseline_hz": 200.3535614013672
+  },
+  "gyro_period_model": {
+    "semantic": "INFERRED_SI_PUBLICATION_PERIOD_MULTIPLES_NOT_HARDWARE_COUNTS",
+    "period_us": 1502.3143563448575,
+    "baseline_periods": 3,
+    "counts": {
+      "3": 8019,
+      "4": 3554,
+      "5": 20,
+      "6": 154,
+      "7": 96
+    },
+    "duration_sum_us": 60046009,
+    "mean_duration_us": 5070.168791691294,
+    "extended_integrals": 3824,
+    "extra_periods_over_baseline": 4440,
+    "residual_min_us": -51.25742537943006,
+    "residual_max_us": 55.056930965427455,
+    "caveat": "Nearest status-derived mean period multiples; original per-sensor endpoints/samples are absent."
+  },
+  "accel_period_model": {
+    "semantic": "INFERRED_SI_PUBLICATION_PERIOD_MULTIPLES_NOT_HARDWARE_COUNTS",
+    "period_us": 1247.7941407748494,
+    "baseline_periods": 4,
+    "counts": {
+      "4": 11545,
+      "5": 37,
+      "6": 71,
+      "7": 190
+    },
+    "duration_sum_us": 60045740,
+    "mean_duration_us": 5070.146077851896,
+    "extended_integrals": 298,
+    "extra_periods_over_baseline": 749,
+    "residual_min_us": -11.176563099397754,
+    "residual_max_us": 10.823436900602246,
+    "caveat": "Nearest status-derived mean period multiples; original per-sensor endpoints/samples are absent."
+  },
+  "rate_decomposition": {
+    "retained_intervals": 11842,
+    "span_us": 60046056,
+    "accel_integral_sum_us": 60040750,
+    "nominal_accel_windows_us": 59105512.86022307,
+    "extended_accel_duration_over_model_us": 935237.1397769302,
+    "gyro_span_minus_accel_duration_us": 5306,
+    "sensitivity_one_extra_record_hz": 197.2319380976496,
+    "caveat": "Arithmetic sensitivity/model, NOT inserted samples, exact publisher count, or accel endpoint coverage."
+  },
+  "logger": {
+    "counter_first": 1,
+    "counter_last": 2,
+    "counter_increment_events": 1,
+    "changes": [
+      {
+        "before": {
+          "timestamp": 17284868840,
+          "message_gaps": 1,
+          "type": 0,
+          "backend": 2,
+          "num_messages": 8
+        },
+        "after": {
+          "timestamp": 17285869165,
+          "message_gaps": 2,
+          "type": 0,
+          "backend": 2,
+          "num_messages": 8
+        },
+        "event_increment": 1
+      }
+    ],
+    "holes": [
+      {
+        "after_index": 8092,
+        "residual_us": 4554,
+        "brackets": [
+          {
+            "before": {
+              "timestamp": 17284868840,
+              "message_gaps": 1,
+              "type": 0,
+              "backend": 2,
+              "num_messages": 8
+            },
+            "after": {
+              "timestamp": 17285869165,
+              "message_gaps": 2,
+              "type": 0,
+              "backend": 2,
+              "num_messages": 8
+            },
+            "event_increment": 1
+          }
+        ],
+        "attribution": "LOGGER_VEHICLE_IMU_SUBSCRIPTION_SKIP",
+        "exact_missing_generations": "UNKNOWN",
+        "precise_scheduling_trigger": "UNKNOWN"
+      }
+    ],
+    "caveat": "Counter increments discontinuity EVENTS, not missing-generation count. Brackets are not event timestamps."
+  },
+  "retained_gap_neighborhood": [
+    {
+      "index": 8087,
+      "timestamp": 17284883233,
+      "timestamp_sample": 17284878594,
+      "accel_device_id": 6946834,
+      "gyro_device_id": 6684690,
+      "delta_angle_dt": 4507,
+      "delta_velocity_dt": 4993,
+      "delta_angle_clipping": 0,
+      "delta_velocity_clipping": 0,
+      "accel_calibration_count": 1,
+      "gyro_calibration_count": 1,
+      "delta_angle": [
+        3.273493348388001e-05,
+        2.372343988099601e-05,
+        -5.7162360462825745e-06
+      ],
+      "delta_velocity": [
+        0.0011334033915773034,
+        -0.0019247286254540086,
+        -0.04892633482813835
+      ]
+    },
+    {
+      "index": 8088,
+      "timestamp": 17284884882,
+      "timestamp_sample": 17284884650,
+      "accel_device_id": 6946834,
+      "gyro_device_id": 6684690,
+      "delta_angle_dt": 6056,
+      "delta_velocity_dt": 4991,
+      "delta_angle_clipping": 0,
+      "delta_velocity_clipping": 0,
+      "accel_calibration_count": 1,
+      "gyro_calibration_count": 1,
+      "delta_angle": [
+        5.585753569903318e-06,
+        2.530933852540329e-05,
+        -2.254444916616194e-05
+      ],
+      "delta_velocity": [
+        0.0011319431941956282,
+        -0.0018451637588441372,
+        -0.048996876925230026
+      ]
+    },
+    {
+      "index": 8089,
+      "timestamp": 17284889309,
+      "timestamp_sample": 17284889110,
+      "accel_device_id": 6946834,
+      "gyro_device_id": 6684690,
+      "delta_angle_dt": 4460,
+      "delta_velocity_dt": 4992,
+      "delta_angle_clipping": 0,
+      "delta_velocity_clipping": 0,
+      "accel_calibration_count": 1,
+      "gyro_calibration_count": 1,
+      "delta_angle": [
+        1.9794337276834995e-05,
+        -1.2442089428077452e-05,
+        3.349911639816128e-05
+      ],
+      "delta_velocity": [
+        0.0010208729654550552,
+        -0.0017928089946508408,
+        -0.04897524416446686
+      ]
+    },
+    {
+      "index": 8090,
+      "timestamp": 17284898350,
+      "timestamp_sample": 17284898124,
+      "accel_device_id": 6946834,
+      "gyro_device_id": 6684690,
+      "delta_angle_dt": 9014,
+      "delta_velocity_dt": 8735,
+      "delta_angle_clipping": 0,
+      "delta_velocity_clipping": 0,
+      "accel_calibration_count": 1,
+      "gyro_calibration_count": 1,
+      "delta_angle": [
+        1.3471719285007566e-05,
+        -5.457470706460299e-06,
+        -1.8849133994081058e-05
+      ],
+      "delta_velocity": [
+        0.0018419636180624366,
+        -0.003417421830818057,
+        -0.08557480573654175
+      ]
+    },
+    {
+      "index": 8091,
+      "timestamp": 17284902808,
+      "timestamp_sample": 17284902631,
+      "accel_device_id": 6946834,
+      "gyro_device_id": 6684690,
+      "delta_angle_dt": 4507,
+      "delta_velocity_dt": 4991,
+      "delta_angle_clipping": 0,
+      "delta_velocity_clipping": 0,
+      "accel_calibration_count": 1,
+      "gyro_calibration_count": 1,
+      "delta_angle": [
+        2.7220953597861808e-06,
+        1.4372364603332244e-05,
+        -4.20581636717543e-06
+      ],
+      "delta_velocity": [
+        0.0009942862670868635,
+        -0.002021770691499114,
+        -0.04908471554517746
+      ]
+    },
+    {
+      "index": 8092,
+      "timestamp": 17284913378,
+      "timestamp_sample": 17284913148,
+      "accel_device_id": 6946834,
+      "gyro_device_id": 6684690,
+      "delta_angle_dt": 5963,
+      "delta_velocity_dt": 4993,
+      "delta_angle_clipping": 0,
+      "delta_velocity_clipping": 0,
+      "accel_calibration_count": 1,
+      "gyro_calibration_count": 1,
+      "delta_angle": [
+        -3.0218388928915374e-06,
+        2.479144859535154e-05,
+        1.582293953106273e-05
+      ],
+      "delta_velocity": [
+        0.001137104001827538,
+        -0.002005720743909478,
+        -0.04886860400438309
+      ]
+    },
+    {
+      "index": 8093,
+      "timestamp": 17284917882,
+      "timestamp_sample": 17284917654,
+      "accel_device_id": 6946834,
+      "gyro_device_id": 6684690,
+      "delta_angle_dt": 4506,
+      "delta_velocity_dt": 4990,
+      "delta_angle_clipping": 0,
+      "delta_velocity_clipping": 0,
+      "accel_calibration_count": 1,
+      "gyro_calibration_count": 1,
+      "delta_angle": [
+        1.2282862371648662e-05,
+        3.2267214464809513e-06,
+        -2.5078095859498717e-05
+      ],
+      "delta_velocity": [
+        0.0008945221779868007,
+        -0.0019852975383400917,
+        -0.049004655331373215
+      ]
+    },
+    {
+      "index": 8094,
+      "timestamp": 17284926804,
+      "timestamp_sample": 17284922208,
+      "accel_device_id": 6946834,
+      "gyro_device_id": 6684690,
+      "delta_angle_dt": 4554,
+      "delta_velocity_dt": 4992,
+      "delta_angle_clipping": 0,
+      "delta_velocity_clipping": 0,
+      "accel_calibration_count": 1,
+      "gyro_calibration_count": 1,
+      "delta_angle": [
+        -3.842396836262196e-06,
+        3.5755175531448913e-07,
+        -8.511067790095694e-06
+      ],
+      "delta_velocity": [
+        0.0009394822991453111,
+        -0.0018402662826701999,
+        -0.04908688738942146
+      ]
+    },
+    {
+      "index": 8095,
+      "timestamp": 17284928357,
+      "timestamp_sample": 17284928170,
+      "accel_device_id": 6946834,
+      "gyro_device_id": 6684690,
+      "delta_angle_dt": 5962,
+      "delta_velocity_dt": 4992,
+      "delta_angle_clipping": 0,
+      "delta_velocity_clipping": 0,
+      "accel_calibration_count": 1,
+      "gyro_calibration_count": 1,
+      "delta_angle": [
+        -4.70630493509816e-06,
+        2.8662483600783162e-05,
+        -2.2139316570246592e-05
+      ],
+      "delta_velocity": [
+        0.0009347219602204859,
+        -0.0018653812585398555,
+        -0.049067046493291855
+      ]
+    },
+    {
+      "index": 8096,
+      "timestamp": 17284932834,
+      "timestamp_sample": 17284932678,
+      "accel_device_id": 6946834,
+      "gyro_device_id": 6684690,
+      "delta_angle_dt": 4508,
+      "delta_velocity_dt": 4993,
+      "delta_angle_clipping": 0,
+      "delta_velocity_clipping": 0,
+      "accel_calibration_count": 1,
+      "gyro_calibration_count": 1,
+      "delta_angle": [
+        7.493654720747145e-06,
+        -1.3405126082943752e-05,
+        -7.653442253285903e-07
+      ],
+      "delta_velocity": [
+        0.0010369161609560251,
+        -0.0018049501813948154,
+        -0.04900016635656357
+      ]
+    },
+    {
+      "index": 8097,
+      "timestamp": 17284941881,
+      "timestamp_sample": 17284937231,
+      "accel_device_id": 6946834,
+      "gyro_device_id": 6684690,
+      "delta_angle_dt": 4553,
+      "delta_velocity_dt": 4991,
+      "delta_angle_clipping": 0,
+      "delta_velocity_clipping": 0,
+      "accel_calibration_count": 1,
+      "gyro_calibration_count": 1,
+      "delta_angle": [
+        8.606316441728268e-06,
+        9.773246347322129e-06,
+        1.2104346751584671e-05
+      ],
+      "delta_velocity": [
+        0.0010918787447735667,
+        -0.0017221559537574649,
+        -0.04917304217815399
+      ]
+    }
+  ],
+  "dropout_events": 0,
+  "openvins_admissible": false,
+  "stage_c": "CLOSED",
+  "unobserved": [
+    "missing integral payload/generation magnitude",
+    "per-sensor SI publications",
+    "VehicleIMU Run/callback/backup execution trace",
+    "logger read/poll/lock scheduling trace",
+    "independent accel endpoint",
+    "source tail completeness",
+    "clock mapping"
+  ]
+}

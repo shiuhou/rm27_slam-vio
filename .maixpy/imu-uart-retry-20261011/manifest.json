@@ -1,0 +1,191 @@
+﻿{
+    "scope":  "ONE_APPROVED_PHYSICAL_PREPARATION_ABORT_BEFORE_RECEIVER_NO_RETRY",
+    "head":  "3ea1e16086965176db68b88e1c42990f92c5913e",
+    "files":  [
+                  {
+                      "path":  "board_after.py",
+                      "bytes":  1235,
+                      "sha256":  "f1aa74b7221df9d46283aacdae0655de10a83c72b83d08dee538767fbd0f4cb0"
+                  },
+                  {
+                      "path":  "board_preflight.py",
+                      "bytes":  1854,
+                      "sha256":  "2638dcf94d4a0140da6b2af0c6426ce769f7374e2ca2c64473ec965650b167a0"
+                  },
+                  {
+                      "path":  "board-after.json",
+                      "bytes":  605,
+                      "sha256":  "1f52a3be5de1098cebf7f31de52c4c372e35f68e6f3f2563d4dbf0df243c3d6c"
+                  },
+                  {
+                      "path":  "board-after-console.txt",
+                      "bytes":  1176,
+                      "sha256":  "839257a2d6e7242b917d176d404821659cb2f93a8f31af3846ddbfa99a54a5bc"
+                  },
+                  {
+                      "path":  "board-preflight.json",
+                      "bytes":  3035,
+                      "sha256":  "47c6b693ab43ca844d364c8d8f295c21942a62fe2e0269fa03767f75f7b2db59"
+                  },
+                  {
+                      "path":  "board-preflight-console.txt",
+                      "bytes":  1484,
+                      "sha256":  "a0713abc5010f690471c5cfb3de9c08d2acb1a9c622bce340758e557313cb7eb"
+                  },
+                  {
+                      "path":  "board-preflight-console-02.txt",
+                      "bytes":  5856,
+                      "sha256":  "301114bb719179379fda7cf9c1127f31daf9f850a65b33e6e995a144b801cb08"
+                  },
+                  {
+                      "path":  "coordinator.jsonl",
+                      "bytes":  64877,
+                      "sha256":  "1004aea9a65b575c104e3b983a34a64a82872f2fe16f192b98341b9995a7f021"
+                  },
+                  {
+                      "path":  "coordinator.py",
+                      "bytes":  12859,
+                      "sha256":  "7abf10cbd4cbbe434e0b430848ecb1573514c5ab2f423a5b8adf074af249e4b7"
+                  },
+                  {
+                      "path":  "coordinator-console.txt",
+                      "bytes":  2956,
+                      "sha256":  "478303b12c0a868c75eec4d6d426d5b4ff4d7ecee96c087568a9d1a49abbb555"
+                  },
+                  {
+                      "path":  "coordinator-console-02.txt",
+                      "bytes":  117342,
+                      "sha256":  "74556ad273ed44ec978adca1afdd89eb0b6a8169277445a59c8b9334e0de968b"
+                  },
+                  {
+                      "path":  "diagnose_protocol.py",
+                      "bytes":  3211,
+                      "sha256":  "ff36314b36ceb78e95ed180cee95227283238bc28909e8b0b57cc206163c6770"
+                  },
+                  {
+                      "path":  "launch_retry.py",
+                      "bytes":  877,
+                      "sha256":  "a56606f3cb085b3ca4e3bdf359236092810acecfb16fc256e0f13b67ed6376a2"
+                  },
+                  {
+                      "path":  "PLAN.md",
+                      "bytes":  1756,
+                      "sha256":  "a303fcdc9a424422b4dab814b786ce2808221e575caba5710894177c7e0941eb"
+                  },
+                  {
+                      "path":  "protocol-diagnosis.json",
+                      "bytes":  1363,
+                      "sha256":  "8d87cbbea753c586e3a8a80dd55ff9953aae9ab7bf0e8088cd551a6ed63e81b8"
+                  },
+                  {
+                      "path":  "protocol-diagnosis-console.txt",
+                      "bytes":  2384,
+                      "sha256":  "267b64f061bcd04b50191c75e8de4214a691b036d9fa16437bc84b082a0284c2"
+                  },
+                  {
+                      "path":  "remote-sha256.txt",
+                      "bytes":  1634,
+                      "sha256":  "7253412bd88464f0e7bf46419e61857621e62e85594d725cc4cd207011b5b197"
+                  },
+                  {
+                      "path":  "repo-before/CODEX_RESUME.md",
+                      "bytes":  6082,
+                      "sha256":  "529deda787927b27c8f8bd01b0455e9863ab6aadf0c9d7ed2524a2f6ea6adbf8"
+                  },
+                  {
+                      "path":  "repo-before/HANDOFF.md",
+                      "bytes":  46748,
+                      "sha256":  "5deb91366902b7a73163c3f84513df9a0e2251bac679012bff8e6af1d81bd323"
+                  },
+                  {
+                      "path":  "repo-before/LATEST.md",
+                      "bytes":  3850,
+                      "sha256":  "de2df92613fd957f641163ed8c9941ed1a40710c8577fdbf61add1733c7173e7"
+                  },
+                  {
+                      "path":  "repo-before/new_plan.md",
+                      "bytes":  38253,
+                      "sha256":  "a09dbd92e2ecf9ab3d4d3f0a5bc18fd4ce759aaa8244a2cfd0ff296cd71c46a6"
+                  },
+                  {
+                      "path":  "repo-before/README.md",
+                      "bytes":  4150,
+                      "sha256":  "e4622c63574572564e862a8f8a18951df4e5af7c9474c135d859841061213e4a"
+                  },
+                  {
+                      "path":  "repo-before/VAULT_UPDATE.md",
+                      "bytes":  16619,
+                      "sha256":  "c72a575e2275f9d82e0232ba7e8af98a7b15e80483dc314d5725c221b0a3f986"
+                  },
+                  {
+                      "path":  "RESULT.md",
+                      "bytes":  7731,
+                      "sha256":  "fb4ad89174aa513348560d6e43ce77a6a332be672896bd60329458a666919106"
+                  },
+                  {
+                      "path":  "scope-final.txt",
+                      "bytes":  1942,
+                      "sha256":  "56a6ef20e9375711cbc372eaa673a6632ae2f1cf499957ab307d9de372572109"
+                  },
+                  {
+                      "path":  "scope-green.txt",
+                      "bytes":  1940,
+                      "sha256":  "e4b16af94b4d319b3acf322a141db2282033c9636b0791d427a181b2140315a4"
+                  },
+                  {
+                      "path":  "scope-green-02.txt",
+                      "bytes":  1940,
+                      "sha256":  "e4b16af94b4d319b3acf322a141db2282033c9636b0791d427a181b2140315a4"
+                  },
+                  {
+                      "path":  "scope-red.txt",
+                      "bytes":  2736,
+                      "sha256":  "924a6b946f0f692f4a3508c9a34d3d52eef43338b811caf8311ea08dc15014ef"
+                  },
+                  {
+                      "path":  "scope-red-02.txt",
+                      "bytes":  7608,
+                      "sha256":  "fdbe4bb60f62317a3040d08ced4fbbd0dc1450754d17da41e8aa94cd1776ee72"
+                  },
+                  {
+                      "path":  "stop_retry.py",
+                      "bytes":  649,
+                      "sha256":  "83f444970028fd4036a836e7e32a6bdb2fa75ab26e2e4ba696b5c48b08d83d9e"
+                  },
+                  {
+                      "path":  "test_scope.py",
+                      "bytes":  2403,
+                      "sha256":  "54af0537a8448d75b95d74372e854cb46d5b942bc414269cb59c7927fb63d1e5"
+                  },
+                  {
+                      "path":  "topics-readback.txt",
+                      "bytes":  166,
+                      "sha256":  "fa434abe98b74a85531a97279c029b6ae8b6061e5d7161cc413e82ebcc105620"
+                  },
+                  {
+                      "path":  "topics-readback.txt.part",
+                      "bytes":  166,
+                      "sha256":  "fa434abe98b74a85531a97279c029b6ae8b6061e5d7161cc413e82ebcc105620"
+                  },
+                  {
+                      "path":  "verification.json",
+                      "bytes":  622,
+                      "sha256":  "11454ca69cef6d9b395596d521e1928b7a4f72939baa05d51a1e41eb190287fc"
+                  },
+                  {
+                      "path":  "verification-console.txt",
+                      "bytes":  2626,
+                      "sha256":  "9be2332d3629ed4f1c6d78809274b9bea62c052ab415d7c96fd7a9bdc95f209f"
+                  },
+                  {
+                      "path":  "verification-console-02.txt",
+                      "bytes":  1160,
+                      "sha256":  "3593347f91ce7838995f767903aee96cc328c5e33b9e08955958fede28186f9d"
+                  },
+                  {
+                      "path":  "verify_evidence.py",
+                      "bytes":  3805,
+                      "sha256":  "ea5e68aff1541750297997c0a485b7ad26d6a113b415a0d36ceda167e6e3c4a3"
+                  }
+              ]
+}

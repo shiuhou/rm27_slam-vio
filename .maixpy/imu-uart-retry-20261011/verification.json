@@ -1,0 +1,16 @@
+{
+  "restoration_verified": true,
+  "receiver_launched": false,
+  "accepted_capture_seconds": 0,
+  "received_imu_records": 0,
+  "absence_not_loss_measurement": true,
+  "preflight_abort": "MAVLINK2_READINESS_ORDER_ERROR",
+  "old_trial_hashes_verified": 18,
+  "frozen_reassembly_hashes_verified": 14,
+  "deployed_source_files_verified": 16,
+  "stage_ab_report_sha256": "d9c79727ad749e8ec6ba970a2e41c0ef4aa5ccc3ac6e6e7bc53c0f1bbb7ffd0f",
+  "transport_status": "NOT_MEASURED",
+  "source_rate_qualification": "PARTIAL_197HZ_ONE_SECOND_SNAPSHOT",
+  "clock_status": "UNKNOWN",
+  "openvins_status": "NOT_ADMITTED"
+}

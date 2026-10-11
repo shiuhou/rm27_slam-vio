@@ -1,5 +1,79 @@
 # RM27 轻量级 VIO 与 GPS-Denied 定位研究方向重构报告
 
+> 2026-10-11 上游陀螺仪观测已设计并执行一次：`.maixpy/imu-upstream-gyro-20261011/RESULT.md`。
+> 加入 sensor_gyro0 后，普通日志启动即 286→288 缺287／global19→21；同区间 PX4 TX 缓冲拒绝增加1，成功写入与实收数一致。
+> 此观测方案 FAILED，未完成60秒，仅4笔gyro／1笔IMU，不能解释原来的订阅跳过或量测频率；之前干净的 vehicle_imu-only 传输证据不变。
+> 已还原原115200／遥测／logger／SDLOG与M3C串口；Disarmed／EV0，无固件、参数、传感器、接线或融合变化。
+> Windows34项通过／3平台跳过，M3C27项通过／零跳过；旧源码、Stage A/B及失败证据保留，不重试、不push、不动Vault。
+> 下一步RAM触发轨迹仅设计，需另行固件授权与准确回滚镜像，尚未编译／刷写。VIO-S0/P PARTIAL，Stage C CLOSED；下文旧行动属历史。
+
+> 2026-10-11 单一 logger 读法对照已执行一次：`.maixpy/imu-reader-control-20261011/RESULT.md`。
+> 固定 `-r2500` 未消除漏读：11837 笔 BMI088 积分，197.104634Hz，两个订阅跳过／4460、4507us 陀螺仪覆盖缺口。
+> 本轮 UART 序号／发送计数未见丢包；不能代替源数据完整性。原 >=200Hz 门槛未放宽，VIO-S0/P PARTIAL，Stage C CLOSED。
+> 15 项新增／71 项相关 Windows 回归及 48 项板端测试通过；两端临时设置已精确还原，Disarmed／EV0，无新固件／参数／传感器变化。
+> 下一步需要设计源端执行／generation 可观测性，不盲目重复读频率实验；同步、标定、真实 VIO 尚未开启。下文旧计划和结果保留为历史。
+
+> 2026-10-11 残余订阅／源频率离线分析完成：`.maixpy/imu-source-diagnosis-20261011/DIAGNOSIS.md`。
+> 4554us缺口已定位为logger的vehicle_imu queue1订阅generation漏读，不是UART包丢失；精确排程触发和漏读generation数量仍UNKNOWN。
+> 197.215Hz仍低于原≥200Hz；298笔较长accel积分与双积分器／回调逻辑对应，不能把271个较长端点间隔当作271次丢样。
+> 19项诊断＋37项相关离线回归全过／零跳过，独立算术和旧80／36文件hash核验通过。
+> 没有连设备、改参数／固件／设置、插值补样或重新采集；旧报告和Stage A/B保持不变。VIO-S0/P PARTIAL，Stage C CLOSED。
+> 后续单一logger读取节奏对照只是待批准方案；缺少的源端Run／订阅轨迹不能从现有ULog恢复。
+
+> 2026-10-11 减遥测真机对照完成：`.maixpy/imu-uart-reduced-trial-20261011/RESULT.md`。
+> 同921600／46080／最小MAVLink logger，只减48项非必要数值遥测；正常接收60.016秒，5001帧CRC通过，日志／全局序号无缺口。
+> 64计数区间成功写4980＝实收4980，发送缓冲拒绝增量0；仅本次有限传输对照VERIFIED，不算通用修复。
+> 11843笔BMI088积分约197.215Hz，仍未过原≥200Hz；一个4554us积分覆盖缺口与logger订阅generation跳号1→2对应，源头记录不完整。
+> 13项新M3C工具测试全过，Windows17项14过／3平台跳过，独立核验exit0；原18运行源码／旧证据／Stage A/B不变。
+> 两端设置／原115200与完整stream map／logger／SDLOG已还原；Disarmed／EV0，未重试／推送／动Vault。
+> 下一步离线分析残余vehicle_imu订阅跳号和源频率，不继续采集，不进入同步／标定／真实VIO。VIO-S0/P保持PARTIAL、StageC关闭。
+> 以下“提议减遥测试验／未执行”是保留的历史状态，授权的一次试验已消耗。
+
+> 2026-10-11 离线归因完成：`.maixpy/imu-gap-diagnosis-20261011/DIAGNOSIS.md`。
+> 精确固件／子模块定义解码10笔LINK_NODE_STATUS，另23笔未知帧CRC也通过；原3697帧及失败prefix不改。
+> 缺435区间PX4发送缓冲拒绝4→5，global34→36；成功写398＝实收398。九区间六次拒绝对上六个缺序号位置。
+> 已定位发送缓冲拒绝层，尚未实测修复／隔离突发或调度触发。packet437完整perf记录ulog_stream missed0；不补包不接纳失败数据。
+> 新15项及既有9项离线测试通过／零跳过；18运行源码、旧证据和Stage A/B不变，无硬件访问／设置／提交／推送。
+> 下一步仅准备一次减非必要遥测的60秒对照（新scope批准后），不是重复旧协调器。IMU约196.43Hz／积分覆盖／时钟／模型门槛仍未过。
+> VIO-S0/P仍PARTIAL，传输失败未翻为PASS，StageC关闭；以下“下一步离线归因／原因UNKNOWN”是保留的历史状态。
+
+> 2026-10-11 最新真机试验：`.maixpy/imu-uart-negotiated-trial-20261011/RESULT.md`。
+> 新版120项M3C测试通过／零跳过；同owner heartbeat协商在真机成功升级v2，日志START／STOP均ACCEPTED。
+> 但日志序号434→436缺435，立即停止；60秒未完成，不重试。513笔BMI088积分记录仅作失败片段诊断，约196.43Hz且有覆盖缺口。
+> 原始字节保留、两端设置完整还原，PX4回115200／Disarmed／EV0，光流链路保留；Stage A/B不重跑不改证据。
+> 9项离线测试通过／独立核验exit0。下一步离线定位丢包层及补计数器方案，不盲跑，不改阈值；VIO-S0/P仍PARTIAL，StageC关闭。
+> 以下已保留的“下一步M3C预检／等待第一次实测”是历史阶段，不再是当前动作。未提交／推送，Vault未更新。
+
+> 2026-10-11 离线heartbeat-only协商已实现／测试：`.maixpy/imu-negotiation-fix-20261011/VALIDATION.md`。
+> 复用同一UART控制器；先确认PX4身份／Disarmed，只回MAVLink2 heartbeat，收到PX4v2后才发日志START。
+> 默认仍严格v2；日志／ACK／升级后的安全帧不接受v1，保留5秒总超时／fresh／遇错即停／还原。
+> Linux120项通过／零跳过（7项PTY），Windows113通过／7项平台跳过，54项相关回归和主工程226通过／1项原有跳过。
+> 无M3C／PX4访问或新采集／设置／部署；87项旧板端PASS不覆盖此新版。下一步新版M3C软件预检，再独立批准一次实测。
+> 原失败／Stage A/B／391与306 dropout证据不变；VIO-S0/P保持PARTIAL，原≥200Hz／来源／时钟／模型门槛不放宽，StageC关闭。
+
+> 2026-10-11 已批准实测的准备阶段中止：`.maixpy/imu-uart-retry-20261011/RESULT.md`。
+> PX4暂用921600／46080 B/s成功读回，但协同流程先要求PX4为v2才启动M3C；实际v1／RX0，尚无接收器／START／新IMU数据。
+> 源码与合成复现确认协商顺序错误，并非硬件故障证据；全部PX4设置已还原，M3C设置未变，未重试。
+> 下一步先离线实现／测试有界heartbeat-only协商，之后仍保持严格MAVLink2日志守卫。该协商尚未实现或实测。
+> 来源一秒快照197Hz仍不满足原≥200Hz门槛；Stage A/B保留，VIO-S0/P仍PARTIAL，StageC关闭。
+
+> 2026-10-11 新版M3C软件预检完成：`.maixpy/controller-m3c-startup-pty-20261011/VALIDATION.md`。
+> 未改源码，87项全通过／零跳过，包含4项真实PTY；只验证板端软件，不代表物理UART／200Hz／时钟／VIO合格。
+> 下一步是另行批准的一次60秒高频传输实测；不重跑未改动的PTY或Stage A/B。VIO-S0/P仍PARTIAL、StageC关闭。
+
+> 2026-10-11 启动同步修正：见 `.maixpy/imu-startup-fix-20261011/VALIDATION.md`。
+> 只在START前进行有界CRC帧同步，保存启动字节；之后仍严格遇错即停。
+> Linux87项（含4项虚拟PTY）通过，Windows83通过／4项平台跳过；未访问M3C/PX4、未重试实机。
+> 启动采用保守的完整外层包边界：未知或未收齐包可能等待／超时，saved21＋单个心跳仍不足；不声称实机故障已修复。
+> 原实机Bad prefix失败及Stage A/B证据保留。下一步先验证M3C新版本，再独立批准实测；不放宽源速率／时钟／模型门槛。
+
+> 2026-10-11 会话控制软件完成：见
+> `.maixpy/imu-design-20261010/single-uart/controller/VALIDATION.md`。
+> Linux55项（含虚拟PTY）/Windows53项通过，54项既有回归及主工程226项通过。
+> 控制器支持日志start/ACK/stop、心跳守护、超时、取消和M3C termios还原；
+> 真实高频UART与PX4配置还原仍待实测。未访问M3C/PX4、未改任何硬件设置。
+> VIO-S0仍PARTIAL，源/尾部/时钟UNKNOWN，Stage C关闭；本轮尚未提交/推送。
+
 > 2026-10-11 Git 交接入口：`rm27/perception/vision/docs/CODEX_RESUME.md` 与
 > `PX4_M3C_CONNECTION.md`。已发布的研究子集见 `.maixpy/README.md`；原始日志/
 > 数据集仍在原实验主机。本计划门槛不变；下列早期“备用焊盘”下一步已被用户

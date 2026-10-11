@@ -1,0 +1,101 @@
+{
+  "scope": "CURRENT_REAL_ROWS_TESTED_CONFIGURATION_MODEL_NOT_RUN_TRACE",
+  "configured_integration_rate": 200,
+  "periods_us": {
+    "gyro": 1502.3585764235522,
+    "accel": 1248.1540324463674
+  },
+  "configuration": {
+    "semantic": "TIMING_CONFIGURATION_MODEL_NOT_PUBLICATION_TRACE",
+    "configured_hz": 200,
+    "requested_interval_us": 5000,
+    "gyro_samples": 3,
+    "accel_samples": 4,
+    "gyro_callback_updates": 3,
+    "gyro_reset_interval_us": 3756,
+    "accel_reset_interval_us": 4369,
+    "backup_schedule_us": 4992,
+    "gyro_nominal_window_us": 4507.075729270657,
+    "accel_nominal_window_us": 4992.61612978547,
+    "accel_baseline_hz": 200.29579162597656
+  },
+  "classified_integrals": {
+    "gyro": {
+      "semantic": "INFERRED_SI_PUBLICATION_PERIOD_MULTIPLES_NOT_HARDWARE_COUNTS",
+      "period_us": 1502.3585764235522,
+      "baseline_periods": 3,
+      "counts": {
+        "3": 7968,
+        "4": 3596,
+        "5": 32,
+        "6": 168,
+        "7": 73
+      },
+      "duration_sum_us": 60044911,
+      "mean_duration_us": 5072.646025175298,
+      "extended_integrals": 3869,
+      "extra_periods_over_baseline": 4456,
+      "residual_min_us": -53.075729270656666,
+      "residual_max_us": 53.56569430579111,
+      "caveat": "Nearest status-derived mean period multiples; original per-sensor endpoints/samples are absent."
+    },
+    "accel": {
+      "semantic": "INFERRED_SI_PUBLICATION_PERIOD_MULTIPLES_NOT_HARDWARE_COUNTS",
+      "period_us": 1248.1540324463674,
+      "baseline_periods": 4,
+      "counts": {
+        "4": 11520,
+        "5": 61,
+        "6": 68,
+        "7": 188
+      },
+      "duration_sum_us": 60044054,
+      "mean_duration_us": 5072.573625073921,
+      "extended_integrals": 317,
+      "extra_periods_over_baseline": 761,
+      "residual_min_us": -6.924194678204003,
+      "residual_max_us": 5.383870214530361,
+      "caveat": "Nearest status-derived mean period multiples; original per-sensor endpoints/samples are absent."
+    }
+  },
+  "source_identity_calibration_clips": {
+    "gyro_device_id": [
+      6684690
+    ],
+    "accel_device_id": [
+      6946834
+    ],
+    "gyro_calibration_count": [
+      1
+    ],
+    "accel_calibration_count": [
+      1
+    ],
+    "delta_angle_clipping": [
+      0
+    ],
+    "delta_velocity_clipping": [
+      0
+    ]
+  },
+  "status_error_counts": {
+    "accel_error_count": [
+      1
+    ],
+    "gyro_error_count": [
+      1
+    ]
+  },
+  "retained_interval_span_us": 60049324,
+  "covered_gyro_us": 60040357,
+  "uncovered_gyro_us": 8967,
+  "gyro_overlap_events": 0,
+  "mean_endpoint_us": 5073.447448462319,
+  "accel_window_baseline_us": 4992.61612978547,
+  "gyro_span_minus_accel_dt_sum_us": 10263,
+  "exact_missing_generations": "UNKNOWN",
+  "actual_logger_execution_trace": "UNAVAILABLE",
+  "accel_coverage": "UNKNOWN_NO_SEPARATE_ENDPOINT",
+  "openvins_admissible": false,
+  "stage_c": "CLOSED"
+}

@@ -1,0 +1,169 @@
+{
+  "single_physical_trial_no_retry": true,
+  "command_scope_verified": true,
+  "restoration_verified": true,
+  "px4_uart": "115200/5760B_s/Onboard/flow_OFF",
+  "px4_stream_map_restored": true,
+  "logger_idle_all": true,
+  "sdlog_restored": {
+    "SDLOG_BACKEND": 3,
+    "SDLOG_BOOT_BAT": 0,
+    "SDLOG_DIRS_MAX": 0,
+    "SDLOG_MISSION": 0,
+    "SDLOG_MODE": 0,
+    "SDLOG_PROFILE": 1,
+    "SDLOG_UTC_OFFSET": 0,
+    "SDLOG_UUID": 1
+  },
+  "original_custom_config_absent": true,
+  "m3c_exact_termios_restored": true,
+  "m3c_no_owner": true,
+  "unrelated_uart_and_flow_preserved": true,
+  "observed_heartbeat_count": 337,
+  "observed_base_modes": [
+    29
+  ],
+  "disarmed": true,
+  "ekf2_ev_ctrl": 0,
+  "source_files_verified": 18,
+  "board_new_tools_tests": 13,
+  "board_skips": 0,
+  "remote_local_hashes_verified": 12,
+  "frozen_artifacts_verified": {
+    "imu-gap-diagnosis-20261011": 33,
+    "imu-uart-negotiated-trial-20261011": 58,
+    "imu-uart-retry-20261011": 37,
+    "imu-negotiation-fix-20261011": 44,
+    "imu-design-20261010/single-uart/reassembly": 14,
+    "original_trial": 18
+  },
+  "stage_ab_sha256": "d9c79727ad749e8ec6ba970a2e41c0ef4aa5ccc3ac6e6e7bc53c0f1bbb7ffd0f",
+  "treatment_disabled_numerical_streams": 48,
+  "retained_streams": {
+    "HEARTBEAT": 1.0,
+    "STATUSTEXT": 20.0,
+    "COMMAND_LONG": null,
+    "TIMESYNC": 10.0,
+    "CAMERA_TRIGGER": null,
+    "ADSB_VEHICLE": null,
+    "CAMERA_IMAGE_CAPTURED": null,
+    "GPS2_RAW": null,
+    "GPS_RAW_INT": null,
+    "SYS_STATUS": 5.0,
+    "SYSTEM_TIME": 1.0,
+    "LINK_NODE_STATUS": 1.0
+  },
+  "finite_framing_verified": true,
+  "normal_LOGGING_DATA_receipt_span_s": 60.016211987,
+  "normal_start_to_stop_write_s": 60.015915862,
+  "transport_comparison": "VERIFIED_60S_NO_OBSERVED_REJECTION_OR_SEQUENCE_GAP_IN_THIS_TREATMENT",
+  "tx_counter_intervals_verified": 64,
+  "successful_writes_accounted": 4980,
+  "source_identity_calibration_clip_values": {
+    "gyro_device_id": [
+      6684690
+    ],
+    "accel_device_id": [
+      6946834
+    ],
+    "gyro_calibration_count": [
+      1
+    ],
+    "accel_calibration_count": [
+      1
+    ],
+    "delta_angle_clipping": [
+      0
+    ],
+    "delta_velocity_clipping": [
+      0
+    ]
+  },
+  "gyro_coverage_gap_events": 1,
+  "gyro_coverage_gap_us": 4554,
+  "source_rate_qualification": "FAILED_ORIGINAL_200HZ_GATE",
+  "source_complete": "UNKNOWN",
+  "tail_complete": "UNKNOWN",
+  "clock_synchronization": "UNKNOWN",
+  "transport_qualified": false,
+  "openvins_admissible": false,
+  "stage_c": "CLOSED",
+  "logger_generation_gap_context": {
+    "before": {
+      "timestamp": 17284868840,
+      "total_written_kb": 0.0,
+      "write_rate_kb_s": 0.0,
+      "dropouts": 0,
+      "message_gaps": 1,
+      "buffer_used_bytes": 0,
+      "buffer_size_bytes": 0,
+      "type": 0,
+      "backend": 2,
+      "is_logging": 1,
+      "num_messages": 8
+    },
+    "after": {
+      "timestamp": 17285869165,
+      "total_written_kb": 0.0,
+      "write_rate_kb_s": 0.0,
+      "dropouts": 0,
+      "message_gaps": 2,
+      "buffer_used_bytes": 0,
+      "buffer_size_bytes": 0,
+      "type": 0,
+      "backend": 2,
+      "is_logging": 1,
+      "num_messages": 8
+    },
+    "gyro_hole_before": {
+      "timestamp": 17284902808,
+      "timestamp_sample": 17284902631,
+      "accel_device_id": 6946834,
+      "gyro_device_id": 6684690,
+      "delta_angle_dt": 4507,
+      "delta_velocity_dt": 4991,
+      "delta_angle_clipping": 0,
+      "delta_velocity_clipping": 0,
+      "accel_calibration_count": 1,
+      "gyro_calibration_count": 1,
+      "delta_angle": [
+        2.7220953597861808e-06,
+        1.4372364603332244e-05,
+        -4.20581636717543e-06
+      ],
+      "delta_velocity": [
+        0.0009942862670868635,
+        -0.002021770691499114,
+        -0.04908471554517746
+      ]
+    },
+    "gyro_hole_after": {
+      "timestamp": 17284913378,
+      "timestamp_sample": 17284913148,
+      "accel_device_id": 6946834,
+      "gyro_device_id": 6684690,
+      "delta_angle_dt": 5963,
+      "delta_velocity_dt": 4993,
+      "delta_angle_clipping": 0,
+      "delta_velocity_clipping": 0,
+      "accel_calibration_count": 1,
+      "gyro_calibration_count": 1,
+      "delta_angle": [
+        -3.0218388928915374e-06,
+        2.479144859535154e-05,
+        1.582293953106273e-05
+      ],
+      "delta_velocity": [
+        0.001137104001827538,
+        -0.002005720743909478,
+        -0.04886860400438309
+      ]
+    },
+    "full_rate_custom_topics": [
+      "vehicle_imu"
+    ],
+    "attribution": "LOGGER_VEHICLE_IMU_SUBSCRIPTION_GENERATION_SKIP_NOT_UART_PACKET_LOSS",
+    "exact_hardware_missing_sample_count": "UNKNOWN",
+    "precise_scheduling_trigger": "UNKNOWN"
+  }
+}

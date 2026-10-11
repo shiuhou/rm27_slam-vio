@@ -1,0 +1,35 @@
+{
+  "observed_failure": "COORDINATOR_VERSION2_GATE_BEFORE_PEER_LAUNCH",
+  "source_supported_cause": "PX4 switches outgoing protocol after incoming MAVLink2; -Z only flow-off",
+  "receiver_readiness_problem": "STRICT_CONTROLLER_REJECTS_INITIAL_V1_AND_CANNOT_SEND_BOOTSTRAP_HEARTBEAT",
+  "source_files": {
+    "mavlink2-20261010\\mavlink_receiver.cpp": "fc3d37f5c97c7180ee15bf0aa78608e0d2f326d0819757be3aacb4d6c7039c7a",
+    "imu-input-20261010\\src__modules__mavlink__mavlink_main.cpp": "a39585fdce5fdd07aadccbb6b5ec9774fab8448ca8aa128087f2057fc219ccb9"
+  },
+  "synthetic_controller_results": [
+    {
+      "evidence_kind": "SYNTHETIC_NO_DEVICE",
+      "incoming_version": 1,
+      "output_frames": 0,
+      "state": "DONE",
+      "error": "unverified/signed/non-MAVLink2 heartbeat"
+    },
+    {
+      "evidence_kind": "SYNTHETIC_NO_DEVICE",
+      "incoming_version": 2,
+      "output_frames": 2,
+      "state": "STARTING",
+      "error": null
+    }
+  ],
+  "existing_stage_a_heartbeat": {
+    "wire_hex": "fd0900000001bf000000000000001208000003cfa5",
+    "bytes": 21,
+    "version": 2,
+    "sysid": 1,
+    "compid": 191
+  },
+  "physical_transport_qualified": false,
+  "hardware_fault_established": false,
+  "proposed_fix": "Separate guarded heartbeat-only negotiation before strict MAVLink2 logging; not implemented or executed"
+}

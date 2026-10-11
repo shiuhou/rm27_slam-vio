@@ -1,0 +1,20 @@
+{
+  "attestation.json": "f0e474d400b00361bc80e3cece49a79f4516005b55e424289d1c7fe5556e7133",
+  "backup-readonly.txt": "f170ca18ba51dd2a771608fd67ff55e1651786e9ef8b05e4248978c6df1fd295",
+  "capture-report.json": "de122beddeb75af5c3c3eba12c66bb964e6d53caff68fa15a86ff7b0d820ba24",
+  "coordinator-console.txt": "ab1112f74d6a57113d4f8a80a020d2f7af3d97c877c0885f9083394ad76ce447",
+  "coordinator.jsonl": "87f9227639aae2b021257dd47fac70f2dea98ef1b3ce943ee75df964570e723e",
+  "coordinator.py": "475b7877b8fe07a3d06434ac413446b2058e0dfdfff691550fc08f1b8752882f",
+  "final-readonly.txt": "8d876ed1af13091816d9ddbb532e9ab7bf1b7747aa539aad6ece5d5f4f0f56b3",
+  "launch.py": "2128bdc175f023602583a1be7efee726368f382315ad46a44a81c0c2ac94533e",
+  "receiver-console.txt": "117610f531e18ce28ddcf9b889aa71332170bc42a06745a064bcf743700b58b8",
+  "topics-readback.txt": "fa434abe98b74a85531a97279c029b6ae8b6061e5d7161cc413e82ebcc105620",
+  "topics-readback.txt.part": "fa434abe98b74a85531a97279c029b6ae8b6061e5d7161cc413e82ebcc105620",
+  "topics.txt": "fa434abe98b74a85531a97279c029b6ae8b6061e5d7161cc413e82ebcc105620",
+  "trial-preflight.json": "b6d623170db48ac8115f52529820864e247514c3ecc4359761229eeb978459bd",
+  "verify_evidence.py": "7c2e83d076916c8bf565930a460d670d083c6f48397264dfcc45305bae132ff3",
+  "physical-trial-01\\preflight-attestation.json": "3fd47b2bbb5b2a3a126787a3372ba7b7a36a5b9766b185b26a9d945763e1f791",
+  "physical-trial-01\\received-prefix.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "physical-trial-01\\summary.json": "cb6e35f436cb79efd0543e27957d74a0007e70e2c8d3253185c193368433ec6f",
+  "physical-trial-01\\wire.jsonl": "954245d7b479fe084bf8fa28aefeec13536102491e5f7516b6df15b16e2dcd82"
+}

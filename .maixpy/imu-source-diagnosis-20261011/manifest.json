@@ -1,0 +1,292 @@
+{
+  "scope": "OFFLINE_SOURCE_SUBSCRIPTION_DIAGNOSIS_NOT_A_FIRMWARE_FIX",
+  "head": "3ea1e16086965176db68b88e1c42990f92c5913e",
+  "tests_pass": 56,
+  "skips": 0,
+  "original_minimum_hz": 200,
+  "original_rate_gate_pass": false,
+  "source_complete": "UNKNOWN",
+  "clock_status": "UNKNOWN",
+  "tail_complete": "UNKNOWN",
+  "openvins_admissible": false,
+  "stage_c": "CLOSED",
+  "files": [
+    {
+      "path": ".codex/tasks/2026-10-11-imu-source-diagnosis/evidence-map.md",
+      "bytes": 298,
+      "sha256": "28e42e0ffca6b2b69ef45d4ff44294528555ab634bbd3d73a50cbbc776a85bb8"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-source-diagnosis/README.md",
+      "bytes": 341,
+      "sha256": "f620cde0f1420bb9f7209ad6635a757eb18f5956b3ada48569c70c8053bf01a2"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-source-diagnosis/task-brief.md",
+      "bytes": 396,
+      "sha256": "f2f19be89896819bd10a6124bb3485b3f825acedb39cfcd02eb083e6c57cf9c0"
+    },
+    {
+      "path": ".codex/tasks/2026-10-11-imu-source-diagnosis/validation-report.md",
+      "bytes": 621,
+      "sha256": "bfc4e42f31fbda3f502b10779e8d03527139a7cee09593b0d89b7525b277a327"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/analysis.json",
+      "bytes": 18301,
+      "sha256": "c620bb8305001ad4c1f15610340b752b111473698ff27e9513530c64f84bf545"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/DIAGNOSIS.md",
+      "bytes": 13020,
+      "sha256": "1d2010641d5fc48b3b69cd438dd52afd0c5304caba8444a2bfe81b7632003191"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/diagnosis.py",
+      "bytes": 11016,
+      "sha256": "17510e9951d4e05294d13d8934d4866d502f210e4eebdf9133b392df8454e948"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/git-before.txt",
+      "bytes": 1758,
+      "sha256": "41f1a09919f3ac08f505f2f7ee45b533323d4d8a959fd5aa006797fdc65709d3"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/PLAN.md",
+      "bytes": 862,
+      "sha256": "02dc2ce0ec42fcbd6bc6d983c9a1eb673070173cd7cab1a3bb8fe1d2ff2e4608"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/preservation-check.json",
+      "bytes": 733,
+      "sha256": "0ca4ecdc0cfcd8e6dd0ba1715ac5420cd0c9c16a86cc517a3659997034c31928"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/regression-reassembly.txt",
+      "bytes": 7470,
+      "sha256": "7149212652ae5b012575745152d382dd0aeff7bf1a2c571323102cf9cfb6b6a4"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/regression-semantics.txt",
+      "bytes": 2930,
+      "sha256": "fc58da8719c8c4fa59c3ca58c2941dccf0b8ee0286f5dc40445ce6daa7e0f9f6"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/repo-before/CODEX_RESUME.md",
+      "bytes": 11243,
+      "sha256": "6b015c6e3073b7eab8c5db33f021cbd342ead067977dec6e0fa95a79075d6a9d"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/repo-before/HANDOFF.md",
+      "bytes": 62817,
+      "sha256": "5cfb37bf8d31b1ff61a1758665e2e7177c70f61cc9cb960e03995ceaa889cb9b"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/repo-before/LATEST.md",
+      "bytes": 8239,
+      "sha256": "c8f24b4e3ac54ffeccd40e8f382a0de2138ceebac132ae97b54f820c17448063"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/repo-before/new_plan.md",
+      "bytes": 42664,
+      "sha256": "bd121ef8322d987894c70c381fb737b7325789d6c707df648398f16710d3070f"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/repo-before/README.md",
+      "bytes": 7474,
+      "sha256": "17e5cc11fd745c37a78e0aa2e932b0e6fba96b6b80356143b2a011c993347c2e"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/repo-before/VAULT_UPDATE.md",
+      "bytes": 25372,
+      "sha256": "b18233df43dc88102a139ae6c24c62d3bc64fefa089c67316698f807d54fc55e"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/seal.py",
+      "bytes": 4920,
+      "sha256": "7d1242ddce56b7d1be6d4c985b603072f84b466fccd6e08544d1dfefebaf3a0a"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/test_diagnosis.py",
+      "bytes": 6902,
+      "sha256": "49fad3f001e6194635f4a06a462b5213c32760f758d7ad9014b59d4741db1be6"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/tests-final.txt",
+      "bytes": 5886,
+      "sha256": "7e32c6fcf37716590ff774f562be62844d5cf738a037a37637675da2bfad15fc"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/tests-green-02.txt",
+      "bytes": 5534,
+      "sha256": "70b41ce509b35d2f756ecd31dcc6dd317b0611056db278d8a2c99f71e5f3c846"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/tests-green.txt",
+      "bytes": 6690,
+      "sha256": "7f9e0fc2f022d44db130206d05901ec74d255dfa0b6e951d51392cd6fd26baea"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/tests-red-02.txt",
+      "bytes": 35954,
+      "sha256": "3cdc9d4105f6601ed2c850522452bf62fb8b2813a8b8f2c11a6fb10c836f9f23"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/tests-red.txt",
+      "bytes": 34020,
+      "sha256": "2da9b3cba9f2ae26ebe9170fe1812c241e9d24af70132762c8c9cfa6507db94e"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/verification-console.txt",
+      "bytes": 304,
+      "sha256": "9d5a18f8928ee654d98ac37c9954ca98c194ca9125cc85937585e66f4a809707"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/verification.json",
+      "bytes": 3212,
+      "sha256": "213998532900e051f7cfd9114ff9c96d9d05c08a619c5192e74f76a4dd4b1895"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/verify.py",
+      "bytes": 8070,
+      "sha256": "9e3f290cb9e1c3748156441ad28ce3796ec7483ef174d6038d28f4a0bd254c87"
+    }
+  ],
+  "external_files": [
+    {
+      "path": ".maixpy/imu-design-20261010/BMI088_Accelerometer.cpp",
+      "bytes": 18760,
+      "sha256": "a9bd1a165c40a3959f5a64c0d912f2dab1c9b94255c72733d1ebf879ec3dda9f"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/BMI088_Gyroscope.cpp",
+      "bytes": 13987,
+      "sha256": "323d7a50a6a9448e42abd36551c13e9f147c485e13a3d65f1f26381057620185"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/LATEST.md",
+      "bytes": 9040,
+      "sha256": "dcb0ded386d2c4b669c2792c2fbbd03bb164dd277bcff9555c9e6ecac25306ce"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/offline.py",
+      "bytes": 6720,
+      "sha256": "0e7abe57bbaa11901755e202cfa80a1d884880b00113e46eb3f80b8f2170c3b8"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/capture_report.py",
+      "bytes": 10501,
+      "sha256": "9a6ebd85f6794036c4be14add6c9c90816c349317474ae4f904c2cec7816fa33"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/session.py",
+      "bytes": 16379,
+      "sha256": "f1421fdcc36c1514a63bc2292dc8537c60d58d0092fd405d86df6e3e28328533"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/reassembly/ulog_mavlink.py",
+      "bytes": 10335,
+      "sha256": "76dcb97456e613384b4024b40e013cf6f8046c371f0ff0e821edadd2dd00cb6f"
+    },
+    {
+      "path": ".maixpy/imu-input-20261010/imu_input.py",
+      "bytes": 9306,
+      "sha256": "4365eae552af524946dab393e6191c9fec5dc7705e5642166773c1e1a609415a"
+    },
+    {
+      "path": ".maixpy/imu-input-20261010/msg__VehicleImu.msg",
+      "bytes": 1394,
+      "sha256": "3d38685a61825342c70c124d7758ea31c87099a08265313e0d1e91444a8d7e6f"
+    },
+    {
+      "path": ".maixpy/imu-transport-20261010/src__modules__sensors__Integrator.hpp",
+      "bytes": 7059,
+      "sha256": "860941bb8cfcccc151ea12cfd2b61265bd974182ece648aac8424df18c9d1c26"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/source/log_writer_mavlink.cpp",
+      "bytes": 5207,
+      "sha256": "ae48cc6de1cbfc0edefc0f15c37b2886472caa66f49d4b817a47607eddd35131"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/manifest.json",
+      "bytes": 20495,
+      "sha256": "4998a984647f0be93fba98b099b26c471c0b3916e6a90e7a74122baa9c45f6fd"
+    },
+    {
+      "path": ".maixpy/mavlink2-20261010/VALIDATION.md",
+      "bytes": 6245,
+      "sha256": "d9c79727ad749e8ec6ba970a2e41c0ef4aa5ccc3ac6e6e7bc53c0f1bbb7ffd0f"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/msg__SensorAccel.msg",
+      "bytes": 692,
+      "sha256": "2bd894577cc016f0d2bf022f708125fa2ca61b45c8e29377007f3615db4f58e2"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/msg__SensorGyro.msg",
+      "bytes": 704,
+      "sha256": "03771583b942c4755e4ed102601b0246ac3ccdacba3bfd6cd1175680e2df0e69"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/platforms__common__uORB__SubscriptionCallback.hpp",
+      "bytes": 5331,
+      "sha256": "23cc99a6f8e99574efba19629795766a79dd39864e2cfcf2e732c64729808767"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/platforms__common__uORB__uORBDeviceNode.cpp",
+      "bytes": 12222,
+      "sha256": "f383fdd0f4fac33d529cfead6eadff0146e679797ddc348e4cae5a7edace2a59"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/platforms__common__uORB__uORBDeviceNode.hpp",
+      "bytes": 9186,
+      "sha256": "b0a56f55e9571603d67e6c9861ac4346cf81f9ea030faa87fec7561e7ad9c94f"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__logger__logged_topics.cpp",
+      "bytes": 19639,
+      "sha256": "33c1cd7c55dc81d4fa53153b7f269401b67c7f6edc929707ec536203096bcfe5"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__logger__logger.cpp",
+      "bytes": 70842,
+      "sha256": "2218ab36e3d327a805b52f0b62ac738c7af7774af2e819d23b65158d0edfec48"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__sensors__vehicle_imu__VehicleIMU.cpp",
+      "bytes": 33089,
+      "sha256": "5824adf05da2549de2fe8d736a0aa7f3860ccfa05cb4e9042cada9d29e35568b"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__sensors__vehicle_imu__VehicleIMU.hpp",
+      "bytes": 7277,
+      "sha256": "bdaae040ad8d4149398dc8e5c86a1bc359b0bf84aa8167fc79297cfd5d7ba9c1"
+    },
+    {
+      "path": ".maixpy/README.md",
+      "bytes": 7980,
+      "sha256": "6f5adfa4704f800c8e4d324f84a3087b05b768ebf10894ea015b888f4f58e598"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 65546,
+      "sha256": "7b32421ce79379dadce44d5b4586484e4565f353dc17309adcae6d2730d63529"
+    },
+    {
+      "path": "new_plan.md",
+      "bytes": 43482,
+      "sha256": "e7ca48bce83e5d23b7e65c7f272afc8e9ca6b1fc0b6974ed393ba19b50c90cf5"
+    },
+    {
+      "path": "rm27/perception/vision/docs/CODEX_RESUME.md",
+      "bytes": 11815,
+      "sha256": "5544fb9cdf3a201fbb3ff6b3244cf44034bc1bf4eb5f2a8702bee237ce93cdf9"
+    },
+    {
+      "path": "VAULT_UPDATE.md",
+      "bytes": 26426,
+      "sha256": "2fd25bd1c44cc5838c0f97943c667b0abe24fe00e581c4ff1d66c131e50ae8ef"
+    }
+  ]
+}

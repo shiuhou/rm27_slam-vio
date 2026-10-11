@@ -1,0 +1,11 @@
+{
+  "owners": [],
+  "termios_after": "[1280, 5, 3261, 35387, 13, 13, [b'\\x03', b'\\x1c', b'\\x7f', b'\\x15', b'\\x04', b'\\x00', b'\\x01', b'\\x00', b'\\x11', b'\\x13', b'\\x1a', b'\\x00', b'\\x12', b'\\x0f', b'\\x17', b'\\x16', b'\\x00', b'\\x00', b'\\x00', b'\\x00', b'\\x00', b'\\x00', b'\\x00', b'\\x00', b'\\x00', b'\\x00', b'\\x00', b'\\x00', b'\\x00', b'\\x00', b'\\x00', b'\\x00']]",
+  "termios_unchanged": true,
+  "receiver_output_exists": false,
+  "receiver_pid_file_exists": false,
+  "actual_preflight_exists": false,
+  "no_uart_data_read": true,
+  "no_tx": true,
+  "no_setting_change": true
+}

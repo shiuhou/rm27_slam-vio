@@ -1,0 +1,427 @@
+﻿{
+    "scope":  "ONE_APPROVED_NEGOTIATED_PHYSICAL_TRIAL_FAILED_LOGGING435_NO_RETRY_EXACT_RESTORE",
+    "head":  "3ea1e16086965176db68b88e1c42990f92c5913e",
+    "firmware":  "d6f12ad1c4f70ad3230afd7d86e971421e02fef4",
+    "transport_qualified":  false,
+    "openvins_admissible":  false,
+    "stage_c":  "CLOSED",
+    "files":  [
+                  {
+                      "path":  "analysis-console.txt",
+                      "bytes":  13008,
+                      "sha256":  "8fc773c8659fc554491687f273a1cbca95b10caa8d520aad8d21d2e3c982a38b"
+                  },
+                  {
+                      "path":  "analysis-green.txt",
+                      "bytes":  2076,
+                      "sha256":  "b51547bc9dafecb9510ac7b1f5c077e9c679abfee0f2c30461330d6734a87684"
+                  },
+                  {
+                      "path":  "analysis-red.txt",
+                      "bytes":  7702,
+                      "sha256":  "270f9354eaf84f57c0dc7bb6c51f25ff3b050e9a1f797781e918d82cb32e8afe"
+                  },
+                  {
+                      "path":  "analyze_failure.py",
+                      "bytes":  5354,
+                      "sha256":  "0d93d41f1d08adfbc4381e7e9cacc0afc6b778d63b519f0e61214d1f546a3fb1"
+                  },
+                  {
+                      "path":  "attestation.json",
+                      "bytes":  411,
+                      "sha256":  "5003a32ab42f39c57977300e63b4b15a495aac6c7e22f23d32b974d604d5039d"
+                  },
+                  {
+                      "path":  "audit-console.txt",
+                      "bytes":  268,
+                      "sha256":  "2298d28db8de114ca5ceee5f47867944c473df5706047589275511061c3e4791"
+                  },
+                  {
+                      "path":  "board_after.py",
+                      "bytes":  1250,
+                      "sha256":  "c909785cd75158dc5ce3a8d16630ce615e974840307aa429c5c6ff15e268b31a"
+                  },
+                  {
+                      "path":  "board_metrics.py",
+                      "bytes":  1238,
+                      "sha256":  "4393a0ef465b506c68a1bcf5da3c30e3aff4de3eb56c372bea36460cafb3273d"
+                  },
+                  {
+                      "path":  "board_preflight.py",
+                      "bytes":  1526,
+                      "sha256":  "741bd044a3b20802c5b9b129c4c08e91e3e078903d12945bbfc69feadff04355"
+                  },
+                  {
+                      "path":  "board_test.py",
+                      "bytes":  2150,
+                      "sha256":  "91e5fcb4c9a480a0f6f75829089408c4106fc39f7816dec54a239875b3a9488b"
+                  },
+                  {
+                      "path":  "board-after.json",
+                      "bytes":  3094,
+                      "sha256":  "1aea3d25dc119af1deda60510086dd835128eae8e63f3a932928fbf69d704525"
+                  },
+                  {
+                      "path":  "board-after-console.txt",
+                      "bytes":  6002,
+                      "sha256":  "457c71e8ceb834c7eccfba5b5a7ab0e8dacb4ef9ab684ca50e947b5f3aebe04c"
+                  },
+                  {
+                      "path":  "board-preflight.json",
+                      "bytes":  3228,
+                      "sha256":  "63e66141e7f94b7f6ad3cc4c03005939d800181242a1031254b8651e2168c89c"
+                  },
+                  {
+                      "path":  "board-preflight-console.txt",
+                      "bytes":  6266,
+                      "sha256":  "a811fc24cebc4e597b8c18b9b63e9eaa9ef3b6c135cbe40cf42c0a5f98e8d6dd"
+                  },
+                  {
+                      "path":  "board-tests-console.txt",
+                      "bytes":  39244,
+                      "sha256":  "2844d598d67777fe6d8239dae04f782dd63e66a0ef26c1ba459030313350b787"
+                  },
+                  {
+                      "path":  "capture-audit.json",
+                      "bytes":  2417,
+                      "sha256":  "2f1dae0625ca96ba6110dc7034c311498e68f43c5db07debb29118bee1f4af95"
+                  },
+                  {
+                      "path":  "coordinator.jsonl",
+                      "bytes":  84945,
+                      "sha256":  "302515f4137bf54373cac6b84dc22cf6495e81067104cdf8d6fcd19599922785"
+                  },
+                  {
+                      "path":  "coordinator.py",
+                      "bytes":  13869,
+                      "sha256":  "28dac9fdb10035588507dfe4db8c36cbb53d8a804687f8b21a153d1e45abcdbf"
+                  },
+                  {
+                      "path":  "coordinator-console.txt",
+                      "bytes":  157020,
+                      "sha256":  "db19524212aac27b4425486e2d1db7c3a607dad013272e5d86cbeab9a9f86a9e"
+                  },
+                  {
+                      "path":  "download/physical-trial-01/preflight-attestation.json",
+                      "bytes":  488,
+                      "sha256":  "60b9c36fce18990859b814273323eb6e4ad436bc39369172360ae04910ba290d"
+                  },
+                  {
+                      "path":  "download/physical-trial-01/received-prefix.bin",
+                      "bytes":  107784,
+                      "sha256":  "b66b017ab4acbf04a85e76b196f8d98a4752ab885350881c15ab83d9e7505327"
+                  },
+                  {
+                      "path":  "download/physical-trial-01/summary.json",
+                      "bytes":  1409,
+                      "sha256":  "b5cd54d1d195290c1bf3b707fbf221a87391854f691a552ddce67bc1b92d4922"
+                  },
+                  {
+                      "path":  "download/physical-trial-01/wire.jsonl",
+                      "bytes":  3983287,
+                      "sha256":  "f424acde1d4a64a51a441ab6e4bbd4c0f8be171eaf419c4b184d8ffed3a97153"
+                  },
+                  {
+                      "path":  "during-01.json",
+                      "bytes":  1488,
+                      "sha256":  "df67932fd2bff7d1a81d18f8b36edb1d945a3245f2082a46917dbce6fa4a43a4"
+                  },
+                  {
+                      "path":  "environment.json",
+                      "bytes":  3264,
+                      "sha256":  "3bcb720e5dc1f20162e34a7a7061ba64c4f484ac3b6db2da77050b13d544d984"
+                  },
+                  {
+                      "path":  "expected.json",
+                      "bytes":  3186,
+                      "sha256":  "ff80e3ce0c5f5ef82422db4300ab4d2e2ae3fbd7f82a014b62e04783f5285b92"
+                  },
+                  {
+                      "path":  "failure-analysis.json",
+                      "bytes":  6501,
+                      "sha256":  "ed1914047cff014b68d5db937bc6f64436b0f5f747a14e5ab37c4a3b7ea7c23a"
+                  },
+                  {
+                      "path":  "launch.py",
+                      "bytes":  871,
+                      "sha256":  "c7ed2f4286ab6229da3addc4a34b50fdadb5eb58c629e8203337465624cf1151"
+                  },
+                  {
+                      "path":  "m3c-metrics-01-console.txt",
+                      "bytes":  2954,
+                      "sha256":  "c6996e70056f57f8605118a14cdcfbfc99b96163cc3b15ac9f8ae4164080cf1a"
+                  },
+                  {
+                      "path":  "offline-tests-final.txt",
+                      "bytes":  3460,
+                      "sha256":  "33586c10773af72771f77e57b2e55706d48d6946183bb0991e9682c23e599324"
+                  },
+                  {
+                      "path":  "PLAN.md",
+                      "bytes":  2082,
+                      "sha256":  "65ec82d208d87cf0f8749e2c9c5d9dadddda827376f86b8e0959c473981fa7a9"
+                  },
+                  {
+                      "path":  "px4-readonly-identity.txt",
+                      "bytes":  1360,
+                      "sha256":  "99293bfb3badcf66f071e0752df566a20a9d1a6b0f847422b462dfd557866bf8"
+                  },
+                  {
+                      "path":  "px4-readonly-identity-02.txt",
+                      "bytes":  2826,
+                      "sha256":  "4a8b3054913fe7ad8bc0664b5ffa00b370b1812e87d2be88344c05387984b46d"
+                  },
+                  {
+                      "path":  "receiver-console.txt",
+                      "bytes":  1344,
+                      "sha256":  "3fb8f411012b6bc69ef25229d5579a710d6524d02c42df0f403d5d362ac97f36"
+                  },
+                  {
+                      "path":  "remote-artifact-sha256.txt",
+                      "bytes":  1734,
+                      "sha256":  "4d4f64f752658d0c09a7043484d8b95649e27beba58cfed51b077ef671f52ec1"
+                  },
+                  {
+                      "path":  "repo-before/CODEX_RESUME.md",
+                      "bytes":  8009,
+                      "sha256":  "e84ebe7939b986124f58fe46eedd6353ec3c04525b42180fee8c3b35a33d6c7f"
+                  },
+                  {
+                      "path":  "repo-before/HANDOFF.md",
+                      "bytes":  51414,
+                      "sha256":  "d513fd122fe13d83541634fc4297a5120847d3ce4e2e8415384de53542912205"
+                  },
+                  {
+                      "path":  "repo-before/LATEST.md",
+                      "bytes":  5384,
+                      "sha256":  "761e004ebd41abe0c1bf5d57230413e617a1f898aee1c74880392cfb4420ed9f"
+                  },
+                  {
+                      "path":  "repo-before/new_plan.md",
+                      "bytes":  39729,
+                      "sha256":  "49bcdcaf41a53c5780269b2fef4de87b2199c15a49a5e13cdd4f321765d3ef2b"
+                  },
+                  {
+                      "path":  "repo-before/README.md",
+                      "bytes":  4832,
+                      "sha256":  "7ec9f300d3e0bc52631647b61f0700a94567aa65946827ab7877313a13ea1638"
+                  },
+                  {
+                      "path":  "repo-before/VAULT_UPDATE.md",
+                      "bytes":  19454,
+                      "sha256":  "5487f313fd04ef006ac70194225d24c7cce0de5969c582c75288c97b9a238da5"
+                  },
+                  {
+                      "path":  "RESULT.md",
+                      "bytes":  12717,
+                      "sha256":  "30754e9169c85c02543e27241a04f725eb2bbe56bf8288bf076b3c631893be6a"
+                  },
+                  {
+                      "path":  "scope-green.txt",
+                      "bytes":  2192,
+                      "sha256":  "664bb74634c105d4159821b552eca07287fca694d350107a9eef904ebf53eef8"
+                  },
+                  {
+                      "path":  "scope-red.txt",
+                      "bytes":  6072,
+                      "sha256":  "45349d4dfba60d3c88031155c26404bda73cdb9ab6ca2821b12fb17d9ce0c078"
+                  },
+                  {
+                      "path":  "source/log_writer_mavlink.cpp",
+                      "bytes":  5207,
+                      "sha256":  "ae48cc6de1cbfc0edefc0f15c37b2886472caa66f49d4b817a47607eddd35131"
+                  },
+                  {
+                      "path":  "source/mavlink_ulog.cpp",
+                      "bytes":  7640,
+                      "sha256":  "898784d79d5a52d55213cde233814b1b92d79de570c45d192da3a81c8b2ca40b"
+                  },
+                  {
+                      "path":  "source/README.md",
+                      "bytes":  1287,
+                      "sha256":  "65c2602e88021548025d1c733d3cb273bdc4fcef4a222541d9bd260f37f66fd8"
+                  },
+                  {
+                      "path":  "stop.py",
+                      "bytes":  645,
+                      "sha256":  "c1442f63b3443c49bf232b6914285ed28de755f349d4d80812a3c8f2cef6e1fe"
+                  },
+                  {
+                      "path":  "test_analysis.py",
+                      "bytes":  2115,
+                      "sha256":  "1564501840254dc14041b4899998a6b3be7bf40ba7fb8d8764e5b0598e47f8e4"
+                  },
+                  {
+                      "path":  "test_scope.py",
+                      "bytes":  3032,
+                      "sha256":  "4c5f2e5403dafa217ec1714a152ee6b576cfcab8efd02db8900fec63df30fc0e"
+                  },
+                  {
+                      "path":  "tests.txt",
+                      "bytes":  16261,
+                      "sha256":  "1bb818b43f54b8cad7a383c021d9068b734b04ca8bb6040e5324b0b2f41f7515"
+                  },
+                  {
+                      "path":  "topics-readback.txt",
+                      "bytes":  166,
+                      "sha256":  "fa434abe98b74a85531a97279c029b6ae8b6061e5d7161cc413e82ebcc105620"
+                  },
+                  {
+                      "path":  "topics-readback.txt.part",
+                      "bytes":  166,
+                      "sha256":  "fa434abe98b74a85531a97279c029b6ae8b6061e5d7161cc413e82ebcc105620"
+                  },
+                  {
+                      "path":  "verification.json",
+                      "bytes":  5672,
+                      "sha256":  "919c8c9012275226a7dbff5da97221344b5454913b259d5ea16663ea75ee115a"
+                  },
+                  {
+                      "path":  "verification-console-01.txt",
+                      "bytes":  1570,
+                      "sha256":  "3b3f6111c908befef309e6ff561c0adbee165d7e353a5ccb69d2a4bd5d2d6795"
+                  },
+                  {
+                      "path":  "verification-console-02.txt",
+                      "bytes":  2962,
+                      "sha256":  "656c88edf3bdbfcdaa7bbca21685809ad120622f82a700a13da635cff5ce31ff"
+                  },
+                  {
+                      "path":  "verification-console-03.txt",
+                      "bytes":  11350,
+                      "sha256":  "57500feb4dcb3e912d79d5279886733a48e3a90337ae3eec25c5d8c9603cb922"
+                  },
+                  {
+                      "path":  "verify_evidence.py",
+                      "bytes":  10974,
+                      "sha256":  "315f0e3a5a5fb0c1e9015f80ade99b9314029e8f3a876901eac43288f0aee965"
+                  }
+              ],
+    "external_files":  [
+                           {
+                               "path":  ".maixpy/imu-design-20261010/LATEST.md",
+                               "bytes":  6201,
+                               "sha256":  "adba3a10171b71c2e839ce428e4c77373a3c274a408e391ea4df9dca929d6041"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/offline.py",
+                               "bytes":  6720,
+                               "sha256":  "0e7abe57bbaa11901755e202cfa80a1d884880b00113e46eb3f80b8f2170c3b8"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/capture_report.py",
+                               "bytes":  10501,
+                               "sha256":  "9a6ebd85f6794036c4be14add6c9c90816c349317474ae4f904c2cec7816fa33"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/replay_controller.py",
+                               "bytes":  2060,
+                               "sha256":  "c368b078a0a5b4e51206ecfc14f5b14e0a41036a2f259b6a81a2dd872f44cbfd"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/session.py",
+                               "bytes":  16379,
+                               "sha256":  "f1421fdcc36c1514a63bc2292dc8537c60d58d0092fd405d86df6e3e28328533"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/startup_sync.py",
+                               "bytes":  4748,
+                               "sha256":  "2640c5aa5efd5ce551564576353db736fda7a2bb8970c7a476099c43f0d1edf2"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/test_capture_report.py",
+                               "bytes":  4584,
+                               "sha256":  "90678b10cc0c34fa5e1ad285caacd3504d1608f5589a7eba9a69eed9899d83c5"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/test_negotiation.py",
+                               "bytes":  15270,
+                               "sha256":  "6faa1b9ed507775dc9b330597aaf2cae3d3c14e82b511a32f1176643a5405c05"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/test_posix_pty.py",
+                               "bytes":  5493,
+                               "sha256":  "50ade6d891256f2eedea5cb0624223108049d5c3f6d9efd24dd0a0e8962a7f34"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/test_session.py",
+                               "bytes":  12992,
+                               "sha256":  "4cb18f46173f2c5d3d5a4cfa8e1a6894b4e7233be9ff998643063da1c8dac3da"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/test_startup_pty.py",
+                               "bytes":  4704,
+                               "sha256":  "10b2190e2562e3b26bd13dbef556b2a0883493763e1d0e7c0d8c0d53844d00a8"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/test_startup_sync.py",
+                               "bytes":  14774,
+                               "sha256":  "cf003fccd7426b28ebb0d9665a5751453ad169678b417a9b3c4d2af2b1bf5dc4"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/test_uart_session.py",
+                               "bytes":  11389,
+                               "sha256":  "81f31c54bd4ea6065ea49592888897d297ff7e6bee0f32de5ae374fce9cceb27"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/uart_session.py",
+                               "bytes":  12036,
+                               "sha256":  "3fdbf617481f03f6b05b4c2fa19ae481c02e6f920f8d530b631319c36c18b4b7"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/reassembly/replay_saved.py",
+                               "bytes":  3310,
+                               "sha256":  "090023e447ec0a3591378dcf92ad86f1f77ef24c3413150bc40f227e8a8d6a30"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/reassembly/test_ulog_mavlink.py",
+                               "bytes":  12641,
+                               "sha256":  "004a4505a1da0e8fc331712c089ed1608ae4325137bd78410a8589e0ca453c26"
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/reassembly/ulog_mavlink.py",
+                               "bytes":  10335,
+                               "sha256":  "76dcb97456e613384b4024b40e013cf6f8046c371f0ff0e821edadd2dd00cb6f"
+                           },
+                           {
+                               "path":  ".maixpy/imu-input-20261010/imu_input.py",
+                               "bytes":  9306,
+                               "sha256":  "4365eae552af524946dab393e6191c9fec5dc7705e5642166773c1e1a609415a"
+                           },
+                           {
+                               "path":  ".maixpy/imu-input-20261010/src__modules__mavlink__mavlink_main.cpp",
+                               "bytes":  104913,
+                               "sha256":  "a39585fdce5fdd07aadccbb6b5ec9774fab8448ca8aa128087f2057fc219ccb9"
+                           },
+                           {
+                               "path":  ".maixpy/m3c-ping-20261009/probe.py",
+                               "bytes":  7162,
+                               "sha256":  "974c58917f5eed09d727b8caeab8a11642e9d802ac1debce98ae9147a7fee031"
+                           },
+                           {
+                               "path":  ".maixpy/README.md",
+                               "bytes":  5693,
+                               "sha256":  "9bb210b37d3fa110d07fff606ebb339212acabdd0894ee1bf1f0172931b45210"
+                           },
+                           {
+                               "path":  "HANDOFF.md",
+                               "bytes":  54615,
+                               "sha256":  "3cb9d37ab7b98e8ceb2315f60d7a5db6def7f18415bdde4dc0fc14971e924dcd"
+                           },
+                           {
+                               "path":  "new_plan.md",
+                               "bytes":  40570,
+                               "sha256":  "f7487c968eea8871546443b9c4fe6b887d1b82be9c3401a800395eeb2b595b98"
+                           },
+                           {
+                               "path":  "rm27/perception/vision/docs/CODEX_RESUME.md",
+                               "bytes":  8981,
+                               "sha256":  "ce8516113c23f1e116152d25de274594a031d77ed13489defff9d739e9e14be0"
+                           },
+                           {
+                               "path":  "VAULT_UPDATE.md",
+                               "bytes":  21291,
+                               "sha256":  "da967e1496997fd8f5a225a6a33e1266355148e875aab5a40f1700c8754dce98"
+                           }
+                       ]
+}

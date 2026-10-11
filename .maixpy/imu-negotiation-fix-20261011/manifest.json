@@ -1,0 +1,344 @@
+{
+    "scope":  "OFFLINE_GUARDED_MAVLINK2_NEGOTIATION_SOFTWARE_NOT_HARDWARE",
+    "physical_capture_executed":  false,
+    "external_files":  [
+                           {
+                               "path":  "HANDOFF.md",
+                               "sha256":  "d513fd122fe13d83541634fc4297a5120847d3ce4e2e8415384de53542912205",
+                               "bytes":  51414
+                           },
+                           {
+                               "path":  "VAULT_UPDATE.md",
+                               "sha256":  "5487f313fd04ef006ac70194225d24c7cce0de5969c582c75288c97b9a238da5",
+                               "bytes":  19454
+                           },
+                           {
+                               "path":  "new_plan.md",
+                               "sha256":  "49bcdcaf41a53c5780269b2fef4de87b2199c15a49a5e13cdd4f321765d3ef2b",
+                               "bytes":  39729
+                           },
+                           {
+                               "path":  ".maixpy/README.md",
+                               "sha256":  "7ec9f300d3e0bc52631647b61f0700a94567aa65946827ab7877313a13ea1638",
+                               "bytes":  4832
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/LATEST.md",
+                               "sha256":  "761e004ebd41abe0c1bf5d57230413e617a1f898aee1c74880392cfb4420ed9f",
+                               "bytes":  5384
+                           },
+                           {
+                               "path":  "rm27/perception/vision/docs/CODEX_RESUME.md",
+                               "sha256":  "e84ebe7939b986124f58fe46eedd6353ec3c04525b42180fee8c3b35a33d6c7f",
+                               "bytes":  8009
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/capture_report.py",
+                               "sha256":  "9a6ebd85f6794036c4be14add6c9c90816c349317474ae4f904c2cec7816fa33",
+                               "bytes":  10501
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/manifest.json",
+                               "sha256":  "594b9a3638d0babc2030177ec6137d11dbc267de4f45a5ed0ec1ca8d1d65cb40",
+                               "bytes":  6123
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/PLAN.md",
+                               "sha256":  "74b696170644fae5ae0ac340522fc3959f21d8448f168014d140485d35bd08ca",
+                               "bytes":  4250
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/preflight.template.json",
+                               "sha256":  "06995f98d4dbe33cf33f55ee33f0545134426b86a731c9f37fc1634760dd1f37",
+                               "bytes":  589
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/replay_controller.py",
+                               "sha256":  "c368b078a0a5b4e51206ecfc14f5b14e0a41036a2f259b6a81a2dd872f44cbfd",
+                               "bytes":  2060
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/RUNBOOK.md",
+                               "sha256":  "7186edd73198a472d4d7bdfe5fe82bd7cfeb32e95857ee7292da71af675d5d88",
+                               "bytes":  7986
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/session.py",
+                               "sha256":  "f1421fdcc36c1514a63bc2292dc8537c60d58d0092fd405d86df6e3e28328533",
+                               "bytes":  16379
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/startup_sync.py",
+                               "sha256":  "2640c5aa5efd5ce551564576353db736fda7a2bb8970c7a476099c43f0d1edf2",
+                               "bytes":  4748
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/test_capture_report.py",
+                               "sha256":  "90678b10cc0c34fa5e1ad285caacd3504d1608f5589a7eba9a69eed9899d83c5",
+                               "bytes":  4584
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/test_negotiation.py",
+                               "sha256":  "6faa1b9ed507775dc9b330597aaf2cae3d3c14e82b511a32f1176643a5405c05",
+                               "bytes":  15270
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/test_posix_pty.py",
+                               "sha256":  "50ade6d891256f2eedea5cb0624223108049d5c3f6d9efd24dd0a0e8962a7f34",
+                               "bytes":  5493
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/test_session.py",
+                               "sha256":  "4cb18f46173f2c5d3d5a4cfa8e1a6894b4e7233be9ff998643063da1c8dac3da",
+                               "bytes":  12992
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/test_startup_pty.py",
+                               "sha256":  "10b2190e2562e3b26bd13dbef556b2a0883493763e1d0e7c0d8c0d53844d00a8",
+                               "bytes":  4704
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/test_startup_sync.py",
+                               "sha256":  "cf003fccd7426b28ebb0d9665a5751453ad169678b417a9b3c4d2af2b1bf5dc4",
+                               "bytes":  14774
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/test_uart_session.py",
+                               "sha256":  "81f31c54bd4ea6065ea49592888897d297ff7e6bee0f32de5ae374fce9cceb27",
+                               "bytes":  11389
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/uart_session.py",
+                               "sha256":  "3fdbf617481f03f6b05b4c2fa19ae481c02e6f920f8d530b631319c36c18b4b7",
+                               "bytes":  12036
+                           },
+                           {
+                               "path":  ".maixpy/imu-design-20261010/single-uart/controller/VALIDATION.md",
+                               "sha256":  "27d4044eaed03d51dc5605fef318b6059697df18a60f599b39a405864f9838a5",
+                               "bytes":  10306
+                           }
+                       ],
+    "head":  "3ea1e16086965176db68b88e1c42990f92c5913e",
+    "files":  [
+                  {
+                      "path":  "baseline/capture_report.py",
+                      "sha256":  "2192488626e77be2a0f519a0d7c3ff7ad574056b848c82e9d0fe50bc136da944",
+                      "bytes":  7526
+                  },
+                  {
+                      "path":  "baseline/preflight.template.json",
+                      "sha256":  "83aa450e6d0966ef97faa729a46cd903feb73ed2bc0b9147e5d930d404caa39f",
+                      "bytes":  546
+                  },
+                  {
+                      "path":  "baseline/RUNBOOK.md",
+                      "sha256":  "fb8cda28b3dcc92d170b6f87eb45d8ccbeb937d78cb6a9b8769522b96c1ca0dd",
+                      "bytes":  6211
+                  },
+                  {
+                      "path":  "baseline/session.py",
+                      "sha256":  "4792208a6cc397fd70dee89b1f116b5050c5bbe5be94bcb4b38c2675f9d18424",
+                      "bytes":  13435
+                  },
+                  {
+                      "path":  "baseline/uart_session.py",
+                      "sha256":  "285340c7bbfbe6bf8a2d39bef9c8958f0ba1d0868066bb47d6f1c3597f5a1f84",
+                      "bytes":  11393
+                  },
+                  {
+                      "path":  "controller-source-01.tar.gz",
+                      "sha256":  "cbc69ff2377744f404d8747f9afc4bc30d5ef505641db38eef2f414de11336b0",
+                      "bytes":  97074
+                  },
+                  {
+                      "path":  "controller-source-02.tar.gz",
+                      "sha256":  "2686a084b66638e01690f83aceab31c80053c4766ef62e00bf49ca8a9249337d",
+                      "bytes":  97273
+                  },
+                  {
+                      "path":  "linux_test.sh",
+                      "sha256":  "66b1264555b02b0016bdad72f7b66525e7f9b9877584dd1289f736b35143177d",
+                      "bytes":  502
+                  },
+                  {
+                      "path":  "linux-console-01.txt",
+                      "sha256":  "a27777e05b86e6ababeb8a405acdf1bf848a3979388e7a5c927e74f29de0cc29",
+                      "bytes":  7694
+                  },
+                  {
+                      "path":  "linux-console-02.txt",
+                      "sha256":  "d38a58df6af3adfe5237381bec39f3ed003311cfbbe4a678df9723531c0cd975",
+                      "bytes":  7694
+                  },
+                  {
+                      "path":  "linux-tests-01.txt",
+                      "sha256":  "b572341e569f06bd1a4959319ac2930dd2d7b50030ee8e5478196603a92832bc",
+                      "bytes":  15972
+                  },
+                  {
+                      "path":  "linux-tests-02.txt",
+                      "sha256":  "cb887229468c3c389bae748a3ecd0928754116ae1caa4c2c08504970dd808f46",
+                      "bytes":  16260
+                  },
+                  {
+                      "path":  "PLAN.md",
+                      "sha256":  "9c97946c82387e1aa3ab11e22b0a7c6f0b95f4e3accf047bb700658f7b0ca09d",
+                      "bytes":  2468
+                  },
+                  {
+                      "path":  "remote-source-sha256-02.txt",
+                      "sha256":  "3fcb882310c76856f0897dbb8be21ad331cc50fafb4a5ca2570ae4ebf77f1787",
+                      "bytes":  2600
+                  },
+                  {
+                      "path":  "repo-before/CODEX_RESUME.md",
+                      "sha256":  "46b031c56f385b7ab6fb29dd0952c6dec612d547b438fa2b4ac53bb824528faf",
+                      "bytes":  6880
+                  },
+                  {
+                      "path":  "repo-before/HANDOFF.md",
+                      "sha256":  "0baf2c94062c920b16542f2f54cdb5cd363c6c74da91fe42c9717cd1eedbeb42",
+                      "bytes":  48729
+                  },
+                  {
+                      "path":  "repo-before/LATEST.md",
+                      "sha256":  "d9d9bdeb2b462b47e70ce31f00921fdca721a4d35fd7f8ed34f9e50862ad500c",
+                      "bytes":  4498
+                  },
+                  {
+                      "path":  "repo-before/new_plan.md",
+                      "sha256":  "b9ec44c11f07fa060a0b739dd49916a8e443c453e922ad9e988fbb8d5ce40e7b",
+                      "bytes":  38898
+                  },
+                  {
+                      "path":  "repo-before/README.md",
+                      "sha256":  "71f4b479d58fc5efda99262808b382385435df0bc8ba828d37ca84ea8005225f",
+                      "bytes":  4548
+                  },
+                  {
+                      "path":  "repo-before/VAULT_UPDATE.md",
+                      "sha256":  "7f009fefcd16eaef6369cd84fc6f39b57a35f17cf911b8409d87564ab797e1c0",
+                      "bytes":  17925
+                  },
+                  {
+                      "path":  "saved-replay-01.json",
+                      "sha256":  "1b54f0cb45c5dbf1a9530141b40130a7cf890cd26aba5caddb4f825811f7abfd",
+                      "bytes":  6016
+                  },
+                  {
+                      "path":  "synthetic_roundtrip.py",
+                      "sha256":  "ec721847becdd05fc94a725ced245986d3a9631498d25fad2db0695e0a68361d",
+                      "bytes":  1566
+                  },
+                  {
+                      "path":  "synthetic-console-01.txt",
+                      "sha256":  "7a27eb74786fbf003a3b8e219238abd2be3332c2c92490823e68f6c3bf8bed8f",
+                      "bytes":  782
+                  },
+                  {
+                      "path":  "SYNTHETIC-roundtrip-01/audit.json",
+                      "sha256":  "42e0b8afecf0f108aecfb5f9ac1623a5ad56b317bc2496b81945cc60ce25ae47",
+                      "bytes":  3494
+                  },
+                  {
+                      "path":  "SYNTHETIC-roundtrip-01/framing-valid.ulg",
+                      "sha256":  "fd185573fb1f69db936f284736d0b5b3eaba97d24d58c3b64a6ed8b63ab29ed2",
+                      "bytes":  617
+                  },
+                  {
+                      "path":  "SYNTHETIC-roundtrip-01/received-prefix.bin",
+                      "sha256":  "fd185573fb1f69db936f284736d0b5b3eaba97d24d58c3b64a6ed8b63ab29ed2",
+                      "bytes":  617
+                  },
+                  {
+                      "path":  "SYNTHETIC-roundtrip-01/summary.json",
+                      "sha256":  "2caad312a1187941b9a954c103297497165e15e3e3fc8066fc1f03f37b9c9a0b",
+                      "bytes":  1279
+                  },
+                  {
+                      "path":  "SYNTHETIC-roundtrip-01/wire.jsonl",
+                      "sha256":  "40b617ec21a18f4c728d0fb3dfe1e83f1fce0e2e20a44efca273ecd664c83fb8",
+                      "bytes":  11832
+                  },
+                  {
+                      "path":  "tests-audit-red-01.txt",
+                      "sha256":  "34e1e898514d2d1951144b086ddd6fd9388c10416133a04ec86bc1ff973b9195",
+                      "bytes":  10566
+                  },
+                  {
+                      "path":  "tests-controller-01.txt",
+                      "sha256":  "713318956bf039e375e57cf95ce9f91991396569a3a6c85f570935d5ab832f5c",
+                      "bytes":  31204
+                  },
+                  {
+                      "path":  "tests-controller-02.txt",
+                      "sha256":  "319e47ea358f80d4516f1907f1650057a343c8b9298cb784f927054c3510afa9",
+                      "bytes":  33946
+                  },
+                  {
+                      "path":  "tests-controller-03.txt",
+                      "sha256":  "80049fe35d69332ececbd4b69b18f38f0da3cb510a3a074b06fcefb0b442acf8",
+                      "bytes":  34534
+                  },
+                  {
+                      "path":  "tests-green-01.txt",
+                      "sha256":  "b87659f1a81f3b11b04d58182eeafbfb812b941fb4970dc5e76e908d478be122",
+                      "bytes":  6602
+                  },
+                  {
+                      "path":  "tests-imu-input-01.txt",
+                      "sha256":  "10a5d30e1d243d875ce97cf357877e0874e5361d506199b6376f6aabd7bb4c46",
+                      "bytes":  868
+                  },
+                  {
+                      "path":  "tests-integral-01.txt",
+                      "sha256":  "269fe3cbb1b53b1eb14c535210ca100b33e12d762e08847990fe2f5484ba1677",
+                      "bytes":  862
+                  },
+                  {
+                      "path":  "tests-model-01.txt",
+                      "sha256":  "9aacfc0291869db2d0ae1ab6f2413b35ee277e5dcb9427f1a89a21ac6c2a9157",
+                      "bytes":  854
+                  },
+                  {
+                      "path":  "tests-reassembly-01.txt",
+                      "sha256":  "a372364d9e60dbca79a8067bde7600795dc658e9a8dcaa65b48b4370b7579302",
+                      "bytes":  940
+                  },
+                  {
+                      "path":  "tests-red.txt",
+                      "sha256":  "6702d04b9f38669f97aa7771777b5d697ab63e585e2688d43a8b44f14df8f870",
+                      "bytes":  45014
+                  },
+                  {
+                      "path":  "tests-root-01.txt",
+                      "sha256":  "2768860e1bdb538b3a1f9ccaa1076933a245700afeb589315079ff7e4d02915d",
+                      "bytes":  716
+                  },
+                  {
+                      "path":  "VALIDATION.md",
+                      "sha256":  "901ee0c1c5b8d874a1331c75ca6e26cf4a455a1def63ed2712b5014843832106",
+                      "bytes":  9978
+                  },
+                  {
+                      "path":  "verification-01.json",
+                      "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                      "bytes":  0
+                  },
+                  {
+                      "path":  "verification-02.json",
+                      "sha256":  "7dab3700ef8e6b0b17ec588d1778aed3118a85fbc96820e031480a8d88949312",
+                      "bytes":  2822
+                  },
+                  {
+                      "path":  "verification-03.json",
+                      "sha256":  "2fd4e60d4a2d8e831767974a858c85d1b2af0a6bff32a03c53495e70b9898c40",
+                      "bytes":  2822
+                  },
+                  {
+                      "path":  "verify.py",
+                      "sha256":  "97402b25ed0ef6a8ce56e8d8818d2b6ccfd186cdf166826f4fcb4b2bee39f364",
+                      "bytes":  3638
+                  }
+              ]
+}

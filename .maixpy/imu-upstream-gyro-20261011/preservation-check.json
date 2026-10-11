@@ -1,0 +1,329 @@
+{
+  "root_before_bodies_byte_preserved": [
+    "HANDOFF.md",
+    "VAULT_UPDATE.md",
+    "new_plan.md",
+    ".maixpy/README.md",
+    ".maixpy/imu-design-20261010/LATEST.md",
+    "rm27/perception/vision/docs/CODEX_RESUME.md"
+  ],
+  "python_syntax_verified": true,
+  "exact_source_hashes_verified": {
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\src__modules__sensors__vehicle_imu__VehicleIMU.cpp": "5824adf05da2549de2fe8d736a0aa7f3860ccfa05cb4e9042cada9d29e35568b",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\src__modules__sensors__vehicle_imu__VehicleIMU.hpp": "bdaae040ad8d4149398dc8e5c86a1bc359b0bf84aa8167fc79297cfd5d7ba9c1",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\src__modules__logger__logger.cpp": "2218ab36e3d327a805b52f0b62ac738c7af7774af2e819d23b65158d0edfec48",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\src__modules__logger__logged_topics.cpp": "33c1cd7c55dc81d4fa53153b7f269401b67c7f6edc929707ec536203096bcfe5",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\platforms__common__uORB__uORBDeviceNode.hpp": "b0a56f55e9571603d67e6c9861ac4346cf81f9ea030faa87fec7561e7ad9c94f",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\platforms__common__uORB__uORBDeviceNode.cpp": "f383fdd0f4fac33d529cfead6eadff0146e679797ddc348e4cae5a7edace2a59",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\platforms__common__uORB__SubscriptionCallback.hpp": "23cc99a6f8e99574efba19629795766a79dd39864e2cfcf2e732c64729808767",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\msg__SensorGyro.msg": "03771583b942c4755e4ed102601b0246ac3ccdacba3bfd6cd1175680e2df0e69",
+    ".maixpy\\px4-v117-source-audit-20261009\\source\\new\\msg__SensorAccel.msg": "2bd894577cc016f0d2bf022f708125fa2ca61b45c8e29377007f3615db4f58e2",
+    ".maixpy\\imu-transport-20261010\\src__modules__sensors__Integrator.hpp": "860941bb8cfcccc151ea12cfd2b61265bd974182ece648aac8424df18c9d1c26",
+    ".maixpy\\imu-design-20261010\\BMI088_Gyroscope.cpp": "323d7a50a6a9448e42abd36551c13e9f147c485e13a3d65f1f26381057620185",
+    ".maixpy\\imu-design-20261010\\BMI088_Accelerometer.cpp": "a9bd1a165c40a3959f5a64c0d912f2dab1c9b94255c72733d1ebf879ec3dda9f",
+    ".maixpy\\imu-input-20261010\\msg__VehicleImu.msg": "3d38685a61825342c70c124d7758ea31c87099a08265313e0d1e91444a8d7e6f",
+    ".maixpy\\imu-uart-negotiated-trial-20261011\\source\\log_writer_mavlink.cpp": "ae48cc6de1cbfc0edefc0f15c37b2886472caa66f49d4b817a47607eddd35131"
+  },
+  "historical_manifests_verified": {
+    "imu-reader-control-20261011": {
+      "own": 112,
+      "external": 30,
+      "manifest_sha256": "36466499bea6cbfc6845468e155d8d42580e5ade5ab1180b5ac1d1c83adf8d6b"
+    },
+    "imu-source-diagnosis-20261011": {
+      "own": 28,
+      "external": 27,
+      "manifest_sha256": "bdc4bef5f8c9646ec1df8692488ecb1d98c8ab176ed17a566bd880cefbcc4f4c"
+    },
+    "imu-uart-reduced-trial-20261011": {
+      "own": 80,
+      "external": 36,
+      "manifest_sha256": "4998a984647f0be93fba98b099b26c471c0b3916e6a90e7a74122baa9c45f6fd"
+    },
+    "imu-gap-diagnosis-20261011": {
+      "own": 33,
+      "external": 31,
+      "manifest_sha256": "7589feaeb4db79e487a5edecd6af2fc7e6aa55fbd753f98221b652f03016fe26"
+    },
+    "imu-uart-negotiated-trial-20261011": {
+      "own": 58,
+      "external": 25,
+      "manifest_sha256": "d40e023bd27b99e313d7f5b32fddcb033c432cd58de5239caffb70eb9b4a901c"
+    },
+    "imu-uart-retry-20261011": {
+      "own": 37,
+      "external": 0,
+      "manifest_sha256": "4f212f7f6ded771946c4423fd8a252e54aff1ee2384033023bc15785e7a2f57f"
+    },
+    "imu-negotiation-fix-20261011": {
+      "own": 44,
+      "external": 23,
+      "manifest_sha256": "1c996ea4c1ef07ccfd765ee52f3f3286697d80c262b0d0de06546a50176a4f11"
+    },
+    "imu-design-20261010/single-uart/reassembly": {
+      "own": 14,
+      "external": 0,
+      "manifest_sha256": "951a937bbb58187faef9902de3ef331027c3c40a8ece10670f6ca268e84c22ae"
+    }
+  },
+  "historical_external_resolutions": [
+    {
+      "original_path": ".maixpy/imu-design-20261010/LATEST.md",
+      "sha256": "90643afa338d2c0f1b34c8a1b066b88d8bfecb5aa3e0870f8a43fba5e28a5f96",
+      "archived_snapshot": ".maixpy/imu-upstream-gyro-20261011/repo-before/LATEST.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": ".maixpy/README.md",
+      "sha256": "7eb8bb497f76af932bbca0ccf1c49f32d3b9eefa7bae6eca5f81d717e535c1b4",
+      "archived_snapshot": ".maixpy/imu-upstream-gyro-20261011/repo-before/README.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "HANDOFF.md",
+      "sha256": "a547751fd26dd8b8089e2ba67d0b6c8bcb6f1c70c02045d0d8aec1e74e2b942d",
+      "archived_snapshot": ".maixpy/imu-upstream-gyro-20261011/repo-before/HANDOFF.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "new_plan.md",
+      "sha256": "5f495642516f33b9494f282893b45684e55044454b8e99eab73a05d3e033acd3",
+      "archived_snapshot": ".maixpy/imu-upstream-gyro-20261011/repo-before/new_plan.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "rm27/perception/vision/docs/CODEX_RESUME.md",
+      "sha256": "a70eb36336468c58a7cbb07131aa0fa0eb94cbdd9ba77e55540ab7e6f33e94d4",
+      "archived_snapshot": ".maixpy/imu-upstream-gyro-20261011/repo-before/CODEX_RESUME.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "VAULT_UPDATE.md",
+      "sha256": "c7592368316fa8519c84ed67438670c34665037a0b1787f98bd85fedb370d163",
+      "archived_snapshot": ".maixpy/imu-upstream-gyro-20261011/repo-before/VAULT_UPDATE.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": ".maixpy/imu-design-20261010/LATEST.md",
+      "sha256": "dcb0ded386d2c4b669c2792c2fbbd03bb164dd277bcff9555c9e6ecac25306ce",
+      "archived_snapshot": ".maixpy/imu-reader-control-20261011/repo-before/.maixpy__imu-design-20261010__LATEST.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": ".maixpy/README.md",
+      "sha256": "6f5adfa4704f800c8e4d324f84a3087b05b768ebf10894ea015b888f4f58e598",
+      "archived_snapshot": ".maixpy/imu-reader-control-20261011/repo-before/.maixpy__README.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "HANDOFF.md",
+      "sha256": "7b32421ce79379dadce44d5b4586484e4565f353dc17309adcae6d2730d63529",
+      "archived_snapshot": ".maixpy/imu-reader-plan-20261011/repo-before/HANDOFF.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "new_plan.md",
+      "sha256": "e7ca48bce83e5d23b7e65c7f272afc8e9ca6b1fc0b6974ed393ba19b50c90cf5",
+      "archived_snapshot": ".maixpy/imu-reader-control-20261011/repo-before/new_plan.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "rm27/perception/vision/docs/CODEX_RESUME.md",
+      "sha256": "5544fb9cdf3a201fbb3ff6b3244cf44034bc1bf4eb5f2a8702bee237ce93cdf9",
+      "archived_snapshot": ".maixpy/imu-reader-control-20261011/repo-before/rm27__perception__vision__docs__CODEX_RESUME.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "VAULT_UPDATE.md",
+      "sha256": "2fd25bd1c44cc5838c0f97943c667b0abe24fe00e581c4ff1d66c131e50ae8ef",
+      "archived_snapshot": ".maixpy/imu-reader-plan-20261011/repo-before/VAULT_UPDATE.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": ".maixpy/imu-design-20261010/LATEST.md",
+      "sha256": "c8f24b4e3ac54ffeccd40e8f382a0de2138ceebac132ae97b54f820c17448063",
+      "archived_snapshot": ".maixpy/imu-source-diagnosis-20261011/repo-before/LATEST.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": ".maixpy/imu-design-20261010/single-uart/controller/uart_session.py",
+      "sha256": "3fdbf617481f03f6b05b4c2fa19ae481c02e6f920f8d530b631319c36c18b4b7",
+      "archived_snapshot": ".maixpy/imu-reader-control-20261011/repo-before/uart_session.py",
+      "not_current_state": true
+    },
+    {
+      "original_path": ".maixpy/README.md",
+      "sha256": "17e5cc11fd745c37a78e0aa2e932b0e6fba96b6b80356143b2a011c993347c2e",
+      "archived_snapshot": ".maixpy/imu-source-diagnosis-20261011/repo-before/README.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "HANDOFF.md",
+      "sha256": "5cfb37bf8d31b1ff61a1758665e2e7177c70f61cc9cb960e03995ceaa889cb9b",
+      "archived_snapshot": ".maixpy/imu-source-diagnosis-20261011/repo-before/HANDOFF.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "new_plan.md",
+      "sha256": "bd121ef8322d987894c70c381fb737b7325789d6c707df648398f16710d3070f",
+      "archived_snapshot": ".maixpy/imu-source-diagnosis-20261011/repo-before/new_plan.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "rm27/perception/vision/docs/CODEX_RESUME.md",
+      "sha256": "6b015c6e3073b7eab8c5db33f021cbd342ead067977dec6e0fa95a79075d6a9d",
+      "archived_snapshot": ".maixpy/imu-source-diagnosis-20261011/repo-before/CODEX_RESUME.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "VAULT_UPDATE.md",
+      "sha256": "b18233df43dc88102a139ae6c24c62d3bc64fefa089c67316698f807d54fc55e",
+      "archived_snapshot": ".maixpy/imu-source-diagnosis-20261011/repo-before/VAULT_UPDATE.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": ".maixpy/imu-design-20261010/LATEST.md",
+      "sha256": "4fce48ecd794fc662470354e34e17879938f26a333f893a41bd346c549c62731",
+      "archived_snapshot": ".maixpy/imu-uart-reduced-trial-20261011/repo-before/LATEST.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": ".maixpy/imu-design-20261010/single-uart/controller/uart_session.py",
+      "sha256": "3fdbf617481f03f6b05b4c2fa19ae481c02e6f920f8d530b631319c36c18b4b7",
+      "archived_snapshot": ".maixpy/imu-reader-control-20261011/repo-before/uart_session.py",
+      "not_current_state": true
+    },
+    {
+      "original_path": ".maixpy/README.md",
+      "sha256": "e31113453a2d3ad86f1ac6e8d1e458629da62e9ad17a294a4f768ce9e4590af9",
+      "archived_snapshot": ".maixpy/imu-uart-reduced-trial-20261011/repo-before/README.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "HANDOFF.md",
+      "sha256": "d3b023b46fd4ff0695a77473f3fc05c4c539ecfb3f2df7bfb1e24696a1077af9",
+      "archived_snapshot": ".maixpy/imu-uart-reduced-trial-20261011/repo-before/HANDOFF.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "new_plan.md",
+      "sha256": "3815b6f43fa0279983da65937d3397429dd5cae486b2c286919f7787cbba6c8b",
+      "archived_snapshot": ".maixpy/imu-uart-reduced-trial-20261011/repo-before/new_plan.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "rm27/perception/vision/docs/CODEX_RESUME.md",
+      "sha256": "457b9380f0011489ef5f1372644cfd1aa4624112e1921049b259e9d1c97f13fd",
+      "archived_snapshot": ".maixpy/imu-uart-reduced-trial-20261011/repo-before/CODEX_RESUME.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "VAULT_UPDATE.md",
+      "sha256": "c57e64d9be5cb2f7a9ab0e08d4994f05946158e7adbb11cc02f4ac76dff4ffcc",
+      "archived_snapshot": ".maixpy/imu-uart-reduced-trial-20261011/repo-before/VAULT_UPDATE.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": ".maixpy/imu-design-20261010/LATEST.md",
+      "sha256": "adba3a10171b71c2e839ce428e4c77373a3c274a408e391ea4df9dca929d6041",
+      "archived_snapshot": ".maixpy/imu-gap-diagnosis-20261011/repo-before/LATEST.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": ".maixpy/imu-design-20261010/single-uart/controller/uart_session.py",
+      "sha256": "3fdbf617481f03f6b05b4c2fa19ae481c02e6f920f8d530b631319c36c18b4b7",
+      "archived_snapshot": ".maixpy/imu-reader-control-20261011/repo-before/uart_session.py",
+      "not_current_state": true
+    },
+    {
+      "original_path": ".maixpy/README.md",
+      "sha256": "9bb210b37d3fa110d07fff606ebb339212acabdd0894ee1bf1f0172931b45210",
+      "archived_snapshot": ".maixpy/imu-gap-diagnosis-20261011/repo-before/README.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "HANDOFF.md",
+      "sha256": "3cb9d37ab7b98e8ceb2315f60d7a5db6def7f18415bdde4dc0fc14971e924dcd",
+      "archived_snapshot": ".maixpy/imu-gap-diagnosis-20261011/repo-before/HANDOFF.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "new_plan.md",
+      "sha256": "f7487c968eea8871546443b9c4fe6b887d1b82be9c3401a800395eeb2b595b98",
+      "archived_snapshot": ".maixpy/imu-gap-diagnosis-20261011/repo-before/new_plan.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "rm27/perception/vision/docs/CODEX_RESUME.md",
+      "sha256": "ce8516113c23f1e116152d25de274594a031d77ed13489defff9d739e9e14be0",
+      "archived_snapshot": ".maixpy/imu-gap-diagnosis-20261011/repo-before/CODEX_RESUME.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "VAULT_UPDATE.md",
+      "sha256": "da967e1496997fd8f5a225a6a33e1266355148e875aab5a40f1700c8754dce98",
+      "archived_snapshot": ".maixpy/imu-gap-diagnosis-20261011/repo-before/VAULT_UPDATE.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "HANDOFF.md",
+      "sha256": "d513fd122fe13d83541634fc4297a5120847d3ce4e2e8415384de53542912205",
+      "archived_snapshot": ".maixpy/imu-uart-negotiated-trial-20261011/repo-before/HANDOFF.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "VAULT_UPDATE.md",
+      "sha256": "5487f313fd04ef006ac70194225d24c7cce0de5969c582c75288c97b9a238da5",
+      "archived_snapshot": ".maixpy/imu-uart-negotiated-trial-20261011/repo-before/VAULT_UPDATE.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "new_plan.md",
+      "sha256": "49bcdcaf41a53c5780269b2fef4de87b2199c15a49a5e13cdd4f321765d3ef2b",
+      "archived_snapshot": ".maixpy/imu-uart-negotiated-trial-20261011/repo-before/new_plan.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": ".maixpy/README.md",
+      "sha256": "7ec9f300d3e0bc52631647b61f0700a94567aa65946827ab7877313a13ea1638",
+      "archived_snapshot": ".maixpy/imu-uart-negotiated-trial-20261011/repo-before/README.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": ".maixpy/imu-design-20261010/LATEST.md",
+      "sha256": "761e004ebd41abe0c1bf5d57230413e617a1f898aee1c74880392cfb4420ed9f",
+      "archived_snapshot": ".maixpy/imu-uart-negotiated-trial-20261011/repo-before/LATEST.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": "rm27/perception/vision/docs/CODEX_RESUME.md",
+      "sha256": "e84ebe7939b986124f58fe46eedd6353ec3c04525b42180fee8c3b35a33d6c7f",
+      "archived_snapshot": ".maixpy/imu-uart-negotiated-trial-20261011/repo-before/CODEX_RESUME.md",
+      "not_current_state": true
+    },
+    {
+      "original_path": ".maixpy/imu-design-20261010/single-uart/controller/uart_session.py",
+      "sha256": "3fdbf617481f03f6b05b4c2fa19ae481c02e6f920f8d530b631319c36c18b4b7",
+      "archived_snapshot": ".maixpy/imu-reader-control-20261011/repo-before/uart_session.py",
+      "not_current_state": true
+    }
+  ],
+  "original_trial_hashes_verified": 18,
+  "stage_ab_unchanged": true,
+  "source_files_verified": 24,
+  "remote_local_hashes_verified": 9,
+  "windows_pass": 34,
+  "windows_skips": 3,
+  "board_pass": 27,
+  "board_skips": 0,
+  "git_diff_check_exit": 0,
+  "staged_diff_empty": true,
+  "head": "3ea1e16086965176db68b88e1c42990f92c5913e",
+  "unrelated_changes_preserved": [
+    " M rm27/perception/vision/docs/PLAN_HISTORY.md",
+    "?? tests/camera_capture.py",
+    "?? tmp/"
+  ],
+  "vault_access": false,
+  "push": false
+}

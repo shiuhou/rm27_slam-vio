@@ -1,0 +1,720 @@
+{
+  "scope": "ONE_ABORTED_UPSTREAM_GYRO_OBSERVER_TX_REJECTION_NO_SOURCE_PASS",
+  "head": "3ea1e16086965176db68b88e1c42990f92c5913e",
+  "acquisition": "FAILED",
+  "restoration": "VERIFIED",
+  "original_source_skip": "UNKNOWN",
+  "normal_window_completed": false,
+  "actual_imu_hz": null,
+  "source_minimum_hz": 200,
+  "source_complete": "UNKNOWN",
+  "tail_complete": "UNKNOWN",
+  "clock_status": "UNKNOWN",
+  "transport_qualified": false,
+  "openvins_admissible": false,
+  "stage_c": "CLOSED",
+  "files": [
+    {
+      "path": ".codex/tasks/2026-10-11-imu-upstream-gyro/README.md",
+      "bytes": 1182,
+      "sha256": "6f82e70e3e8cd47a1f953e733a1acc8e3a73bcdc704352b2b5bde3f31d38601f"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/analyze.py",
+      "bytes": 5586,
+      "sha256": "03ea576c0a9fd2993a4beb4b634fda2a3e9bad35182ac437e19a970c9c6d258d"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/analyze_failure.py",
+      "bytes": 4316,
+      "sha256": "7d594df85af60963d454c0dd605034bc7afa353fc35224b8bdc045383e38652e"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/artifact_inventory.py",
+      "bytes": 760,
+      "sha256": "0db8905ae8ffd862083bc4a5f4188961792d98f056f5039c2203b0a2c881a0d7"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/attestation.json",
+      "bytes": 651,
+      "sha256": "9f9c5753dd5f096e71fe1e4e20606e928bc8d73e28ef2bb702f3097c42f31a41"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/board-after-console.txt",
+      "bytes": 7500,
+      "sha256": "f27eed928919145eed89dc961c94fe28142a866d0fbb99e6e35e78c7f1bb533c"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/board-observation-tests.txt",
+      "bytes": 2698,
+      "sha256": "7349dc02b95b8c16c9e6538c307d4f7450c733f7dff17b66174691a056c6a218"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/board-preflight-console.txt",
+      "bytes": 7764,
+      "sha256": "ebd71f49892dfbecacf178863302f160632943d652c83e855f11d001022d83c8"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/board-preflight.json",
+      "bytes": 4001,
+      "sha256": "761aeeebd7664516ffc27675c4d12207a4abab5737ce7dc127fa72ae67284e70"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/board-pty-tests.txt",
+      "bytes": 2148,
+      "sha256": "188533172ebbfdac46461c67c4ec34ae610ef0196d3c53a271660e297eb88ed5"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/board-scope-tests.txt",
+      "bytes": 1936,
+      "sha256": "eb1aea9c1cfb66a9482fed088fd21fda4a6bdd574e6da3ec069f5502128ca4fe"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/board-tools-console.txt",
+      "bytes": 11616,
+      "sha256": "2ada3167cdbc3b2cf37fb06b5a1dec52ffe88b9861e7f4ae75f60ec7a0c2c346"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/board_after.py",
+      "bytes": 1250,
+      "sha256": "c909785cd75158dc5ce3a8d16630ce615e974840307aa429c5c6ff15e268b31a"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/board_preflight.py",
+      "bytes": 1574,
+      "sha256": "7281b798d221c071661d0016b225e16d0fb2193a297f56d591b3c8ce0dc4d792"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/board_tools_test.py",
+      "bytes": 1971,
+      "sha256": "153fdf198dacae6a9650be7d01ca2b96cd04274e684b80cc2d8eca6a5db0d82d"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/controller-source-02.tar.gz",
+      "bytes": 51566,
+      "sha256": "2f6150e300a1646af3640a80e571e763089c5223dbfdc1b35a544a217bb9ffb9"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/coordinator-console.txt",
+      "bytes": 200658,
+      "sha256": "ee7bccfed3cd40e2eb0ea3b26ff1f68694f097ee89caf1f4b5ce3a4a3dbca6ce"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/coordinator.jsonl",
+      "bytes": 114706,
+      "sha256": "70002b989a15827c214c2afe4567aac00f42fbaf788ec779317fe67115974058"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/coordinator.py",
+      "bytes": 13320,
+      "sha256": "fe025d598b80a482d4048ee71a00559f91f259b84cb3a68e3a0fd59f4be1b1ba"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/deployment.json",
+      "bytes": 56,
+      "sha256": "cd9dc76231bbfaf0870536cafebc3149d0cc15942f988dfed66f340458f40d6f"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/download/artifact-sha256.json",
+      "bytes": 1344,
+      "sha256": "d5d4f642f3faa9dc0d99f0c2a9fff9a4b90f30a0d78b20a54d6c2a0c755f261b"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/download/board-after.json",
+      "bytes": 3867,
+      "sha256": "c9ad5491bb05f2d9dab11580e78cc0247b68e93b14343362482ecd4e1431eb80"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/download/metrics.jsonl",
+      "bytes": 9457,
+      "sha256": "151f492778eb1412aa3790f6c7b7c66662c94f8e4410a0f48852fddd64b6f8de"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/download/physical-trial-01/preflight-attestation.json",
+      "bytes": 678,
+      "sha256": "0a153cef12794b6322143a918c7134936f485c61327b32ca7722c87949c3792e"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/download/physical-trial-01/received-prefix.bin",
+      "bytes": 71226,
+      "sha256": "93343246cbe63075680deb2575ef938f468ce789a46ee103bd65a32f336a4580"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/download/physical-trial-01/summary.json",
+      "bytes": 1404,
+      "sha256": "5682295f931d58d123c1caef9a65f894c1eaff6d541717ad1f0bfc42941b9015"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/download/physical-trial-01/wire.jsonl",
+      "bytes": 1062218,
+      "sha256": "99d6fdfbe6659e462ab9437ea0a0ee95fed30f4958fe32312f3b576fc16e4974"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/download/preflight.json",
+      "bytes": 678,
+      "sha256": "0a153cef12794b6322143a918c7134936f485c61327b32ca7722c87949c3792e"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/download/receiver-console.txt",
+      "bytes": 1339,
+      "sha256": "01696fd3b4f8b2ef4d1244a526bc62a30904a9f0ab8c7910d67b7ed3fe630870"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/download/uart-counters.jsonl",
+      "bytes": 522,
+      "sha256": "357ca742affd8642ddcb346dfbcc92c7a78635630d44cf53ad11eace1cdfde2b"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/environment.json",
+      "bytes": 4079,
+      "sha256": "9c6a7a7fccb976262b6e3f45f964618a929e31affa69e8629ec7ac7a44804f9a"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/expected.json",
+      "bytes": 3522,
+      "sha256": "48464e4b4137f30f251a72138635ba4538e0867872c6cdef51b083c76996a92e"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/failure-analysis-console.txt",
+      "bytes": 23634,
+      "sha256": "d17170e3e4d4d901c975f661e9aa7a5fc38b78072c90fe53843a6e77da1b1bca"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/failure-analysis.json",
+      "bytes": 61420,
+      "sha256": "a3c7e5ed1b2be79734433b4424f7690924f00b34eb476500ecfba2be7d25eebf"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/git-before.txt",
+      "bytes": 3628,
+      "sha256": "4cc3df30d0400b9a45d9334dcb723e4159d6cc16a281e5bd529b43877fc4f329"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/green.txt",
+      "bytes": 2712,
+      "sha256": "d6b097bf63e19110f5ff545e8bc3d51b75b9c8390f4a26084fc92c13fed46bdc"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/HANDOFF.md",
+      "bytes": 2057,
+      "sha256": "3b8c08c38b99d8348205b9b7b8c7eb66a3f23f4bb1d46dd494d45e8f3d109d8d"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/inventory-console.txt",
+      "bytes": 2366,
+      "sha256": "fb3e5febcaa4cbb6ea807a5f2e428740adc045744b342af06e7018dd8f7e00c0"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/launch.py",
+      "bytes": 578,
+      "sha256": "e728389d306d525e5990c65d97579f438808ababa1c921bfe1bb8c8f2ef282f8"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/monitor.py",
+      "bytes": 2892,
+      "sha256": "56c0a4f17fca640a705bbe1cc6d01f755abc4892e535a03baef846627d089350"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/NEXT_TRACE_PLAN.md",
+      "bytes": 4231,
+      "sha256": "e8ba79357bf246eed1d6926c1ad28e84b6ac72163e8981a3b96cf888a6fd538e"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/observation.py",
+      "bytes": 4230,
+      "sha256": "1ab4df056fbadccfdf559e4b082a576ec78f5b9e931e6fa1123c8362de3b63c3"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/package_sources.py",
+      "bytes": 1069,
+      "sha256": "c5353a04b7fa8ccb8a7ea588c613e20a9f11f80f7cdb921e887fe8730903a3d5"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/preservation-check.json",
+      "bytes": 15913,
+      "sha256": "ad8f25a4932832473fa49d4fe5cc45f9118daba03e566a1a62be88736fe19ef7"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/previous_coordinator.py",
+      "bytes": 13869,
+      "sha256": "28dac9fdb10035588507dfe4db8c36cbb53d8a804687f8b21a153d1e45abcdbf"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/px4-identity-check.txt",
+      "bytes": 8322,
+      "sha256": "a0e85bb0e0dd310bf06e265f34628e34dbe4fee80ab4db92f394dba5736909e3"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/receive.py",
+      "bytes": 2105,
+      "sha256": "c02f4b0d47f73e37974082a0c221b85a7d237c4ad24345443ac64a31144ac8d7"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/receiver-readback.txt",
+      "bytes": 2682,
+      "sha256": "df7a6aa60e0de814d826b5b69aa9ad39dbf9514dfd85dbf59d5b48d5dda999b1"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/red-02.txt",
+      "bytes": 10038,
+      "sha256": "8a3477932e84797a03a28a58cd2defd9e66e39629131576d0a647acdb9e1a444"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/red.txt",
+      "bytes": 3914,
+      "sha256": "b730ffa47bf77de2e2fc92b2db6e0f6c4c87214fdfd33e52153f522d18f1a077"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/remote-launch-console.txt",
+      "bytes": 72,
+      "sha256": "3feb2776b2b64cd89bab22c9174a2a49f6eb453673a9e809554b938c2d36217a"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/repo-before/CODEX_RESUME.md",
+      "bytes": 12572,
+      "sha256": "a70eb36336468c58a7cbb07131aa0fa0eb94cbdd9ba77e55540ab7e6f33e94d4"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/repo-before/HANDOFF.md",
+      "bytes": 70353,
+      "sha256": "a547751fd26dd8b8089e2ba67d0b6c8bcb6f1c70c02045d0d8aec1e74e2b942d"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/repo-before/LATEST.md",
+      "bytes": 9582,
+      "sha256": "90643afa338d2c0f1b34c8a1b066b88d8bfecb5aa3e0870f8a43fba5e28a5f96"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/repo-before/new_plan.md",
+      "bytes": 44239,
+      "sha256": "5f495642516f33b9494f282893b45684e55044454b8e99eab73a05d3e033acd3"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/repo-before/README.md",
+      "bytes": 8457,
+      "sha256": "7eb8bb497f76af932bbca0ccf1c49f32d3b9eefa7bae6eca5f81d717e535c1b4"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/repo-before/VAULT_UPDATE.md",
+      "bytes": 28305,
+      "sha256": "c7592368316fa8519c84ed67438670c34665037a0b1787f98bd85fedb370d163"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/RESULT.md",
+      "bytes": 10855,
+      "sha256": "090642177d5d57c0d85cb59a608ca9d3d67c57c4e09848ed9c2efc2b72f2c214"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/runner-regression.txt",
+      "bytes": 4850,
+      "sha256": "1cdade6fdb17cbde2e974ddac28fa07791e1b9543770cb34bea70f4bc6d5af86"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/scope-green.txt",
+      "bytes": 1930,
+      "sha256": "a5b324cd0c1ce759eafd2774fc8bddb53b75be53633457d2901a2cbc5bb3b552"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/scope-red.txt",
+      "bytes": 5598,
+      "sha256": "353f2ebf994ce4faf6a6966b1bed734114e2e27ceb65ff134d08a85e1d107fe8"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/seal-console-02.txt",
+      "bytes": 1256,
+      "sha256": "02296dabc1d36019f76ecce2a8814b1ba021fd1a56129f81459fefe813bfc308"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/seal-console-03.txt",
+      "bytes": 1950,
+      "sha256": "fcf77b3740e26c4c51ca8da3b4d4e101423bdbc1b1efbe41494480d9a32a30e5"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/seal-console.txt",
+      "bytes": 1430,
+      "sha256": "f25ae43d0ba5a8f179a1c3febdf1924407689fa07177264e7bd8e5190121ee36"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/seal.py",
+      "bytes": 8162,
+      "sha256": "f7ac84a7ac24b2f6235ccc9812c80f4ec03cadb1592a60f7f25403acd3b4086f"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/source-list.txt",
+      "bytes": 1476,
+      "sha256": "d5143b9822e3fde664134fbed21a5b90ec9f1f69c08b9302e72f3fc804c2991f"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/source-mavlink_main.h",
+      "bytes": 22874,
+      "sha256": "eb99428f71f0378d2cac7b42ad6059e50ac6c0b2734254aad503a2ce9846f309"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/stop.py",
+      "bytes": 546,
+      "sha256": "3e00761be2674db81f2748b6b88f0b17220ceff966c90383e6aeb44467dc0be5"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/summary-readback.txt",
+      "bytes": 2880,
+      "sha256": "1dc6c2df7d81a0d2dc81a852f53493d7cfcde6bd4ece7a90f0c0eed43563b6ee"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/test_observation.py",
+      "bytes": 4231,
+      "sha256": "d5703b829545a4d3a652159a7fb6c9c5cb757abc1000bd258d41447fcbcfc833"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/test_scope.py",
+      "bytes": 1745,
+      "sha256": "cf585c6b66a51ae57f72053292221c8a856d3e3b5473f5018cab268a0f844add"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/test_supervisor.py",
+      "bytes": 2244,
+      "sha256": "927d8b95cb572e601cf1184ccef0d6193fdf1d43def8d9085a447a72f7ab9e47"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/test_tools.py",
+      "bytes": 4354,
+      "sha256": "f39e2ae9b5049c9088cae3b43f1d6b65abd21a69f30459376eb580cee768e6ed"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/tests-final-02.txt",
+      "bytes": 7534,
+      "sha256": "9284ce8488f7427292e53fd9e1b3e464de2228fb16f7f46ee894c5ef642e79d0"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/tests-final-03.txt",
+      "bytes": 7562,
+      "sha256": "59028b52f3f2cdf2bc30a2a37ae55b0436a4402a3419d5b1eb77d97670f26439"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/tests-final.txt",
+      "bytes": 4436,
+      "sha256": "b2dfe01eac83332a1a0186975c37cfdc0ee88db90a812d12ffbaecfac3452801"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/tool-parity-console.txt",
+      "bytes": 2072,
+      "sha256": "fed1f40421899c6461cf1fd35baf0be9b35d353ed3a4519b65830ea19272aa48"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/tool-tests-02.txt",
+      "bytes": 1858,
+      "sha256": "85b31c0f51767d8bf9733eeecf568bb3424579513bc70e696700155228d9ca69"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/tool_parity.py",
+      "bytes": 479,
+      "sha256": "8c3de6515f4ba8f6e6ce42c4a25c35258d2e656ce254f7bb982a2fa1e49680a5"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/tools-expected.json",
+      "bytes": 1072,
+      "sha256": "a2ab422b686bbc0d4832e60475b0c9f684211373d1c312c87e277218c58c1ab6"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/tools-parity.json",
+      "bytes": 1106,
+      "sha256": "6e19e2e308b76f616964b6550adc9bf4f3a2ed38e6f8d2ac59db51fcc5f13169"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/topics-readback.txt",
+      "bytes": 182,
+      "sha256": "c86999ce768478cd8db656ae610f8b3ee2d1fe348af8c3b46db304db1eb06306"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/topics-readback.txt.part",
+      "bytes": 182,
+      "sha256": "c86999ce768478cd8db656ae610f8b3ee2d1fe348af8c3b46db304db1eb06306"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/topics.txt",
+      "bytes": 182,
+      "sha256": "c86999ce768478cd8db656ae610f8b3ee2d1fe348af8c3b46db304db1eb06306"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/trial_tools.py",
+      "bytes": 4603,
+      "sha256": "4416819f77402d4a486bb21f2e305287974fb0b5dab9fb8112e19531915db14e"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/verification-console-02.txt",
+      "bytes": 2344,
+      "sha256": "287c9db0120e15f6055081ffb065e161c9870084c65ec6d82a8b733cea2dfd13"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/verification-console-03.txt",
+      "bytes": 3486,
+      "sha256": "587350055904d94228a7f5a3ace17bc995d02903756ed399fea87a5828d97174"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/verification-console.txt",
+      "bytes": 1850,
+      "sha256": "690ca9147e98bf0136d5b880045eebdb41eca6d90c8f470665cc2b1944f6acf7"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/verification.json",
+      "bytes": 1740,
+      "sha256": "fd07377d6dc3bcd84fdaa97db1179a1c0c7d2c8489a78d81c79ce90c4142d8bd"
+    },
+    {
+      "path": ".maixpy/imu-upstream-gyro-20261011/verify_evidence.py",
+      "bytes": 9986,
+      "sha256": "fd2723ced6cec34400e049f66c6179afd9885b864ea1b036988ea3560f160866"
+    }
+  ],
+  "external_files": [
+    {
+      "path": ".maixpy/imu-design-20261010/BMI088_Accelerometer.cpp",
+      "bytes": 18760,
+      "sha256": "a9bd1a165c40a3959f5a64c0d912f2dab1c9b94255c72733d1ebf879ec3dda9f"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/BMI088_Gyroscope.cpp",
+      "bytes": 13987,
+      "sha256": "323d7a50a6a9448e42abd36551c13e9f147c485e13a3d65f1f26381057620185"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/LATEST.md",
+      "bytes": 10393,
+      "sha256": "eab2d4ab8057f86a55be6ce2f02f49c327cf0280e217e45a27c8a6dbb5e9179f"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/offline.py",
+      "bytes": 6720,
+      "sha256": "0e7abe57bbaa11901755e202cfa80a1d884880b00113e46eb3f80b8f2170c3b8"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/capture_report.py",
+      "bytes": 10501,
+      "sha256": "9a6ebd85f6794036c4be14add6c9c90816c349317474ae4f904c2cec7816fa33"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/replay_controller.py",
+      "bytes": 2060,
+      "sha256": "c368b078a0a5b4e51206ecfc14f5b14e0a41036a2f259b6a81a2dd872f44cbfd"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/session.py",
+      "bytes": 16379,
+      "sha256": "f1421fdcc36c1514a63bc2292dc8537c60d58d0092fd405d86df6e3e28328533"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/startup_sync.py",
+      "bytes": 4748,
+      "sha256": "2640c5aa5efd5ce551564576353db736fda7a2bb8970c7a476099c43f0d1edf2"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_capture_report.py",
+      "bytes": 4584,
+      "sha256": "90678b10cc0c34fa5e1ad285caacd3504d1608f5589a7eba9a69eed9899d83c5"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_negotiation.py",
+      "bytes": 15270,
+      "sha256": "6faa1b9ed507775dc9b330597aaf2cae3d3c14e82b511a32f1176643a5405c05"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_posix_pty.py",
+      "bytes": 5493,
+      "sha256": "50ade6d891256f2eedea5cb0624223108049d5c3f6d9efd24dd0a0e8962a7f34"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_session.py",
+      "bytes": 12992,
+      "sha256": "4cb18f46173f2c5d3d5a4cfa8e1a6894b4e7233be9ff998643063da1c8dac3da"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_startup_pty.py",
+      "bytes": 4704,
+      "sha256": "10b2190e2562e3b26bd13dbef556b2a0883493763e1d0e7c0d8c0d53844d00a8"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_startup_sync.py",
+      "bytes": 14774,
+      "sha256": "cf003fccd7426b28ebb0d9665a5751453ad169678b417a9b3c4d2af2b1bf5dc4"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/test_uart_session.py",
+      "bytes": 11389,
+      "sha256": "81f31c54bd4ea6065ea49592888897d297ff7e6bee0f32de5ae374fce9cceb27"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/controller/uart_session.py",
+      "bytes": 12495,
+      "sha256": "2d908b68f1e0fc948bde7d7b5a86243c85f198372033cb4c1b63df30dbd27654"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/reassembly/manifest.json",
+      "bytes": 2345,
+      "sha256": "951a937bbb58187faef9902de3ef331027c3c40a8ece10670f6ca268e84c22ae"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/reassembly/replay_saved.py",
+      "bytes": 3310,
+      "sha256": "090023e447ec0a3591378dcf92ad86f1f77ef24c3413150bc40f227e8a8d6a30"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/reassembly/test_ulog_mavlink.py",
+      "bytes": 12641,
+      "sha256": "004a4505a1da0e8fc331712c089ed1608ae4325137bd78410a8589e0ca453c26"
+    },
+    {
+      "path": ".maixpy/imu-design-20261010/single-uart/reassembly/ulog_mavlink.py",
+      "bytes": 10335,
+      "sha256": "76dcb97456e613384b4024b40e013cf6f8046c371f0ff0e821edadd2dd00cb6f"
+    },
+    {
+      "path": ".maixpy/imu-gap-diagnosis-20261011/manifest.json",
+      "bytes": 18302,
+      "sha256": "7589feaeb4db79e487a5edecd6af2fc7e6aa55fbd753f98221b652f03016fe26"
+    },
+    {
+      "path": ".maixpy/imu-input-20261010/imu_input.py",
+      "bytes": 9306,
+      "sha256": "4365eae552af524946dab393e6191c9fec5dc7705e5642166773c1e1a609415a"
+    },
+    {
+      "path": ".maixpy/imu-input-20261010/msg__VehicleImu.msg",
+      "bytes": 1394,
+      "sha256": "3d38685a61825342c70c124d7758ea31c87099a08265313e0d1e91444a8d7e6f"
+    },
+    {
+      "path": ".maixpy/imu-negotiation-fix-20261011/manifest.json",
+      "bytes": 18253,
+      "sha256": "1c996ea4c1ef07ccfd765ee52f3f3286697d80c262b0d0de06546a50176a4f11"
+    },
+    {
+      "path": ".maixpy/imu-reader-control-20261011/manifest.json",
+      "bytes": 28561,
+      "sha256": "36466499bea6cbfc6845468e155d8d42580e5ade5ab1180b5ac1d1c83adf8d6b"
+    },
+    {
+      "path": ".maixpy/imu-source-diagnosis-20261011/manifest.json",
+      "bytes": 11295,
+      "sha256": "bdc4bef5f8c9646ec1df8692488ecb1d98c8ab176ed17a566bd880cefbcc4f4c"
+    },
+    {
+      "path": ".maixpy/imu-transport-20261010/src__modules__sensors__Integrator.hpp",
+      "bytes": 7059,
+      "sha256": "860941bb8cfcccc151ea12cfd2b61265bd974182ece648aac8424df18c9d1c26"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/manifest.json",
+      "bytes": 22272,
+      "sha256": "d40e023bd27b99e313d7f5b32fddcb033c432cd58de5239caffb70eb9b4a901c"
+    },
+    {
+      "path": ".maixpy/imu-uart-negotiated-trial-20261011/source/log_writer_mavlink.cpp",
+      "bytes": 5207,
+      "sha256": "ae48cc6de1cbfc0edefc0f15c37b2886472caa66f49d4b817a47607eddd35131"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/manifest.json",
+      "bytes": 20495,
+      "sha256": "4998a984647f0be93fba98b099b26c471c0b3916e6a90e7a74122baa9c45f6fd"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/previous_coordinator.py",
+      "bytes": 13869,
+      "sha256": "28dac9fdb10035588507dfe4db8c36cbb53d8a804687f8b21a153d1e45abcdbf"
+    },
+    {
+      "path": ".maixpy/imu-uart-reduced-trial-20261011/trial_tools.py",
+      "bytes": 4603,
+      "sha256": "4416819f77402d4a486bb21f2e305287974fb0b5dab9fb8112e19531915db14e"
+    },
+    {
+      "path": ".maixpy/imu-uart-retry-20261011/manifest.json",
+      "bytes": 9009,
+      "sha256": "4f212f7f6ded771946c4423fd8a252e54aff1ee2384033023bc15785e7a2f57f"
+    },
+    {
+      "path": ".maixpy/m3c-ping-20261009/probe.py",
+      "bytes": 7162,
+      "sha256": "974c58917f5eed09d727b8caeab8a11642e9d802ac1debce98ae9147a7fee031"
+    },
+    {
+      "path": ".maixpy/mavlink2-20261010/VALIDATION.md",
+      "bytes": 6245,
+      "sha256": "d9c79727ad749e8ec6ba970a2e41c0ef4aa5ccc3ac6e6e7bc53c0f1bbb7ffd0f"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/msg__SensorAccel.msg",
+      "bytes": 692,
+      "sha256": "2bd894577cc016f0d2bf022f708125fa2ca61b45c8e29377007f3615db4f58e2"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/msg__SensorGyro.msg",
+      "bytes": 704,
+      "sha256": "03771583b942c4755e4ed102601b0246ac3ccdacba3bfd6cd1175680e2df0e69"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/platforms__common__uORB__SubscriptionCallback.hpp",
+      "bytes": 5331,
+      "sha256": "23cc99a6f8e99574efba19629795766a79dd39864e2cfcf2e732c64729808767"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/platforms__common__uORB__uORBDeviceNode.cpp",
+      "bytes": 12222,
+      "sha256": "f383fdd0f4fac33d529cfead6eadff0146e679797ddc348e4cae5a7edace2a59"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/platforms__common__uORB__uORBDeviceNode.hpp",
+      "bytes": 9186,
+      "sha256": "b0a56f55e9571603d67e6c9861ac4346cf81f9ea030faa87fec7561e7ad9c94f"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__logger__logged_topics.cpp",
+      "bytes": 19639,
+      "sha256": "33c1cd7c55dc81d4fa53153b7f269401b67c7f6edc929707ec536203096bcfe5"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__logger__logger.cpp",
+      "bytes": 70842,
+      "sha256": "2218ab36e3d327a805b52f0b62ac738c7af7774af2e819d23b65158d0edfec48"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__sensors__vehicle_imu__VehicleIMU.cpp",
+      "bytes": 33089,
+      "sha256": "5824adf05da2549de2fe8d736a0aa7f3860ccfa05cb4e9042cada9d29e35568b"
+    },
+    {
+      "path": ".maixpy/px4-v117-source-audit-20261009/source/new/src__modules__sensors__vehicle_imu__VehicleIMU.hpp",
+      "bytes": 7277,
+      "sha256": "bdaae040ad8d4149398dc8e5c86a1bc359b0bf84aa8167fc79297cfd5d7ba9c1"
+    },
+    {
+      "path": ".maixpy/README.md",
+      "bytes": 9092,
+      "sha256": "3cc1b149f740c7f4ab5f8a227fcde5025c7fd912fe8070034a981d83136f2185"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-11-vio-s0-upstream-gyro-observation.md",
+      "bytes": 4909,
+      "sha256": "77be21c489a21af426f3a2e829460662fbf95142b32cd243a292b4d51a21e2c0"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 72123,
+      "sha256": "2d80ada884454b5152956c525666d583eacc9f74f6887f9cc3fccd67804b2d9b"
+    },
+    {
+      "path": "new_plan.md",
+      "bytes": 45147,
+      "sha256": "681aa80486c9f35672e9cbac74e2ea00f5583d2bd444bb8c95d3f115c5cae417"
+    },
+    {
+      "path": "rm27/perception/vision/docs/CODEX_RESUME.md",
+      "bytes": 13596,
+      "sha256": "9e3ba42354d8f2059d8ae966875e50de4ce0e856c97fb5cac23b4ddd3195fbeb"
+    },
+    {
+      "path": "VAULT_UPDATE.md",
+      "bytes": 29324,
+      "sha256": "9d70f5c42ba7f5d0d10aa0bf7b714f017de1a550729817f21bd3be61d2ada297"
+    }
+  ]
+}

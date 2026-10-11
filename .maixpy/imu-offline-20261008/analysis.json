@@ -1,0 +1,755 @@
+{
+  "file": ".maixpy/imu-offline-20261008/bmi270-disarmed-01.ulg",
+  "bytes": 6896444,
+  "sha256": "d94a142c5a474e7a755bffd534a41cf3255081d87d4868dabf63493a5146f46d",
+  "crc32": "081510f7",
+  "file_corruption": false,
+  "start_us": 5951350891,
+  "end_us": 5969472847,
+  "duration_s": 18.121956,
+  "dropout_events": 391,
+  "dropout_duration_ms_sum": 9804,
+  "dropout_duration_ms_max": 110,
+  "topics": {
+    "actuator_armed:0": {
+      "records": 31,
+      "fields": [
+        "timestamp",
+        "armed",
+        "prearmed",
+        "ready_to_arm",
+        "lockdown",
+        "manual_lockdown",
+        "force_failsafe",
+        "in_esc_calibration_mode"
+      ]
+    },
+    "cpuload:0": {
+      "records": 16,
+      "fields": [
+        "timestamp",
+        "load",
+        "ram_usage"
+      ]
+    },
+    "event:0": {
+      "records": 2,
+      "fields": [
+        "timestamp",
+        "id",
+        "event_sequence",
+        "arguments[0]",
+        "arguments[1]",
+        "arguments[2]",
+        "arguments[3]",
+        "arguments[4]",
+        "arguments[5]",
+        "arguments[6]",
+        "arguments[7]",
+        "arguments[8]",
+        "arguments[9]",
+        "arguments[10]",
+        "arguments[11]",
+        "arguments[12]",
+        "arguments[13]",
+        "arguments[14]",
+        "arguments[15]",
+        "arguments[16]",
+        "arguments[17]",
+        "arguments[18]",
+        "arguments[19]",
+        "arguments[20]",
+        "arguments[21]",
+        "arguments[22]",
+        "arguments[23]",
+        "arguments[24]",
+        "log_levels"
+      ]
+    },
+    "sensor_accel:1": {
+      "records": 12620,
+      "fields": [
+        "timestamp",
+        "timestamp_sample",
+        "device_id",
+        "x",
+        "y",
+        "z",
+        "temperature",
+        "error_count",
+        "clip_counter[0]",
+        "clip_counter[1]",
+        "clip_counter[2]",
+        "samples"
+      ],
+      "sample_time": {
+        "count": 12620,
+        "first_us": 5951573278,
+        "last_us": 5969472134,
+        "span_s": 17.898856,
+        "effective_hz": 705.0171251168231,
+        "median_dt_us": 633.0,
+        "min_dt_us": 626,
+        "max_dt_us": 110776,
+        "p95_dt_us": 634.0,
+        "nonincreasing": 0,
+        "duplicates": 0,
+        "gaps_over_1_5_median": 202,
+        "estimated_missing_from_time_gaps": 15657
+      },
+      "publish_time": {
+        "count": 12620,
+        "first_us": 5951573351,
+        "last_us": 5969472204,
+        "span_s": 17.898853,
+        "effective_hz": 705.0172432836897,
+        "median_dt_us": 633.0,
+        "min_dt_us": 574,
+        "max_dt_us": 110782,
+        "p95_dt_us": 656.0,
+        "nonincreasing": 0,
+        "duplicates": 0,
+        "gaps_over_1_5_median": 202,
+        "estimated_missing_from_time_gaps": 15657
+      },
+      "publish_minus_sample_us": {
+        "min": 68,
+        "median": 72.0,
+        "max": 131
+      },
+      "device_ids": [
+        3604506
+      ],
+      "sample_counts": {
+        "1": 12620
+      },
+      "error_counts": [
+        0
+      ],
+      "clip_counter_totals": {
+        "clip_counter[0]": 0,
+        "clip_counter[1]": 0,
+        "clip_counter[2]": 0
+      },
+      "nonfinite_values": 0
+    },
+    "sensor_accel_fifo:1": {
+      "records": 11933,
+      "fields": [
+        "timestamp",
+        "timestamp_sample",
+        "device_id",
+        "dt",
+        "scale",
+        "x[0]",
+        "x[1]",
+        "x[2]",
+        "x[3]",
+        "x[4]",
+        "x[5]",
+        "x[6]",
+        "x[7]",
+        "x[8]",
+        "x[9]",
+        "x[10]",
+        "x[11]",
+        "x[12]",
+        "x[13]",
+        "x[14]",
+        "x[15]",
+        "x[16]",
+        "x[17]",
+        "x[18]",
+        "x[19]",
+        "x[20]",
+        "x[21]",
+        "x[22]",
+        "x[23]",
+        "x[24]",
+        "x[25]",
+        "x[26]",
+        "x[27]",
+        "x[28]",
+        "x[29]",
+        "x[30]",
+        "x[31]",
+        "y[0]",
+        "y[1]",
+        "y[2]",
+        "y[3]",
+        "y[4]",
+        "y[5]",
+        "y[6]",
+        "y[7]",
+        "y[8]",
+        "y[9]",
+        "y[10]",
+        "y[11]",
+        "y[12]",
+        "y[13]",
+        "y[14]",
+        "y[15]",
+        "y[16]",
+        "y[17]",
+        "y[18]",
+        "y[19]",
+        "y[20]",
+        "y[21]",
+        "y[22]",
+        "y[23]",
+        "y[24]",
+        "y[25]",
+        "y[26]",
+        "y[27]",
+        "y[28]",
+        "y[29]",
+        "y[30]",
+        "y[31]",
+        "z[0]",
+        "z[1]",
+        "z[2]",
+        "z[3]",
+        "z[4]",
+        "z[5]",
+        "z[6]",
+        "z[7]",
+        "z[8]",
+        "z[9]",
+        "z[10]",
+        "z[11]",
+        "z[12]",
+        "z[13]",
+        "z[14]",
+        "z[15]",
+        "z[16]",
+        "z[17]",
+        "z[18]",
+        "z[19]",
+        "z[20]",
+        "z[21]",
+        "z[22]",
+        "z[23]",
+        "z[24]",
+        "z[25]",
+        "z[26]",
+        "z[27]",
+        "z[28]",
+        "z[29]",
+        "z[30]",
+        "z[31]",
+        "samples"
+      ],
+      "sample_time": {
+        "count": 11933,
+        "first_us": 5951577709,
+        "last_us": 5969471501,
+        "span_s": 17.893792,
+        "effective_hz": 666.8234435719382,
+        "median_dt_us": 633.0,
+        "min_dt_us": 626,
+        "max_dt_us": 111409,
+        "p95_dt_us": 1266.0,
+        "nonincreasing": 0,
+        "duplicates": 0,
+        "gaps_over_1_5_median": 730,
+        "estimated_missing_from_time_gaps": 16336
+      },
+      "publish_time": {
+        "count": 11933,
+        "first_us": 5951577778,
+        "last_us": 5969471571,
+        "span_s": 17.893793,
+        "effective_hz": 666.8234063063097,
+        "median_dt_us": 633.0,
+        "min_dt_us": 574,
+        "max_dt_us": 111416,
+        "p95_dt_us": 1266.0,
+        "nonincreasing": 0,
+        "duplicates": 0,
+        "gaps_over_1_5_median": 730,
+        "estimated_missing_from_time_gaps": 16336
+      },
+      "publish_minus_sample_us": {
+        "min": 67,
+        "median": 70.0,
+        "max": 129
+      },
+      "device_ids": [
+        3604506
+      ],
+      "sample_counts": {
+        "1": 11933
+      },
+      "expanded_sample_time": {
+        "count": 11933,
+        "first_us": 5951577709,
+        "last_us": 5969471501,
+        "span_s": 17.893792,
+        "effective_hz": 666.8234435719382,
+        "median_dt_us": 633.0,
+        "min_dt_us": 626,
+        "max_dt_us": 111409,
+        "p95_dt_us": 1266.0,
+        "nonincreasing": 0,
+        "duplicates": 0,
+        "gaps_over_1_5_median": 730,
+        "estimated_missing_from_time_gaps": 16336
+      },
+      "scale_values": [
+        0.004788403399288654
+      ],
+      "dt_values_us": [
+        625.0
+      ],
+      "nonfinite_values": 0,
+      "si_vector_mean": [
+        0.12022291323532043,
+        0.31309007527536914,
+        -10.091887804273656
+      ],
+      "si_norm": {
+        "mean": 10.097580498106137,
+        "min": 9.951056904072429,
+        "max": 10.257682176336537
+      },
+      "int16_rail_values": 0
+    },
+    "sensor_gyro:1": {
+      "records": 12712,
+      "fields": [
+        "timestamp",
+        "timestamp_sample",
+        "device_id",
+        "x",
+        "y",
+        "z",
+        "temperature",
+        "error_count",
+        "clip_counter[0]",
+        "clip_counter[1]",
+        "clip_counter[2]",
+        "samples"
+      ],
+      "sample_time": {
+        "count": 12712,
+        "first_us": 5951573278,
+        "last_us": 5969472767,
+        "span_s": 17.899489,
+        "effective_hz": 710.1320043270509,
+        "median_dt_us": 633.0,
+        "min_dt_us": 626,
+        "max_dt_us": 110144,
+        "p95_dt_us": 634.0,
+        "nonincreasing": 0,
+        "duplicates": 0,
+        "gaps_over_1_5_median": 202,
+        "estimated_missing_from_time_gaps": 15566
+      },
+      "publish_time": {
+        "count": 12712,
+        "first_us": 5951573424,
+        "last_us": 5969472847,
+        "span_s": 17.899423,
+        "effective_hz": 710.1346227752705,
+        "median_dt_us": 668.0,
+        "min_dt_us": 509,
+        "max_dt_us": 110146,
+        "p95_dt_us": 720.0,
+        "nonincreasing": 0,
+        "duplicates": 0,
+        "gaps_over_1_5_median": 202,
+        "estimated_missing_from_time_gaps": 14742
+      },
+      "publish_minus_sample_us": {
+        "min": 72,
+        "median": 130.5,
+        "max": 199
+      },
+      "device_ids": [
+        3604506
+      ],
+      "sample_counts": {
+        "1": 12712
+      },
+      "error_counts": [
+        0
+      ],
+      "clip_counter_totals": {
+        "clip_counter[0]": 0,
+        "clip_counter[1]": 0,
+        "clip_counter[2]": 0
+      },
+      "nonfinite_values": 0
+    },
+    "sensor_gyro_fifo:1": {
+      "records": 12648,
+      "fields": [
+        "timestamp",
+        "timestamp_sample",
+        "device_id",
+        "dt",
+        "scale",
+        "x[0]",
+        "x[1]",
+        "x[2]",
+        "x[3]",
+        "x[4]",
+        "x[5]",
+        "x[6]",
+        "x[7]",
+        "x[8]",
+        "x[9]",
+        "x[10]",
+        "x[11]",
+        "x[12]",
+        "x[13]",
+        "x[14]",
+        "x[15]",
+        "x[16]",
+        "x[17]",
+        "x[18]",
+        "x[19]",
+        "x[20]",
+        "x[21]",
+        "x[22]",
+        "x[23]",
+        "x[24]",
+        "x[25]",
+        "x[26]",
+        "x[27]",
+        "x[28]",
+        "x[29]",
+        "x[30]",
+        "x[31]",
+        "y[0]",
+        "y[1]",
+        "y[2]",
+        "y[3]",
+        "y[4]",
+        "y[5]",
+        "y[6]",
+        "y[7]",
+        "y[8]",
+        "y[9]",
+        "y[10]",
+        "y[11]",
+        "y[12]",
+        "y[13]",
+        "y[14]",
+        "y[15]",
+        "y[16]",
+        "y[17]",
+        "y[18]",
+        "y[19]",
+        "y[20]",
+        "y[21]",
+        "y[22]",
+        "y[23]",
+        "y[24]",
+        "y[25]",
+        "y[26]",
+        "y[27]",
+        "y[28]",
+        "y[29]",
+        "y[30]",
+        "y[31]",
+        "z[0]",
+        "z[1]",
+        "z[2]",
+        "z[3]",
+        "z[4]",
+        "z[5]",
+        "z[6]",
+        "z[7]",
+        "z[8]",
+        "z[9]",
+        "z[10]",
+        "z[11]",
+        "z[12]",
+        "z[13]",
+        "z[14]",
+        "z[15]",
+        "z[16]",
+        "z[17]",
+        "z[18]",
+        "z[19]",
+        "z[20]",
+        "z[21]",
+        "z[22]",
+        "z[23]",
+        "z[24]",
+        "z[25]",
+        "z[26]",
+        "z[27]",
+        "z[28]",
+        "z[29]",
+        "z[30]",
+        "z[31]",
+        "samples"
+      ],
+      "sample_time": {
+        "count": 12648,
+        "first_us": 5951575810,
+        "last_us": 5969472134,
+        "span_s": 17.896324,
+        "effective_hz": 706.6814391603549,
+        "median_dt_us": 633.0,
+        "min_dt_us": 626,
+        "max_dt_us": 110776,
+        "p95_dt_us": 634.0,
+        "nonincreasing": 0,
+        "duplicates": 0,
+        "gaps_over_1_5_median": 202,
+        "estimated_missing_from_time_gaps": 15625
+      },
+      "publish_time": {
+        "count": 12648,
+        "first_us": 5951575886,
+        "last_us": 5969472205,
+        "span_s": 17.896319,
+        "effective_hz": 706.6816365980065,
+        "median_dt_us": 633.0,
+        "min_dt_us": 574,
+        "max_dt_us": 110783,
+        "p95_dt_us": 656.0,
+        "nonincreasing": 0,
+        "duplicates": 0,
+        "gaps_over_1_5_median": 202,
+        "estimated_missing_from_time_gaps": 15625
+      },
+      "publish_minus_sample_us": {
+        "min": 70,
+        "median": 74.0,
+        "max": 132
+      },
+      "device_ids": [
+        3604506
+      ],
+      "sample_counts": {
+        "1": 12648
+      },
+      "expanded_sample_time": {
+        "count": 12648,
+        "first_us": 5951575810,
+        "last_us": 5969472134,
+        "span_s": 17.896324,
+        "effective_hz": 706.6814391603549,
+        "median_dt_us": 633.0,
+        "min_dt_us": 626,
+        "max_dt_us": 110776,
+        "p95_dt_us": 634.0,
+        "nonincreasing": 0,
+        "duplicates": 0,
+        "gaps_over_1_5_median": 202,
+        "estimated_missing_from_time_gaps": 15625
+      },
+      "scale_values": [
+        0.0010652969358488917
+      ],
+      "dt_values_us": [
+        625.0
+      ],
+      "nonfinite_values": 0,
+      "si_vector_mean": [
+        0.002350761976560924,
+        0.002404161585774096,
+        0.0021266352255889204
+      ],
+      "si_norm": {
+        "mean": 0.0059104141205588,
+        "min": 0.0,
+        "max": 0.018996965667343668
+      },
+      "int16_rail_values": 0
+    },
+    "sensor_selection:0": {
+      "records": 1,
+      "fields": [
+        "timestamp",
+        "accel_device_id",
+        "gyro_device_id"
+      ]
+    },
+    "vehicle_imu_status:1": {
+      "records": 73,
+      "fields": [
+        "timestamp",
+        "accel_device_id",
+        "gyro_device_id",
+        "accel_clipping[0]",
+        "accel_clipping[1]",
+        "accel_clipping[2]",
+        "gyro_clipping[0]",
+        "gyro_clipping[1]",
+        "gyro_clipping[2]",
+        "accel_error_count",
+        "gyro_error_count",
+        "accel_rate_hz",
+        "gyro_rate_hz",
+        "accel_raw_rate_hz",
+        "gyro_raw_rate_hz",
+        "accel_vibration_metric",
+        "gyro_vibration_metric",
+        "delta_angle_coning_metric",
+        "mean_accel[0]",
+        "mean_accel[1]",
+        "mean_accel[2]",
+        "mean_gyro[0]",
+        "mean_gyro[1]",
+        "mean_gyro[2]",
+        "var_accel[0]",
+        "var_accel[1]",
+        "var_accel[2]",
+        "var_gyro[0]",
+        "var_gyro[1]",
+        "var_gyro[2]",
+        "temperature_accel",
+        "temperature_gyro"
+      ],
+      "health_ranges": {
+        "accel_device_id": [
+          3604506.0,
+          3604506.0
+        ],
+        "gyro_device_id": [
+          3604506.0,
+          3604506.0
+        ],
+        "accel_clipping[0]": [
+          0.0,
+          0.0
+        ],
+        "accel_clipping[1]": [
+          0.0,
+          0.0
+        ],
+        "accel_clipping[2]": [
+          0.0,
+          0.0
+        ],
+        "gyro_clipping[0]": [
+          0.0,
+          0.0
+        ],
+        "gyro_clipping[1]": [
+          0.0,
+          0.0
+        ],
+        "gyro_clipping[2]": [
+          0.0,
+          0.0
+        ],
+        "accel_error_count": [
+          0.0,
+          0.0
+        ],
+        "gyro_error_count": [
+          0.0,
+          0.0
+        ],
+        "accel_rate_hz": [
+          1579.76171875,
+          1579.7637939453125
+        ],
+        "gyro_rate_hz": [
+          1579.76171875,
+          1579.7637939453125
+        ],
+        "accel_raw_rate_hz": [
+          1579.76171875,
+          1579.7637939453125
+        ],
+        "gyro_raw_rate_hz": [
+          1579.76171875,
+          1579.7637939453125
+        ]
+      }
+    },
+    "vehicle_status:0": {
+      "records": 17,
+      "fields": [
+        "timestamp",
+        "armed_time",
+        "takeoff_time",
+        "nav_state_timestamp",
+        "valid_nav_states_mask",
+        "can_set_nav_states_mask",
+        "failure_detector_status",
+        "arming_state",
+        "latest_arming_reason",
+        "latest_disarming_reason",
+        "nav_state_user_intention",
+        "nav_state",
+        "executor_in_charge",
+        "hil_state",
+        "vehicle_type",
+        "failsafe",
+        "failsafe_and_user_took_over",
+        "failsafe_defer_state",
+        "gcs_connection_lost",
+        "gcs_connection_lost_counter",
+        "high_latency_data_link_lost",
+        "is_vtol",
+        "is_vtol_tailsitter",
+        "in_transition_mode",
+        "in_transition_to_fw",
+        "system_type",
+        "system_id",
+        "component_id",
+        "safety_button_available",
+        "safety_off",
+        "power_input_valid",
+        "usb_connected",
+        "open_drone_id_system_present",
+        "open_drone_id_system_healthy",
+        "parachute_system_present",
+        "parachute_system_healthy",
+        "avoidance_system_required",
+        "avoidance_system_valid",
+        "rc_calibration_in_progress",
+        "calibration_enabled",
+        "pre_flight_checks_pass"
+      ]
+    }
+  },
+  "safety": {
+    "actuator_armed_values": [
+      false
+    ],
+    "arming_state_values": [
+      1
+    ]
+  },
+  "notes": [
+    "Time-gap missing counts are estimates, not hardware sequence counters.",
+    "FIFO expansion assumes driver last-sample anchor; no sample repair.",
+    "Dropout durations can be millisecond-quantized; sum is not a sensor loss fraction.",
+    "No camera synchronization, noise calibration or live-transport qualification."
+  ],
+  "fifo_pairing": {
+    "common_batch_timestamps": 11930,
+    "gyro_only": 718,
+    "accel_only": 3,
+    "equal_sample_counts": 11930
+  },
+  "si_fifo_consistency": {
+    "gyro": {
+      "checked_batches": 12404,
+      "max_abs_error_si": 4.0745362639427185e-10
+    },
+    "accel": {
+      "checked_batches": 11163,
+      "max_abs_error_si": 3.725290298461914e-07
+    }
+  },
+  "sdlog_initial_parameters": {
+    "SDLOG_BOOT_BAT": 0,
+    "SDLOG_DIRS_MAX": 0,
+    "SDLOG_MISSION": 0,
+    "SDLOG_MODE": 0,
+    "SDLOG_PROFILE": 1,
+    "SDLOG_UTC_OFFSET": 0,
+    "SDLOG_UUID": 1
+  },
+  "changed_parameter_count": 0
+}
