@@ -1,0 +1,221 @@
+{
+  "retired_paths": [
+    {
+      "path": "rm27/perception/vision/M3C_OS04A10_SLAM_实验起步包_v1/M3C_SLAM_experiment_plan_v1/M3C_OS04A10_单目定位实验路线_v1.md",
+      "active_path_removed": true,
+      "archive_blob": "fd0a1b898ed93161630a1a07eecc88abd8edd266"
+    },
+    {
+      "path": "rm27/perception/vision/M3C_OS04A10_SLAM_实验起步包_v1/M3C_SLAM_experiment_plan_v1/SHA256SUMS.txt",
+      "active_path_removed": true,
+      "archive_blob": "8f9a2f7e2a71208202f0bbd9eca1a5f7a18403e5"
+    },
+    {
+      "path": "rm27/perception/vision/M3C_OS04A10_SLAM_实验起步包_v1/M3C_SLAM_experiment_plan_v1/collect_m3c_env.sh",
+      "active_path_removed": true,
+      "archive_blob": "206db96a5aa0f639b54de31a0afb10b6fc9ff0f2"
+    },
+    {
+      "path": "rm27/perception/vision/M3C_OS04A10_SLAM_实验起步包_v1/M3C_SLAM_experiment_plan_v1/experiment_manifest.template.yaml",
+      "active_path_removed": true,
+      "archive_blob": "e3bfde42fa48dce20fe245efaa3cdea61c3300b7"
+    },
+    {
+      "path": "rm27/perception/vision/docs/FUTURE_INFRASTRUCTURE_REPORT.md",
+      "active_path_removed": true,
+      "archive_blob": "2db4bbcae82c47ecba446f11c564fcbe05ccefb7"
+    },
+    {
+      "path": "rm27/perception/vision/docs/FUTURE_INFRASTRUCTURE_STATUS.json",
+      "active_path_removed": true,
+      "archive_blob": "f8c14382c55478cc95bee0e5667506f55265bffc"
+    },
+    {
+      "path": "rm27/perception/vision/docs/SLAM_RECOVERY_AND_AUDIT.md",
+      "active_path_removed": true,
+      "archive_blob": "a2cda4dbef2255a481398aa0a975d0d503d8c2b8"
+    },
+    {
+      "path": "rm27/perception/vision/docs/VSL-0A_AUDIT.md",
+      "active_path_removed": true,
+      "archive_blob": "e797a7e43865d0a5f310b86b04fe9381ff57f926"
+    },
+    {
+      "path": "rm27/perception/vision/docs/VSL-0B1_CALIBRATION_PREP.md",
+      "active_path_removed": true,
+      "archive_blob": "7fd161c6c1e277161e97f5bf86b83ef19ef9e6cd"
+    },
+    {
+      "path": "rm27/perception/vision/docs/VSL-0B1_VERIFICATION.md",
+      "active_path_removed": true,
+      "archive_blob": "5a8635824aefec8aa798ffe549f287917f1418d6"
+    },
+    {
+      "path": "rm27/perception/vision/docs/VSL-0B_CONTRACT.md",
+      "active_path_removed": true,
+      "archive_blob": "8d112d888f530ba944d58180bd895904c95894c5"
+    },
+    {
+      "path": "rm27/perception/vision/docs/VSL-1A_0921.md",
+      "active_path_removed": true,
+      "archive_blob": "5f40a95a19ebf40886bd78c3fb04b224d91acdd6"
+    },
+    {
+      "path": "rm27/perception/vision/docs/VSL-1_GATE_REVIEW_0921.md",
+      "active_path_removed": true,
+      "archive_blob": "4cd2aa036053af5958096dcfab67a9102866195d"
+    },
+    {
+      "path": "rm27/perception/vision/docs/VSL-2_CALIBRATION_PROCEDURE.md",
+      "active_path_removed": true,
+      "archive_blob": "a857c90fc824b983f2ea657931edf73c12b5d3d0"
+    },
+    {
+      "path": "rm27/perception/vision/docs/VSL-2_CONTROLLED_RECORDING_PROTOCOL.md",
+      "active_path_removed": true,
+      "archive_blob": "c51bc05b7c86dd74ce9d2cf171de0e8ef4f3a067"
+    },
+    {
+      "path": "rm27/perception/vision/docs/VSL-2_GATE_STATUS.json",
+      "active_path_removed": true,
+      "archive_blob": "cb178296aef2bbdabcb728ccbb3b4b26623ddfa4"
+    },
+    {
+      "path": "rm27/perception/vision/docs/VSL-3P1_ONLINE_STATE_REPORT.md",
+      "active_path_removed": true,
+      "archive_blob": "32df0321d9a7ac37e082e00c0ea991ab10f6e697"
+    },
+    {
+      "path": "rm27/perception/vision/docs/VSL-3P_PUBLIC_BACKEND_QUALIFICATION.md",
+      "active_path_removed": true,
+      "archive_blob": "0bb174ff7b53a19aa6eb5191f4819cce1d62ba5f"
+    },
+    {
+      "path": "rm27/perception/vision/docs/VSL-3P_STATUS.json",
+      "active_path_removed": true,
+      "archive_blob": "9e77f933d9cd5feaef44e08b815410e55bcb6de1"
+    },
+    {
+      "path": "rm27/perception/vision/docs/VSL-3_EXPERIMENT_HARNESS.md",
+      "active_path_removed": true,
+      "archive_blob": "6d26257e41c6c4981e2e8e85def39a791763c7ec"
+    },
+    {
+      "path": "rm27/perception/vision/docs/VSL-4_M3C_BENCHMARK_PLAN.md",
+      "active_path_removed": true,
+      "archive_blob": "f8171c46d6cea674a0422584ed117fec0ec38df1"
+    },
+    {
+      "path": "rm27/perception/vision/docs/command.md",
+      "active_path_removed": true,
+      "archive_blob": "c5630292af4a6ad3e419a24fdc0af39be4540107"
+    },
+    {
+      "path": "rm27/perception/vision/localization/experiments/backends.py",
+      "active_path_removed": true,
+      "archive_blob": "33f7c43336dd32fbcbf9b6da99d7ad63c7789ea8"
+    },
+    {
+      "path": "rm27/perception/vision/localization/experiments/calibration.py",
+      "active_path_removed": true,
+      "archive_blob": "59a99172885f70a31fdc07a5d867744de63e93e8"
+    },
+    {
+      "path": "rm27/perception/vision/localization/experiments/compare.py",
+      "active_path_removed": true,
+      "archive_blob": "498869c4d7f10c27493204e53deff2f33c59cfce"
+    },
+    {
+      "path": "rm27/perception/vision/localization/experiments/dataset.py",
+      "active_path_removed": true,
+      "archive_blob": "b87f0c587401bbeb72d67d71892351213aa11407"
+    },
+    {
+      "path": "rm27/perception/vision/localization/experiments/evaluation.py",
+      "active_path_removed": true,
+      "archive_blob": "37cac35f2e5ff23218bca327026fd208acbe4d32"
+    },
+    {
+      "path": "rm27/perception/vision/localization/experiments/observers/build.py",
+      "active_path_removed": true,
+      "archive_blob": "961acad837c616f0ca6c8cf6287ae666a7499351"
+    },
+    {
+      "path": "rm27/perception/vision/localization/experiments/observers/online_csv.hpp",
+      "active_path_removed": true,
+      "archive_blob": "1106122ac359cd11f2557eac35f9367c80b7a0c6"
+    },
+    {
+      "path": "rm27/perception/vision/localization/experiments/public_tum.py",
+      "active_path_removed": true,
+      "archive_blob": "8ed2e30ae1e69fdfa1c77055c442bff53897abef"
+    },
+    {
+      "path": "rm27/perception/vision/localization/experiments/run.template.json",
+      "active_path_removed": true,
+      "archive_blob": "a68c0f9de6c775578a9966bc8bf9289c8b363aa3"
+    },
+    {
+      "path": "rm27/perception/vision/localization/experiments/transforms.py",
+      "active_path_removed": true,
+      "archive_blob": "9f9be1dfd68a5da7275af852ee9417d1a0429772"
+    },
+    {
+      "path": "rm27/perception/vision/localization/experiments/upstream_contracts.json",
+      "active_path_removed": true,
+      "archive_blob": "a638f1f3c842a8c4fa178640eb1a3c2ff010df3f"
+    },
+    {
+      "path": "tests/slam_future_fixtures.py",
+      "active_path_removed": true,
+      "archive_blob": "505124ce1e2a3fda488ec9e4cc27d2430d1af5a1"
+    },
+    {
+      "path": "tests/test_slam_future_backends.py",
+      "active_path_removed": true,
+      "archive_blob": "9297f7679c7c17b316775727a34b9ab668705ec4"
+    },
+    {
+      "path": "tests/test_slam_future_dataset.py",
+      "active_path_removed": true,
+      "archive_blob": "92d95c4c51e84edcaa467f6eceb411fea17dd1a0"
+    },
+    {
+      "path": "tests/test_slam_future_evaluation.py",
+      "active_path_removed": true,
+      "archive_blob": "e956ff22ee765d6aa735d6dafe6b0ba5c3ac642b"
+    },
+    {
+      "path": "tests/test_slam_online.py",
+      "active_path_removed": true,
+      "archive_blob": "02aef29ae732d6f4be9e96441598775ba685ed7d"
+    },
+    {
+      "path": "tests/test_slam_public.py",
+      "active_path_removed": true,
+      "archive_blob": "ca700e333387e4d03dcf15e624ea905aed74a642"
+    },
+    {
+      "path": "rm27/perception/vision/docs/VSL-6_VIO_DATA_REQUIREMENTS.md",
+      "active_path_removed": true,
+      "archive_blob": "4f924ead022227cd638d6c772dbfe01bcadebfcd"
+    },
+    {
+      "path": "rm27/perception/vision/localization/experiments/benchmark.py",
+      "active_path_removed": true,
+      "archive_blob": "81b3e8283f8f9bdc5c09eb6ff3dc47f037a6f9ad"
+    },
+    {
+      "path": "rm27/perception/vision/localization/prepare_vsl2_dataset.py",
+      "active_path_removed": true,
+      "archive_blob": "82ba419f8efa6fd986fc8ab871f21085d81b3894"
+    }
+  ],
+  "raw_or_hardware_change": false,
+  "main_base": "74d44b09c65e2a839b74d834756f0d178207d679",
+  "publication_performed": false,
+  "preexisting_dirty_backup": ".maixpy/vio-scope-20261013/repo-before",
+  "archive_branch": "legacy/slam",
+  "archive_commit": "74d44b09c65e2a839b74d834756f0d178207d679",
+  "protected_vio_implementation_unchanged": true
+}

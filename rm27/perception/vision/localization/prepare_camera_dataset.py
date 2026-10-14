@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Freeze a provenance-preserving VSL-2 dataset view over VSL-1 artifacts."""
+"""Freeze a provenance-preserving camera-evidence view for VIO preparation.
+
+Serialized source labels remain historical evidence; this is not a SLAM runner.
+"""
 
 import argparse
 import csv

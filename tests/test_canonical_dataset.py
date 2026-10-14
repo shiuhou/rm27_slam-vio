@@ -3,7 +3,7 @@ import json
 import sys
 
 import pytest
-from rm27.perception.vision.localization import prepare_vsl2_dataset as dataset
+from rm27.perception.vision.localization import prepare_camera_dataset as dataset
 
 
 def fixture(tmp_path):

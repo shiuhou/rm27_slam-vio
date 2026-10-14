@@ -1,4 +1,4 @@
-"""The versioned ego-localization record used by future SLAM/VIO adapters."""
+"""The versioned ego-localization record used by Camera + IMU VIO adapters."""
 
 from dataclasses import dataclass
 from enum import Enum
