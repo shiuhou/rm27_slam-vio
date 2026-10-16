@@ -16,3 +16,12 @@
   Read the current HANDOFF and specific experiment boundary first.
 - Preserve unrelated dirty/untracked work. Commit/push or Vault ingestion needs
   an explicit user request; local branch archival is not GitHub publication.
+
+## Common engineering standard
+
+Apply `.agents/docs/engineering.md` for the shared engineering process. This
+file remains the VIO-specific adapter: Camera/IMU synchronization, calibration,
+frame and timestamp contracts, OpenVINS scope, and qualification gates stay
+local to this repository. Keep capture, firmware, flight and hardware actions
+behind explicit authorization and report offline replay separately from live
+sensor evidence.
